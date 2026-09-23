@@ -9,11 +9,11 @@
     "link": "https://cureshank.org/news/finish-line-newsletter-september-2026",
     "medio": "CureSHANK · Estados Unidos (investigación)",
     "resumen": "As we lead up to the 2027 Los Angeles Marathon, we’re excited to share some key information about this year’s campaign -- including one of our featured Team CureSHANK runners. Hint: it’s a familiar face! Last year, our running community raised more than $60,000 for PMS research. This year, we’re setting our sights on raising $100,000 to help accelerate progress toward treatments.",
-    "resumen_es": "A medida que nos acercamos al Maratón de Los Ángeles 2027, nos complace compartir información clave sobre la campaña de este año, incluido uno de nuestros corredores destacados de Team CureSHANK. Pista: ¡es una cara familiar! El año pasado, nuestra comunidad de corredores recaudó más de $ 60,000 para la investigación del SPM. Este año, nos proponemos recaudar $ 100.000 para ayudar a acelerar el progreso hacia los tratamientos.",
-    "sin_traducir": true,
+    "resumen_es": "A medida que nos acercamos al Maratón de Los Ángeles 2027, nos complace compartir información clave sobre la campaña de este año, incluido uno de nuestros corredores destacados del Team CureSHANK. Pista: ¡es una cara familiar! El año pasado, nuestra comunidad de corredores recaudó más de $60,000 para la investigación del síndrome premenstrual. Este año, nos proponemos recaudar $100 000 para ayudar a acelerar el progreso hacia los tratamientos.",
+    "sin_traducir": false,
     "tipo": "Fuente fiable · asociación",
     "titulo": "Newsletter: Finish Line Edition",
-    "titulo_es": "Newsletter: Finish Line Edition"
+    "titulo_es": "Boletín: Edición Línea de Meta"
    },
    {
     "fecha": "2026-09-03",
@@ -77,11 +77,11 @@
     "fecha": "2026-08-26",
     "fuente_fiable": true,
     "id": "asoc:https://www.22q13.info/pmsgo",
-    "idioma": "de",
+    "idioma": "pt",
     "link": "https://www.22q13.info/pmsgo/",
     "medio": "Phelan-McDermid-Gesellschaft e.V. (PMDG) · Alemania / Austria / Suiza",
     "resumen": "Wir freuen uns, euch die neu gegründete PMSGO vorstellen zu dürfen. Die Phelan-McDermid Syndrome Global Organisation (PMSGO) ist seit Kurzem eine offizielle gemeinnützige Organisation. Sie wurde in Madrid als internationale Organisation registriert. Die Phelan-McDermid Syndrome Global Organisation (PMSGO) geht auf eine Initiative von Sue Lomas, der ehemaligen Präsidentin der PMS Foundation, und den weiteren Gründungsmitgliedern zurück.",
-    "resumen_es": "Nos complace presentaros la recién fundada PMSGO. La organización Phelan-McDermid Syndrome Global Organisation (PMSGO) es desde hace poco una organización oficial sin ánimo de lucro. Ha sido registrada en Madrid como organización internacional. La organización Phelan-McDermid Syndrome Global Organisation (PMSGO) se remonta a una iniciativa de Sue Lomas, ex presidenta de la Fundación PMS, y los otros miembros fundadores.",
+    "resumen_es": "Nos complace presentarles el recién fundado PMSGO. La Organización Mundial del Síndrome de Phelan-McDermid (PMSGO) se convirtió recientemente en una organización oficial sin fines de lucro. Fue registrada como organización internacional en Madrid. La Organización Global del Síndrome de Phelan-McDermid (PMSGO) es una iniciativa de Sue Lomas, ex presidenta de la Fundación PMS, y los demás miembros fundadores.",
     "sin_traducir": true,
     "tipo": "Fuente fiable · asociación",
     "titulo": "PMSGO",
@@ -190,8 +190,8 @@
     "link": "https://clinicaltrials.gov/study/NCT07281079",
     "medio": "Neuren Pharmaceuticals Limited",
     "resumen": "This Phase 3, randomized, double-blind, parallel-group (2-arm), placebo-controlled, multicenter study will evaluate the efficacy and safety of NNZ-2591 compared to placebo in pediatric participants with Phelan- McDermid Syndrome.",
-    "resumen_es": "This Phase 3, randomized, double-blind, parallel-group (2-arm), placebo-controlled, multicenter study will evaluate the efficacy and safety of NNZ-2591 compared to placebo in pediatric participants with Phelan- McDermid Syndrome.",
-    "sin_traducir": true,
+    "resumen_es": "Este estudio multicéntrico de fase 3, aleatorizado, doble ciego, de grupos paralelos (2 brazos), controlado con placebo evaluará la eficacia y seguridad de NNZ-2591 en comparación con placebo en participantes pediátricos con síndrome de Phelan-McDermid.",
+    "sin_traducir": false,
     "tipo": "Ensayo actualizado · Fase 3",
     "titulo": "A Study of NNZ-2591 in Pediatric Participants With Phelan-McDermid Syndrome",
     "titulo_es": "Un estudio de NNZ-2591 en participantes pediátricos con síndrome de Phelan-McDermid"
@@ -205,11 +205,11 @@
     "link": "https://clinicaltrials.gov/study/NCT06139172",
     "medio": "Rush University Medical Center",
     "resumen": "The purpose of this study is to evaluate the effectiveness of an adapted, telehealth functional behavioral therapy (FBTsIDD) specifically focused on promoting appropriate communication and behavioral strategies in individuals with syndromic intellectual and developmental disorders. Participants will be asked to complete virtual study assessments at intake and then on a monthly basis for the duration of 3-6 months.",
-    "resumen_es": "The purpose of this study is to evaluate the effectiveness of an adapted, telehealth functional behavioral therapy (FBTsIDD) specifically focused on promoting appropriate communication and behavioral strategies in individuals with syndromic intellectual and developmental disorders. Participants will be asked to complete virtual study assessments at intake and then on a monthly basis for the duration of 3-6 months.",
-    "sin_traducir": true,
+    "resumen_es": "El propósito de este estudio es evaluar la efectividad de una terapia conductual funcional de telesalud adaptada (FBTsIDD) específicamente enfocada en promover estrategias conductuales y de comunicación apropiadas en personas con trastornos sindrómicos intelectuales y del desarrollo. Se pedirá a los participantes que completen evaluaciones virtuales del estudio al momento del ingreso y luego mensualmente durante un período de 3 a 6 meses.",
+    "sin_traducir": false,
     "tipo": "Ensayo actualizado · N/A",
     "titulo": "Web Intervention for Parents of Youth With Genetic Syndromes (WINGS)",
-    "titulo_es": "Web Intervention for Parents of Youth With Genetic Syndromes (WINGS)"
+    "titulo_es": "Intervención web para padres de jóvenes con síndromes genéticos (WINGS)"
    },
    {
     "doi": "",
@@ -220,11 +220,11 @@
     "link": "https://clinicaltrials.gov/study/NCT06662188",
     "medio": "Jaguar Gene Therapy, LLC",
     "resumen": "This is a Phase 1/2, first in human, open-label, dose-escalation study to evaluate the safety, tolerability, and clinical activity of a single dose of JAG201 administered via intracerebroventricular (ICV) injection in pediatric and adult participants with SHANK3 haploinsufficiency resulting from SHANK3 loss of function mutations and chromosomal deletions encompassing the SHANK3 gene.",
-    "resumen_es": "This is a Phase 1/2, first in human, open-label, dose-escalation study to evaluate the safety, tolerability, and clinical activity of a single dose of JAG201 administered via intracerebroventricular (ICV) injection in pediatric and adult participants with SHANK3 haploinsufficiency resulting from SHANK3 loss of function mutations and chromosomal deletions encompassing the SHANK3 gene.",
-    "sin_traducir": true,
+    "resumen_es": "Este es un estudio de fase 1/2, el primero en humanos, de etiqueta abierta y de aumento de dosis para evaluar la seguridad, tolerabilidad y actividad clínica de una dosis única de JAG201 administrada mediante inyección intracerebroventricular (ICV) en participantes pediátricos y adultos con haploinsuficiencia SHANK3 resultante de mutaciones de pérdida de función de SHANK3 y deleciones cromosómicas que abarcan el gen SHANK3.",
+    "sin_traducir": false,
     "tipo": "Ensayo actualizado · Fase 1, Fase 2",
     "titulo": "JAG201 Gene Therapy Study in Children & Adults With SHANK3 Haploinsufficiency",
-    "titulo_es": "JAG201 Gene Therapy Study in Children & Adults With SHANK3 Haploinsufficiency"
+    "titulo_es": "Estudio de terapia génica JAG201 en niños y adultos con haploinsuficiencia SHANK3"
    }
   ],
   "menciones": [
@@ -309,11 +309,11 @@
     "fecha": "2026-08-26",
     "fuente_fiable": true,
     "id": "org-asoc:https://www.22q13.info/pmsgo",
-    "idioma": "de",
+    "idioma": "pt",
     "link": "https://www.22q13.info/pmsgo/",
     "medio": "Phelan-McDermid-Gesellschaft e.V. (PMDG) · Alemania / Austria / Suiza",
     "resumen": "Wir freuen uns, euch die neu gegründete PMSGO vorstellen zu dürfen. Die Phelan-McDermid Syndrome Global Organisation (PMSGO) ist seit Kurzem eine offizielle gemeinnützige Organisation. Sie wurde in Madrid als internationale Organisation registriert. Die Phelan-McDermid Syndrome Global Organisation (PMSGO) geht auf eine Initiative von Sue Lomas, der ehemaligen Präsidentin der PMS Foundation, und den weiteren Gründungsmitgliedern zurück.",
-    "resumen_es": "Nos complace presentaros la recién fundada PMSGO. La organización Phelan-McDermid Syndrome Global Organisation (PMSGO) es desde hace poco una organización oficial sin ánimo de lucro. Ha sido registrada en Madrid como organización internacional. La organización Phelan-McDermid Syndrome Global Organisation (PMSGO) se remonta a una iniciativa de Sue Lomas, ex presidenta de la Fundación PMS, y los otros miembros fundadores.",
+    "resumen_es": "Nos complace presentarles el recién fundado PMSGO. La Organización Mundial del Síndrome de Phelan-McDermid (PMSGO) se convirtió recientemente en una organización oficial sin fines de lucro. Fue registrada como organización internacional en Madrid. La Organización Global del Síndrome de Phelan-McDermid (PMSGO) es una iniciativa de Sue Lomas, ex presidenta de la Fundación PMS, y los demás miembros fundadores.",
     "sin_traducir": true,
     "tipo": "Posible nueva organización · fuente fiable",
     "titulo": "PMSGO",
@@ -371,11 +371,11 @@
     "link": "https://pubmed.ncbi.nlm.nih.gov/42650116/",
     "medio": "Genes",
     "resumen": "Individuals with Phelan-McDermid Syndrome (PMS) present with a variety of symptoms, including a breadth of behavioral issues. Clinically assessing behavior in PMS remains challenging due to the overabundance of behavioral assessments and the lack of tools validated explicitly for use in individuals with intellectual disability (ID) and neurodevelopmental disorders.",
-    "resumen_es": "Las personas con síndrome de Phelan-McDermid (SPM) presentan una variedad de síntomas, que incluyen una variedad de problemas de comportamiento. La evaluación clínica del comportamiento en el SPM sigue siendo un desafío debido a la sobreabundancia de evaluaciones del comportamiento y la falta de herramientas validadas explícitamente para su uso en personas con discapacidad intelectual (DI) y trastornos del desarrollo neurológico.",
-    "sin_traducir": true,
+    "resumen_es": "Las personas con síndrome de Phelan-McDermid (SPM) presentan una variedad de síntomas, incluida una variedad de problemas de conducta. La evaluación clínica del comportamiento en el síndrome premenstrual sigue siendo un desafío debido a la sobreabundancia de evaluaciones del comportamiento y la falta de herramientas validadas explícitamente para su uso en personas con discapacidad intelectual (DI) y trastornos del desarrollo neurológico.",
+    "sin_traducir": false,
     "tipo": "Revisión",
     "titulo": "The Neurobehavioral Profile of Phelan-McDermid Syndrome: Suggestions for Assessment Tools in Light of the 2023 Consensus Guidelines.",
-    "titulo_es": "The Neurobehavioral Profile of Phelan-McDermid Syndrome: Suggestions for Assessment Tools in Light of the 2023 Consensus Guidelines."
+    "titulo_es": "El perfil neuroconductual del síndrome de Phelan-McDermid: sugerencias de herramientas de evaluación a la luz de las directrices del consenso de 2023."
    },
    {
     "doi": "",
@@ -492,6 +492,6 @@
   ]
  },
  "fecha": "2026-09-23",
- "generado": "23/09/2026 11:10",
+ "generado": "23/09/2026 11:21",
  "registro_inicial": 51
 }
