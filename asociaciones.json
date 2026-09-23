@@ -1,0 +1,302 @@
+[
+  {
+    "nombre": "Phelan-McDermid Syndrome Foundation (PMSF)",
+    "pais": "Estados Unidos (internacional)",
+    "web": "https://pmsf.org/",
+    "noticias": "https://pmsf.org/pmsf-blog/",
+    "feed": "https://pmsf.org/feed/",
+    "tipo_feed": "rss",
+    "redes": {
+      "facebook": "https://www.facebook.com/PMSF22q13",
+      "instagram": "https://www.instagram.com/pmsf_official/",
+      "x": "https://twitter.com/Phelan_McDermid",
+      "youtube": "https://www.youtube.com/c/phelanmcdermidsyndromefoundation",
+      "linkedin": "https://www.linkedin.com/company/phelan-mcdermidsyndromefoundation/"
+    }
+  },
+  {
+    "nombre": "CureSHANK",
+    "pais": "Estados Unidos (investigación)",
+    "web": "https://cureshank.org/",
+    "noticias": "https://cureshank.org/news",
+    "feed": "https://cureshank.org/news?format=rss",
+    "tipo_feed": "rss",
+    "redes": {
+      "facebook": "https://www.facebook.com/CureSHANK",
+      "instagram": "https://www.instagram.com/cureshank/",
+      "x": "https://twitter.com/CureSHANK",
+      "youtube": "https://www.youtube.com/@cureshank",
+      "linkedin": "https://www.linkedin.com/company/cureshank/"
+    }
+  },
+  {
+    "nombre": "Phelan-McDermid Syndrome Foundation UK (PMSF UK)",
+    "pais": "Reino Unido e Irlanda",
+    "web": "https://www.pmsf.org.uk/",
+    "noticias": "https://www.pmsf.org.uk/upcoming-events",
+    "feed": null,
+    "tipo_feed": "cambios",
+    "redes": {
+      "facebook": "http://www.facebook.com/pmsfuk",
+      "instagram": "http://www.instagram.com/pmsfuk",
+      "x": "http://twitter.com/pmsfuk"
+    }
+  },
+  {
+    "nombre": "Asociación Síndrome Phelan-McDermid (ASPM)",
+    "pais": "España",
+    "web": "https://22q13.org.es/",
+    "noticias": "https://22q13.org.es/noticias/",
+    "feed": "https://22q13.org.es/feed/",
+    "tipo_feed": "rss",
+    "redes": {
+      "facebook": "https://www.facebook.com/AsociacionPhelanMcDermid",
+      "instagram": "https://www.instagram.com/sindromephelan/",
+      "x": "https://twitter.com/phelanmcdermid",
+      "youtube": "https://www.youtube.com/channel/UCVw-rXJGAnMAyQfBx3s9j9Q",
+      "linkedin": "https://www.linkedin.com/company/asociaci%C3%B3n-s%C3%ADndrome-phelan-mcdermid-espa%C3%B1a/"
+    }
+  },
+  {
+    "nombre": "Phelan-McDermid-Gesellschaft e.V. (PMDG)",
+    "pais": "Alemania / Austria / Suiza",
+    "web": "https://www.22q13.info/",
+    "noticias": "https://www.22q13.info/category/verein/",
+    "feed": "https://www.22q13.info/feed/",
+    "tipo_feed": "rss",
+    "redes": {}
+  },
+  {
+    "nombre": "Association Française du Syndrome Phelan-McDermid (AFSPM)",
+    "pais": "Francia",
+    "web": "https://22q13.fr/",
+    "noticias": "https://22q13.fr/rassemblements",
+    "feed": null,
+    "tipo_feed": "html",
+    "redes": {
+      "x": "https://x.com/22q13_france",
+      "youtube": "https://www.youtube.com/channel/UCWNL_uSMrM--j3ZG1vH4hGA"
+    }
+  },
+  {
+    "nombre": "Tehani et les enfants Phelan-McDermid",
+    "pais": "Francia",
+    "web": "https://www.vie-de-tehani.org/",
+    "noticias": "https://www.vie-de-tehani.org/actualit%C3%A9",
+    "feed": "https://www.vie-de-tehani.org/blog-feed.xml",
+    "tipo_feed": "rss",
+    "redes": {
+      "facebook": "https://www.facebook.com/AssoTehaniPMS/",
+      "instagram": "https://www.instagram.com/tehanipms/",
+      "youtube": "https://www.youtube.com/channel/UC9l4ndh4YnerjckC60egP4Q"
+    }
+  },
+  {
+    "nombre": "Associazione Italiana per la Sindrome di Phelan-McDermid (AISPHEM ODV)",
+    "pais": "Italia",
+    "web": "https://www.aisphem.it/",
+    "noticias": "https://www.aisphem.it/index.php/archivio-news",
+    "feed": "https://www.aisphem.it/index.php/archivio-news/itemlist?format=feed&type=rss",
+    "tipo_feed": "rss",
+    "redes": {
+      "facebook": "https://www.facebook.com/Associazione-Italiana-Sindrome-di-Phelan-McDermid-481171518584067/"
+    }
+  },
+  {
+    "nombre": "Phelan-McDermid Greek Association",
+    "pais": "Grecia",
+    "web": "https://www.22q13.gr/",
+    "noticias": "https://www.22q13.gr/",
+    "feed": null,
+    "tipo_feed": "none",
+    "redes": {
+      "facebook": "https://www.facebook.com/profile.php?id=100087680808038",
+      "linkedin": "https://www.linkedin.com/company/phelan-mcdermid-greek-association/"
+    }
+  },
+  {
+    "nombre": "Associação Phelan-McDermid Portugal (APMP)",
+    "pais": "Portugal",
+    "web": "https://phelan-mcdermid.pt/",
+    "noticias": "https://phelan-mcdermid.pt/investigacao/artigos-recentes/",
+    "feed": null,
+    "tipo_feed": "none",
+    "redes": {
+      "instagram": "https://www.instagram.com/phelanmcdermid_portugal/",
+      "x": "https://x.com/PMS_Portugal",
+      "youtube": "https://www.youtube.com/channel/UC1dVnR3hk7gYTpRyTmsqQow",
+      "tiktok": "https://www.tiktok.com/@phelanmcdermidportugal",
+      "linkedin": "https://www.linkedin.com/company/associa%C3%A7%C3%A3o-phelan-mcdermid-portugal"
+    }
+  },
+  {
+    "nombre": "Phelan McDermid Syndrome Foundation Canada / Fondation du syndrome Phelan-McDermid",
+    "pais": "Canadá",
+    "web": "https://pmsfcanada.org/en/",
+    "noticias": "https://pmsfcanada.org/en/news/",
+    "feed": null,
+    "tipo_feed": "none",
+    "redes": {}
+  },
+  {
+    "nombre": "Phelan-McDermid Syndrome Foundation Australia (PMSF Australia)",
+    "pais": "Australia y Nueva Zelanda",
+    "web": "https://pmsfaustralia.org.au/",
+    "noticias": "https://pmsfaustralia.org.au/",
+    "feed": null,
+    "tipo_feed": "none",
+    "redes": {
+      "facebook": "https://www.facebook.com/PMSFAustralia/",
+      "instagram": "https://www.instagram.com/pmsfaustralia/",
+      "youtube": "https://www.youtube.com/@PMSF22q13"
+    }
+  },
+  {
+    "nombre": "Phelan-McDermid Brasil (AFSPM - Amigos e Familiares da Síndrome de Phelan-McDermid)",
+    "pais": "Brasil",
+    "web": "https://pmsbrasil.org.br/",
+    "noticias": "https://pmsbrasil.org.br/blog/",
+    "feed": "https://pmsbrasil.org.br/feed/",
+    "tipo_feed": "rss",
+    "redes": {
+      "facebook": "https://www.facebook.com/phelanmcdermidbrasil",
+      "instagram": "https://www.instagram.com/sindromephelanmcdermidbrasil/",
+      "youtube": "https://www.youtube.com/channel/UChHOtOieTkqb175zhbfSPFA",
+      "linkedin": "https://www.linkedin.com/in/pmsbrasil/"
+    }
+  },
+  {
+    "nombre": "Föreningen Phelan-McDermids Syndrom Sverige (PMSS)",
+    "pais": "Suecia",
+    "web": "https://pmss.se/",
+    "noticias": "https://pmss.se/",
+    "feed": null,
+    "tipo_feed": "none",
+    "redes": {
+      "instagram": "https://www.instagram.com/pms_sverige/"
+    }
+  },
+  {
+    "nombre": "Phelan-McDermid Wijzer",
+    "pais": "Países Bajos",
+    "web": "https://www.phelanmcdermid.nl/",
+    "noticias": "https://www.phelanmcdermid.nl/nieuws",
+    "feed": null,
+    "tipo_feed": "html",
+    "redes": {}
+  },
+  {
+    "nombre": "Felaniątka (grupo dentro de Fundacja Sedeka)",
+    "pais": "Polonia",
+    "web": "https://sedeka.pl/opp/felaniatka",
+    "noticias": "https://sedeka.pl/blog",
+    "feed": null,
+    "tipo_feed": "none",
+    "redes": {
+      "facebook": "https://www.facebook.com/fundacjasedeka",
+      "instagram": "https://www.instagram.com/fundacja_sedeka",
+      "youtube": "https://www.youtube.com/channel/UCio8gGirjI1sibQimrsLMxQ"
+    }
+  },
+  {
+    "nombre": "Chromosome 22 Central (C22C)",
+    "pais": "Internacional (EE.UU./Canadá)",
+    "web": "https://c22c.org/",
+    "noticias": "https://c22c.org/blog/",
+    "feed": null,
+    "tipo_feed": "none",
+    "redes": {
+      "facebook": "https://www.facebook.com/chromosome22central",
+      "instagram": "https://www.instagram.com/chromosome22central",
+      "x": "https://x.com/c22central",
+      "youtube": "https://www.youtube.com/@chromosome22central80"
+    },
+    "solo_si_menciona": true
+  },
+  {
+    "nombre": "Unique - Rare Chromosome Disorder Support Group",
+    "pais": "Reino Unido (internacional)",
+    "web": "https://rarechromo.org/",
+    "noticias": "https://rarechromo.org/",
+    "feed": "https://rarechromo.org/feed/",
+    "tipo_feed": "rss",
+    "redes": {
+      "facebook": "https://www.facebook.com/Uniquerarechromosomedisordersupportgroup/",
+      "instagram": "https://www.instagram.com/unique_charity/",
+      "x": "https://twitter.com/Unique_charity",
+      "youtube": "https://www.youtube.com/@unique-rarechromosomedisor2970"
+    },
+    "solo_si_menciona": true
+  },
+  {
+    "nombre": "Simons Searchlight",
+    "pais": "Estados Unidos (investigación)",
+    "web": "https://www.simonssearchlight.org/",
+    "noticias": "https://www.simonssearchlight.org/",
+    "feed": "https://www.simonssearchlight.org/feed/",
+    "tipo_feed": "rss",
+    "redes": {
+      "facebook": "https://www.facebook.com/SimonsSearchlight/",
+      "x": "https://x.com/s_searchlight",
+      "youtube": "https://www.youtube.com/@SimonsSearchlight",
+      "linkedin": "https://www.linkedin.com/company/simons-searchlight/"
+    },
+    "solo_si_menciona": true
+  },
+  {
+    "nombre": "ERN ITHACA (European Reference Network on rare congenital malformations and intellectual disability)",
+    "pais": "Unión Europea (red de investigación/clínica)",
+    "web": "https://ern-ithaca.eu/",
+    "noticias": "https://ern-ithaca.eu/events-news/news/",
+    "feed": "https://ern-ithaca.eu/feed/?post_type=news",
+    "tipo_feed": "rss",
+    "redes": {
+      "x": "https://twitter.com/ERNIthaca",
+      "linkedin": "https://www.linkedin.com/company/ithaca-european-reference-network-on-congenital-malformations-ans-rare-intellectual-disability/"
+    },
+    "solo_si_menciona": true
+  },
+  {
+    "nombre": "Seaver Autism Center for Research and Treatment (Icahn School of Medicine at Mount Sinai)",
+    "pais": "Estados Unidos (investigación)",
+    "web": "https://icahn.mssm.edu/research/seaver",
+    "noticias": "https://icahn.mssm.edu/research/seaver",
+    "feed": null,
+    "tipo_feed": "none",
+    "redes": {},
+    "solo_si_menciona": true
+  },
+  {
+    "nombre": "Phelan-McDermid Argentina",
+    "pais": "Argentina",
+    "web": "https://www.instagram.com/phelanmcdermidargentina/",
+    "noticias": null,
+    "feed": null,
+    "tipo_feed": "none",
+    "redes": {
+      "instagram": "https://www.instagram.com/phelanmcdermidargentina/"
+    }
+  },
+  {
+    "nombre": "Síndrome Phelan Argentina",
+    "pais": "Argentina",
+    "web": "https://www.instagram.com/sindromephelan/",
+    "noticias": null,
+    "feed": null,
+    "tipo_feed": "none",
+    "redes": {
+      "instagram": "https://www.instagram.com/sindromephelan/"
+    }
+  },
+  {
+    "nombre": "Phelan-McDermid Chile",
+    "pais": "Chile",
+    "web": "https://www.instagram.com/phelanmcdermid.chile/",
+    "noticias": null,
+    "feed": null,
+    "tipo_feed": "none",
+    "redes": {
+      "instagram": "https://www.instagram.com/phelanmcdermid.chile/"
+    }
+  }
+]

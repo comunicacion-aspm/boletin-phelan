@@ -1,0 +1,122 @@
+{
+  "titulo": "Boletín diario Phelan-McDermid",
+  "subtitulo": "Menciones en prensa, avances e investigación sobre el síndrome de Phelan-McDermid, SHANK3 y 22q13",
+  "dias_busqueda": 3,
+  "dias_busqueda_primera_vez": 30,
+  "bloque1_asociacion": [
+    "\"Asociación Síndrome Phelan-McDermid\"",
+    "\"Asociación Phelan-McDermid\""
+  ],
+  "bloque1_menciones": [
+    "\"Phelan-McDermid\"",
+    "\"Phelan McDermid\""
+  ],
+  "bloque2_noticias": [
+    "\"síndrome de Phelan-McDermid\"",
+    "\"Phelan-McDermid syndrome\"",
+    "SHANK3",
+    "\"22q13\""
+  ],
+  "bloque2_pubmed": "(\"Phelan-McDermid\"[tiab] OR \"Phelan McDermid\"[tiab] OR SHANK3[tiab] OR \"22q13\"[tiab])",
+  "bloque2_preprints": "(\"Phelan-McDermid\" OR \"Phelan McDermid\" OR SHANK3 OR \"22q13\")",
+  "bloque2_ensayos": "Phelan-McDermid OR SHANK3 OR 22q13",
+  "idiomas_google_news": [
+    [
+      "es",
+      "ES",
+      "ES:es"
+    ],
+    [
+      "en",
+      "US",
+      "US:en"
+    ],
+    [
+      "fr",
+      "FR",
+      "FR:fr"
+    ],
+    [
+      "it",
+      "IT",
+      "IT:it"
+    ],
+    [
+      "pt-BR",
+      "BR",
+      "BR:pt-419"
+    ],
+    [
+      "de",
+      "DE",
+      "DE:de"
+    ]
+  ],
+  "palabras_investigacion": [
+    "estudi",
+    "investiga",
+    "ensayo",
+    "científic",
+    "terapia",
+    "fármaco",
+    "medicamento",
+    "tratamiento",
+    "descubr",
+    "avance",
+    "hallazgo",
+    "study",
+    "studies",
+    "research",
+    "trial",
+    "scientist",
+    "therapy",
+    "therapeutic",
+    "drug",
+    "treatment",
+    "discover",
+    "finding",
+    "breakthrough",
+    "fda",
+    "neuron",
+    "brain",
+    "cerebro",
+    "mice",
+    "ratones",
+    "preprint",
+    "journal",
+    "universi",
+    "gene therapy",
+    "nnz-2591",
+    "étude",
+    "recherche",
+    "essai",
+    "chercheur",
+    "studio",
+    "ricerca",
+    "sperimentazione",
+    "ricercator",
+    "pesquisa",
+    "ensaio",
+    "studie",
+    "forschung"
+  ],
+  "bloque3_noticias": [
+    "\"Phelan-McDermid\" (\"nueva asociación\" OR \"nace la asociación\" OR \"se constituye\" OR \"nueva fundación\")",
+    "\"Phelan-McDermid\" (\"new foundation\" OR \"new charity\" OR \"new association\" OR founded OR launches)",
+    "\"Phelan-McDermid\" (\"nouvelle association\" OR \"association créée\")",
+    "\"Phelan-McDermid\" (\"nuova associazione\" OR nasce OR fondata)",
+    "\"Phelan-McDermid\" (\"nova associação\" OR fundada OR criada)",
+    "\"Phelan-McDermid\" (Verein gegründet OR \"neuer Verein\")"
+  ],
+  "bloque3_redes": [
+    "phelan-mcdermid",
+    "phelan mcdermid",
+    "phelanmcdermid",
+    "22q13",
+    "shank3",
+    "pmsf"
+  ],
+  "bloque3_directorios": [
+    "https://phelan-mcdermid.eu/phelan-mcdermid-syndrome-in-europe/"
+  ]
+}

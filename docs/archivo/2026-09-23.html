@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Boletín diario Phelan-McDermid</title>
+<meta name="description" content="Menciones en prensa, avances e investigación sobre el síndrome de Phelan-McDermid, SHANK3 y 22q13">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="alternate" type="application/rss+xml" title="Boletín diario Phelan-McDermid" href="../feed.xml">
+<link rel="icon" href="../logo-22q13.png">
+<style>
+:root{--bg:#f4f7f2;--card:#ffffff;--ink:#1f2a22;--muted:#56645a;--line:#dde6d8;
+--verde-osc:#004b23;--verde:#1a692d;--verde-vivo:#38b000;--lima:#a8d144;--lima-suave:#eef7dc;
+--head-bg:#004b23;--head-ink:#ffffff;--link:#1a692d;--tag-bg:#e3f1cf;--tag-ink:#1a692d;--fiable:#38b000}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1611;--card:#172019;--ink:#e6eee6;--muted:#9fb0a3;--line:#29362c;
+--verde-osc:#8fd46a;--verde:#7cc95a;--verde-vivo:#a8d144;--lima-suave:#1d2b1c;--head-bg:#0a2e17;--head-ink:#f1f7ee;
+--link:#a8d144;--tag-bg:#243620;--tag-ink:#bfe38a;--fiable:#a8d144}}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 Manrope,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
+h1,h2,h3,h4{font-family:Montserrat,Manrope,Arial,sans-serif}
+.cabecera{background:var(--head-bg);color:var(--head-ink);border-bottom:6px solid var(--verde-vivo)}
+.cabecera .in{max-width:860px;margin:0 auto;padding:22px 16px 26px}
+.logo{display:inline-block;background:#fff;border-radius:12px;padding:8px 14px}
+.logo img{display:block;height:44px;width:auto}
+.kicker{margin-top:18px;font:700 12px/1 Montserrat,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--lima)}
+h1{font-size:30px;line-height:1.2;margin:8px 0 6px;font-weight:800}
+.sub{margin:0;opacity:.85;font-size:15px}
+.fecha{margin-top:12px;display:inline-block;background:rgba(255,255,255,.12);padding:4px 12px;border-radius:999px;font-weight:600;font-size:14px}
+.wrap{max-width:860px;margin:0 auto;padding:8px 16px 64px}
+nav.indice{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0 4px}
+nav.indice a{font:600 14px Montserrat,sans-serif;padding:7px 14px;border-radius:999px;background:var(--card);border:1px solid var(--line);color:var(--ink);text-decoration:none}
+nav.indice a:hover{border-color:var(--verde-vivo)}
+nav.indice a span{display:inline-block;margin-left:6px;background:var(--verde);color:#fff;border-radius:999px;padding:0 7px;font-size:12px}
+section.bloque{margin-top:36px}
+section.bloque>h2{font-size:22px;margin:0 0 4px;color:var(--verde-osc);display:flex;align-items:center;gap:10px;font-weight:800}
+.num{display:inline-grid;place-items:center;flex:none;width:32px;height:32px;border-radius:50%;color:#fff;font:800 15px/1 Montserrat,sans-serif}
+.b1 .num{background:#004b23}.b2 .num{background:#1a692d}.b3 .num{background:#2f8f00}
+.desc{color:var(--muted);font-size:14px;margin:0 0 12px}
+h3{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--verde);margin:24px 0 10px;font-weight:700;
+border-bottom:2px solid var(--lima);padding-bottom:4px;display:inline-block}
+article{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin-bottom:12px}
+article.destacado{border-left:6px solid var(--verde-vivo);background:var(--lima-suave)}
+article.fiable{border-left:6px solid var(--verde)}
+article h4{margin:0 0 6px;font-size:17px;line-height:1.35;font-weight:700}
+article h4 a{color:var(--ink);text-decoration:none}article h4 a:hover{color:var(--link);text-decoration:underline}
+.meta{font-size:13px;color:var(--muted);margin-bottom:8px;display:flex;flex-wrap:wrap;gap:4px 12px;align-items:center}
+.tag{font-size:12px;font-weight:700;padding:1px 8px;border-radius:6px;background:var(--tag-bg);color:var(--tag-ink)}
+.resumen{margin:0 0 10px;font-size:15px}
+.orig{font-size:13px;color:var(--muted);margin:0 0 8px;font-style:italic}
+.fuente a{font-size:14px;font-weight:700;color:var(--link);word-break:break-word}
+.vacio{color:var(--muted);font-style:italic;background:var(--card);border:1px dashed var(--line);border-radius:12px;padding:14px 18px}
+.aviso{font-size:14px;background:var(--lima-suave);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin:0 0 12px}
+details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin-top:12px}
+summary{cursor:pointer;font-weight:700;color:var(--verde)}
+table{width:100%;border-collapse:collapse;font-size:14px;margin-top:10px}
+td,th{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--muted);font-weight:600}
+td a,footer a,.archivo a{color:var(--link)}
+.tabla{overflow-x:auto}
+.archivo ul{list-style:none;padding:0;columns:2}.archivo li{margin:4px 0}
+footer{margin-top:48px;border-top:3px solid var(--lima);padding-top:16px;font-size:13px;color:var(--muted)}
+@media (max-width:560px){h1{font-size:24px}.archivo ul{columns:1}article{padding:14px}.logo img{height:36px}}
+</style></head>
+<body>
+<header class="cabecera"><div class="in">
+<a class="logo" href="https://22q13.org.es" target="_blank" rel="noopener"><img src="../logo-22q13.png" alt="Asociación Síndrome Phelan-McDermid"></a>
+<div class="kicker">Boletín diario</div>
+<h1>Boletín diario Phelan-McDermid</h1>
+<p class="sub">Menciones en prensa, avances e investigación sobre el síndrome de Phelan-McDermid, SHANK3 y 22q13</p>
+<div class="fecha">Miércoles, 23 de septiembre de 2026</div>
+</div></header>
+<div class="wrap">
+<nav class="indice">
+<a href="#menciones">1 · Menciones en noticias<span>18</span></a>
+<a href="#investigacion">2 · Avances e investigación<span>21</span></a>
+<a href="#organizaciones">3 · Nuevas organizaciones<span>1</span></a>
+<a href="#archivo">Ediciones anteriores</a>
+</nav>
+
+<section class="bloque b1" id="menciones">
+<h2><span class="num">1</span>Menciones en noticias</h2>
+<p class="desc">Noticias que mencionan «Asociación Síndrome Phelan-McDermid» o «Phelan-McDermid», y novedades publicadas por las asociaciones de todo el mundo. Lo relacionado con investigación está en el bloque 2.</p>
+<h3>Asociación Síndrome Phelan-McDermid</h3>
+<article class="destacado">
+<h4><a href="https://www.noroestemadrid.com/2026/09/maraton-de-zumba-en-boadilla-a-beneficio-de-la-asociacion-sindrome-phelan-mcdermid/" target="_blank" rel="noopener">Maratón de Zumba en Boadilla a beneficio de la Asociación Síndrome Phelan-McDermid</a></h4>
+<div class="meta"><span>noroestemadrid · 2026-09-16</span></div>
+<p class="resumen">La explanada del Palacio del Infante D. Luis acogerá el próximo domingo 20, de 12:30 a 14:00 horas, un Maratón Solidario de Zumba, organizado por la Asociación Síndrome Phelan-McDermid, con la ...</p>
+<div class="fuente"><a href="https://www.noroestemadrid.com/2026/09/maraton-de-zumba-en-boadilla-a-beneficio-de-la-asociacion-sindrome-phelan-mcdermid/" target="_blank" rel="noopener">Fuente original ↗</a></div>
+</article>
+<article class="destacado">
+<h4><a href="https://news.google.com/rss/articles/CBMi3gFBVV95cUxOaklJTUVxOXZJci1od2FSbGd5S1FHTXFuTDZhOC0wdHphckczSGlDQ2VBbDkwQy1tZ253MEgyb0dvUzduVTd1WW9JdGV4ek9BQ0pRYTh1NkdkRVNBZnpHZTdxMFNUci1GM25yeXJzOFdyclR1aXMzaFNNUmRKdm41QUhSVzdUaktWTlZ3dmJaZ1BOSkppSU1vN3ZEV3VvLVVaUzVSekNPNW9DSVQ2NVowRUFWU1lTXzhkSUNsaDRlaFhlTDhFNDVtdmhUaVJMUWhjUjZOVU56Y3pJTER4VEE?oc=5" target="_blank" rel="noopener">Maratón de zumba a beneficio de la Asociación Síndrome Phelan-McDermid</a></h4>
+<div class="meta"><span>Solo Boadilla · 2026-09-16</span></div>
+
+<div class="fuente"><a href="https://news.google.com/rss/articles/CBMi3gFBVV95cUxOaklJTUVxOXZJci1od2FSbGd5S1FHTXFuTDZhOC0wdHphckczSGlDQ2VBbDkwQy1tZ253MEgyb0dvUzduVTd1WW9JdGV4ek9BQ0pRYTh1NkdkRVNBZnpHZTdxMFNUci1GM25yeXJzOFdyclR1aXMzaFNNUmRKdm41QUhSVzdUaktWTlZ3dmJaZ1BOSkppSU1vN3ZEV3VvLVVaUzVSekNPNW9DSVQ2NVowRUFWU1lTXzhkSUNsaDRlaFhlTDhFNDVtdmhUaVJMUWhjUjZOVU56Y3pJTER4VEE?oc=5" target="_blank" rel="noopener">Fuente original ↗</a></div>
+</article>
+<article class="destacado">
+<h4><a href="https://news.google.com/rss/articles/CBMitgFBVV95cUxPbi1xcTBIRFlYLXd6WXRsRGxaZ295QUw1U3liTmxPUG9DTkRsX2JOYmJLVWFvUVZvVm45MnBaU1VmYUlRMGZXQ2htWmhydTFQeDJfMFZ6Zzk0Sm9BVlNlMTRMQldNTndQSk4wU1lLNUJycXVpNkxuX0pxUFgtZnNtMlZTMGhIVVJNeTE1UzhsbmhPd1gzc0VPWnBVNG03a3dxSjk1RHpsd1U4WlNMbnRIMGJ0c1hOQQ?oc=5" target="_blank" rel="noopener">Maratón Solidario de Zumba en Boadilla a favor de la Asociación Síndrome Phelan-McDermid</a></h4>
+<div class="meta"><span>Espacio Diario · 2026-09-16</span></div>
+
+<div class="fuente"><a href="https://news.google.com/rss/articles/CBMitgFBVV95cUxPbi1xcTBIRFlYLXd6WXRsRGxaZ295QUw1U3liTmxPUG9DTkRsX2JOYmJLVWFvUVZvVm45MnBaU1VmYUlRMGZXQ2htWmhydTFQeDJfMFZ6Zzk0Sm9BVlNlMTRMQldNTndQSk4wU1lLNUJycXVpNkxuX0pxUFgtZnNtMlZTMGhIVVJNeTE1UzhsbmhPd1gzc0VPWnBVNG03a3dxSjk1RHpsd1U4WlNMbnRIMGJ0c1hOQQ?oc=5" target="_blank" rel="noopener">Fuente original ↗</a></div>
+</article>
+<article class="destacado">
+<h4><a href="https://news.google.com/rss/articles/CBMiugFBVV95cUxOenpDYWZaVEtwQUYtZVN1OHBJcFdlcmJ4S0t0dG0wRTlvdldMa1JFSjNOZ2FCcGhmZGlydzJ2YXdEbWJWdGhnZ1BhcXdOeGtMTXNUYm5Nck0tSlJmb0JkZW9iOENpX3ZQaW4yS1Z5OVh1bWV4MDB1bk11MEtCUmtGY3lWYV9NRUI4MWxNc1JheFd3SGFOejhRZThBVmJnZlpHWmxzcUZ5bGJXYzlQMFBObEROYzFRa0doeVE?oc=5" target="_blank" rel="noopener">La RFEDH colabora con la Asociación Síndrome de Phelan McDermid a través de Run Like a Hero 2026</a></h4>
+<div class="meta"><span>Real Federación Española Deportes de Hielo · 2026-08-31</span></div>
+
+<div class="fuente"><a href="https://news.google.com/rss/articles/CBMiugFBVV95cUxOenpDYWZaVEtwQUYtZVN1OHBJcFdlcmJ4S0t0dG0wRTlvdldMa1JFSjNOZ2FCcGhmZGlydzJ2YXdEbWJWdGhnZ1BhcXdOeGtMTXNUYm5Nck0tSlJmb0JkZW9iOENpX3ZQaW4yS1Z5OVh1bWV4MDB1bk11MEtCUmtGY3lWYV9NRUI4MWxNc1JheFd3SGFOejhRZThBVmJnZlpHWmxzcUZ5bGJXYzlQMFBObEROYzFRa0doeVE?oc=5" target="_blank" rel="noopener">Fuente original ↗</a></div>
+</article>
+<h3>Novedades de las asociaciones del mundo · fuente fiable</h3>
+<article class="fiable">
+<h4><a href="https://22q13.org.es/reunion-del-movimiento-asociativo-de-feder-en-canarias/" target="_blank" rel="noopener">Reunión del Movimiento Asociativo de FEDER en Canarias</a></h4>
+<div class="meta"><span class="tag">Fuente fiable · asociación</span> <span>Asociación Síndrome Phelan-McDermid (ASPM) · España · 2026-09-21</span></div>
+<p class="resumen">Hoy, lunes 21 de septiembre, ha tenido lugar lugar la reunión del Movimiento Asociativo (MMAA) de Canarias de la Federación Española de Enfermedades Raras (FEDER), un espacio clave de coordinación interasociativa para el análisis y defensa de los derechos de las personas con patologías poco frecuentes en la comunidad autónoma. La Asociación Síndrome Phelan-McDermid estuvo […]</p>
+<div class="fuente"><a href="https://22q13.org.es/reunion-del-movimiento-asociativo-de-feder-en-canarias/" target="_blank" rel="noopener">Fuente original ↗</a></div>
+</article>
+<article class="fiable">
+<h4><a href="https://22q13.org.es/maraton-solidario-de-zumba-en-boadilla/" target="_blank" rel="noopener">Maratón solidario de Zumba en Boadilla</a></h4>
+<div class="meta"><span class="tag">Fuente fiable · asociación</span> <span>Asociación Síndrome Phelan-McDermid (ASPM) · España · 2026-09-21</span></div>
+<p class="resumen">Ayer, domingo 20 de septiembre, la explanada del emblemático Palacio del Infante D. Luis en Boadilla del Monte se convirtió en un escenario repleto de energía, música y esperanza con la celebración del Maratón Solidario de Zumba a beneficio de nuestra entidad. La jornada reunió a familias, vecinos y amantes del deporte de todas las […]</p>
+<div class="fuente"><a href="https://22q13.org.es/maraton-solidario-de-zumba-en-boadilla/" target="_blank" rel="noopener">Fuente original ↗</a></div>
+</article>
+<article class="fiable">
+<h4><a href="https://22q13.org.es/la-xv-proano-trail-suma-km-solidarios-por-la-aspm/" target="_blank" rel="noopener">La XV Proaño Trail colabora de nuevo con la Asociación Síndrome Phelan-McDermid</a></h4>
+<div class="meta"><span class="tag">Fuente fiable · asociación</span> <span>Asociación Síndrome Phelan-McDermid (ASPM) · España · 2026-09-15</span></div>
+<p class="resumen">El pasado domingo 13 de septiembre se celebró una emocionante jornada deportiva en la que el deporte y la solidaridad volvieron a correr de la mano gracias a ACD Proaño y la Proaño Trail. La Proaño Trail es una emblemática carrera de montaña organizada por la ACD Proaño en Cantabria que discurre íntegramente por senderos […]</p>
+<div class="fuente"><a href="https://22q13.org.es/la-xv-proano-trail-suma-km-solidarios-por-la-aspm/" target="_blank" rel="noopener">Fuente original ↗</a></div>
+</article>
+<article class="fiable">
+<h4><a href="https://22q13.org.es/run-like-a-hero-2026-dorsales-ya-disponibles/" target="_blank" rel="noopener">Run Like a Hero 2026: dorsales ya disponibles</a></h4>
+<div class="meta"><span class="tag">Fuente fiable · asociación</span> <span>Asociación Síndrome Phelan-McDermid (ASPM) · España · 2026-09-03</span></div>
+<p class="resumen">La ASPM (Asociación Síndrome Phelan-McDermid) da el pistoletazo a la nueva temporada de Run Like a Hero el 1 de septiembre, momento en el que se podrán adquirir los dorsales para todos los eventos en la web oficial www.runlikeahero.com. Este proyecto, con 7 ediciones, se creó en 2020 para recaudar fondos y sensibilizar a la […]</p>
+<div class="fuente"><a href="https://22q13.org.es/run-like-a-hero-2026-dorsales-ya-disponibles/" target="_blank" rel="noopener">Fuente original ↗</a></div>
+</article>
+<article class="fiable">
+<h4><a href="https://www.22q13.info/ist-das-autismus-das-phelan-mcdermid-syndrom/" target="_blank" rel="noopener">«¿Es autismo?» – El síndrome de Phelan-McDermid</a></h4>
+<div class="meta"><span class="tag">Fuente fiable · asociación</span> <span>Phelan-McDermid-Gesellschaft e.V. (PMDG) · Alemania / Austria / Suiza · 2026-09-03</span></div>
+<p class="resumen">¡Por fin ha llegado el momento! La larga espera ha llegado a su fin. Cualquiera que haya asistido a nuestra reunión familiar de PMD de este año en Schwäbisch-Gmünd lo adivinará: el primer reportaje sobre el síndrome de Phelan-McDermid llega a la televisión alemana y se puede ver en línea en cualquier momento en la mediateca. Emisión: Domingo 6</p><p class="orig">Título original (alemán): „Ist das Autismus?“ – Das Phelan-McDermid-Syndrom</p>
+<div class="fuente"><a href="https://www.22q13.info/ist-das-autismus-das-phelan-mcdermid-syndrom/" target="_blank" rel="noopener">Fuente original ↗</a></div>
+</article>
+<article class="fiable">
+<h4><a href="https://pmsf.org/publication-update-genotype-phenotype/" target="_blank" rel="noopener">Descubrimiento de nuevas relaciones genotipo-fenotipo en el síndrome de Phelan-McDermid</a></h4>
+<div class="meta"><span class="tag">Fuente fiable · asociación</span> <span>Phelan-McDermid Syndrome Foundation (PMSF) · Estados Unidos (internacional) · 2026-09-02</span></div>
+<p class="resumen">El síndrome de Phelan-McDermid es una rara afección genética generalmente causada por una deleción o cambio estructural al final del cromosoma 22, en una región llamada 22q13. Los síntomas y la gravedad pueden variar ampliamente entre las personas con síndrome de Phelan-McDermid. Para las personas con una deleción del cromosoma 22, el tamaño de la deleción puede ayudar a explicar algunas de estas diferencias clínicas.</p><p class="orig">Título original (inglés): Uncovering New Genotype-Phenotype Relationships in Phelan-McDermid Syndrome</p>
+<div class="fuente"><a href="https://pmsf.org/publication-update-genotype-phenotype/" target="_blank" rel="noopener">Fuente original ↗</a></div>
+</article>
+<article class="fiable">
+<h4><a href="https://22q13.org.es/paella-solidaria-en-alcala-de-henares/" target="_blank" rel="noopener">Paella solidaria en Alcalá de Henares</a></h4>
+<div class="meta"><span class="tag">Fuente fiable · asociación</span> <span>Asociación Síndrome Phelan-McDermid (ASPM) · España · 2026-08-28</span></div>
+<p class="resumen">La Peña Los Pichis, de la localidad madrileña de Alcalá de Henares, ha organizado, hoy viernes 28 de agosto, un evento gourmet solidario en favor de nuestra entidad. A partir de las 13:30, en la Plaza de Cervantes, y con un precio de 3€, todas las personas asistentes pudieron degustar una excelente ración de paella. […]</p>
+<div class="fuente"><a href="https://22q13.org.es/paella-solidaria-en-alcala-de-henares/" target="_blank" rel="noopener">Fuente original ↗</a></div>
+</article>
+<article class="fiable">
+<h4><a href="https://www.22q13.info/pmsgo/" target="_blank" rel="noopener">PMSGO</a></h4>
+<div class="meta"><span class="tag">Fuente fiable · asociación</span> <span>Phelan-McDermid-Gesellschaft e.V. (PMDG) · Alemania / Austria / Suiza · 2026-08-26</span></div>
+<p class="resumen">Nos complace presentaros la recién fundada PMSGO. La organización Phelan-McDermid Syndrome Global Organisation (PMSGO) es desde hace poco una organización oficial sin ánimo de lucro. Ha sido registrada en Madrid como organización internacional. La organización Phelan-McDermid Syndrome Global Organisation (PMSGO) se remonta a una iniciativa de Sue Lomas, ex presidenta de la Fundación PMS, y los otros miembros fundadores.</p>
+<div class="fuente"><a href="https://www.22q13.info/pmsgo/" target="_blank" rel="noopener">Fuente original ↗</a></div>
+</article>
+<article class="fiable">
+<h4><a href="https://22q13.org.es/jamonada-en-mas-de-las-matas/" target="_blank" rel="noopener">Jamonada en Mas de las Matas</a></h4>
+<div class="meta"><span class="tag">Fuente fiable · asociación</span> <span>Asociación Síndrome Phelan-McDermid (ASPM) · España · 2026-08-24</span></div>
+<p class="resumen">El municipio turolense de Más de las Matas celebró ayer, domingo 23 de agosto, una actividad festiva marcada por el compromiso social y la gastronomía. A las 13:00 horas, justo tras la conclusión de la Santa Misa, la calle La Iglesia se convirtió en el escenario de una concurrida jamonada solidaria. Los asistentes pudieron disfrutar […]</p>
+<div class="fuente"><a href="https://22q13.org.es/jamonada-en-mas-de-las-matas/" target="_blank" rel="noopener">Fuente original ↗</a></div>
+</article>
+<h3>Otras menciones en prensa</h3>
+<article>
+<h4><a href="https://news.google.com/rss/articles/CBMimAJBVV95cUxPNmo4bUhDcjZvQWQyWVNLYUFfYi1TMXllQ0ZtZHlpSzAtM3Y1XzRXNzd0MTg5YTg2X3BVN092eWthNExFWlM4MnFnU0tFckRnNTAwbmpvLXJoZXNFX3NwWGZkbFhmVFFDalR4TzQ2dTE5RmQtaWRDTkpOQXRpand4d0RXTWlZTGJVLURhdHNNVXVmSDYtY1pYcm13NGs4NW1IUkJ1aDRWSl9ROTNNcGdRdHk0LV8xT01laXd2U3NzSy12TWIwaEw1UUNNalczRElINGNDUUtrRzZXV2NGUXpzQ2IzUlZFS2JuTmJac183enBOalJ4RVd6WEw0akVwVk9JS0VpZE9KNjJOM0tWcFIwSnhaQVlYdzNy?oc=5" target="_blank" rel="noopener">‘Mi hermana Bertille’: una película para visibilizar el síndrome de Phelan-McDermid y la realidad de sus familias</a></h4>
+<div class="meta"><span>Federación Española de Enfermedades Raras · 2026-09-15</span></div>
+
+<div class="fuente"><a href="https://news.google.com/rss/articles/CBMimAJBVV95cUxPNmo4bUhDcjZvQWQyWVNLYUFfYi1TMXllQ0ZtZHlpSzAtM3Y1XzRXNzd0MTg5YTg2X3BVN092eWthNExFWlM4MnFnU0tFckRnNTAwbmpvLXJoZXNFX3NwWGZkbFhmVFFDalR4TzQ2dTE5RmQtaWRDTkpOQXRpand4d0RXTWlZTGJVLURhdHNNVXVmSDYtY1pYcm13NGs4NW1IUkJ1aDRWSl9ROTNNcGdRdHk0LV8xT01laXd2U3NzSy12TWIwaEw1UUNNalczRElINGNDUUtrRzZXV2NGUXpzQ2IzUlZFS2JuTmJac183enBOalJ4RVd6WEw0akVwVk9JS0VpZE9KNjJOM0tWcFIwSnhaQVlYdzNy?oc=5" target="_blank" rel="noopener">Fuente original ↗</a></div>
+</article>
+<article>
+<h4><a href="https://news.google.com/rss/articles/CBMi9wFBVV95cUxPb2prd0dxMGxvalQyOUNDcENEWDJqOGtqQ0pfMUxfOEljNV9Ib05kUDNzS3lRX0FValhTT0RXbngxUmVYYWJ2OUs0QXlwRWowRWFPTHV0T0xoTFFCSWZFeUtNVkxLbDJteFlNZC1BTmpRbEdnWldmemxaTUJscGJqeWpzZi0zLXpuTjdPTUwySnhodFBQd1RGeWlHQmtGVUMxQjFmVnVfa0hiTks5b2szZFQ2VmhSeUNvemZzMUJJQmxNM3N1Z2hfczF5TlM1aXQtVXc5Q082Wmw1NDI0VTdYMEswaFUwOFdxaFo5b2lzV25TeUlIVmpV?oc=5" target="_blank" rel="noopener">Run Like a Hero regresa en 2026 con seis retos solidarios por el síndrome de Phelan-McDermid</a></h4>
+<div class="meta"><span>Federación Española de Enfermedades Raras · 2026-09-11</span></div>
+
+<div class="fuente"><a href="https://news.google.com/rss/articles/CBMi9wFBVV95cUxPb2prd0dxMGxvalQyOUNDcENEWDJqOGtqQ0pfMUxfOEljNV9Ib05kUDNzS3lRX0FValhTT0RXbngxUmVYYWJ2OUs0QXlwRWowRWFPTHV0T0xoTFFCSWZFeUtNVkxLbDJteFlNZC1BTmpRbEdnWldmemxaTUJscGJqeWpzZi0zLXpuTjdPTUwySnhodFBQd1RGeWlHQmtGVUMxQjFmVnVfa0hiTks5b2szZFQ2VmhSeUNvemZzMUJJQmxNM3N1Z2hfczF5TlM1aXQtVXc5Q082Wmw1NDI0VTdYMEswaFUwOFdxaFo5b2lzV25TeUlIVmpV?oc=5" target="_blank" rel="noopener">Fuente original ↗</a></div>
+</article>
+<article>
+<h4><a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxOTGd1dXhvTGs0WGRfNDR1amFyU0E0ZVJ0M2dOUlVjdHV2SU94cGdBVElaVjktbldrQjZMZ1p6U0dSUEx5eUZUSWxkRVpOY3AyQVZEcGFxM3FFX1dBQ3Q4ZU5sYUF1ajZ6MTVxbGJ3U3lPU2RacnVmRGdSRl85VFN6SHBFUmZtQ1JHbUlrQTlmZjd1WWhGcENjTG04X3JxZ0RtaHB2VWtvY3ZEcHpTVmc?oc=5" target="_blank" rel="noopener">Taller de medios | &quot;¿Es autismo?“ – El síndrome de Phelan-McDermid</a></h4>
+<div class="meta"><span>Franken Fernsehen · 2026-09-06</span></div>
+<p class="orig">Título original (alemán): Medienwerkstatt | „Ist das Autismus?“ – Das Phelan-McDermid-Syndrom</p>
+<div class="fuente"><a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxOTGd1dXhvTGs0WGRfNDR1amFyU0E0ZVJ0M2dOUlVjdHV2SU94cGdBVElaVjktbldrQjZMZ1p6U0dSUEx5eUZUSWxkRVpOY3AyQVZEcGFxM3FFX1dBQ3Q4ZU5sYUF1ajZ6MTVxbGJ3U3lPU2RacnVmRGdSRl85VFN6SHBFUmZtQ1JHbUlrQTlmZjd1WWhGcENjTG04X3JxZ0RtaHB2VWtvY3ZEcHpTVmc?oc=5" target="_blank" rel="noopener">Fuente original ↗</a></div>
+</article>
+<article>
+<h4><a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxON2tmckwtUVF4cWQtQ2RWUlpIcjFiaThiVUtJZ3FvalgxSkRzb1hLS3UwaG5ZaXE2X1pVR2pfcDhOS1NnS1kyUVMzZHdudUl5T0ZfeHh5Q0hYcU9IV0FWNVB5ZVltRFA1N0VxLXFiYlo5QUJ2eU5XbjJtMk9CNDhZYl94dDd1MzEya25FTjFocFJJY1JTRkE?oc=5" target="_blank" rel="noopener">La reunión nacional reúne a las familias de Phelan en las colmenas</a></h4>
+<div class="meta"><span>Região de Leiria · 2026-09-03</span></div>
+<p class="orig">Título original (portugués): Encontro nacional junta famílias Phelan nas Colmeias</p>
+<div class="fuente"><a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxON2tmckwtUVF4cWQtQ2RWUlpIcjFiaThiVUtJZ3FvalgxSkRzb1hLS3UwaG5ZaXE2X1pVR2pfcDhOS1NnS1kyUVMzZHdudUl5T0ZfeHh5Q0hYcU9IV0FWNVB5ZVltRFA1N0VxLXFiYlo5QUJ2eU5XbjJtMk9CNDhZYl94dDd1MzEya25FTjFocFJJY1JTRkE?oc=5" target="_blank" rel="noopener">Fuente original ↗</a></div>
+</article>
+<article>
+<h4><a href="https://news.google.com/rss/articles/CBMi3wFBVV95cUxNc29pbTRpRVROUGFDTWxpQjNFY3RZWktsdkVWNGtpNGpoVUhub3hhR1k5TE1lczlnc1BuR216aFYwaDJWME1Kd0U5dHY3X3hlS0Z1TkFWeGNWN1BqVllSeWM4STBXMXZXTk1sX05wOXp3ZUFqdW1FaE9rTjEtTENXLVBuUTdiNDFQY21OSWFieUhreG04VUIxZ0RNbGwtN0h3Vnd5dkpwWXFQUmNTQ3J2amlFYTNqOGJBNE5pMElMdGdxUkZVN3hVSElxaDhSVnptT0hrTUhzMHZlU2t5X0930gH7AUFVX3lxTE8zekVrNFNsNmdqVTc4SFdETF93S2Z1MjIwMkxzUDlrVFQyU21WTDRzUEtuSEszbUk2Q0ZRcjhVeXpCcENFMHNLeFR6RzVDWXMtTm96b2laZEhhMHhSX2JiWHFROU5CWGNSWThpM0NQaGFGRHdEeDRqcjJmSjUzV0pQQUItdlg0MmVkSFUteG50OVBJZjlDaEFWSmxqQ3Z2OEphZ3d0NmtuNXViZmkxX2NNYjN4d3VGd3VtLXR6ZHNtWjNkQnlkZ0JQZUkwNkRkOG85ZWxVeFh3MTJfRnM5eE0yMjRrRUtUdnp0N1JDOHNJV2Fmc2d5aEFEY2RJ?oc=5" target="_blank" rel="noopener">La realidad invisible de las enfermedades raras: «Mi hija tiene 19 años, pero es como si tuviera 4»</a></h4>
+<div class="meta"><span>La Voz de Asturias · 2026-08-31</span></div>
+
+<div class="fuente"><a href="https://news.google.com/rss/articles/CBMi3wFBVV95cUxNc29pbTRpRVROUGFDTWxpQjNFY3RZWktsdkVWNGtpNGpoVUhub3hhR1k5TE1lczlnc1BuR216aFYwaDJWME1Kd0U5dHY3X3hlS0Z1TkFWeGNWN1BqVllSeWM4STBXMXZXTk1sX05wOXp3ZUFqdW1FaE9rTjEtTENXLVBuUTdiNDFQY21OSWFieUhreG04VUIxZ0RNbGwtN0h3Vnd5dkpwWXFQUmNTQ3J2amlFYTNqOGJBNE5pMElMdGdxUkZVN3hVSElxaDhSVnptT0hrTUhzMHZlU2t5X0930gH7AUFVX3lxTE8zekVrNFNsNmdqVTc4SFdETF93S2Z1MjIwMkxzUDlrVFQyU21WTDRzUEtuSEszbUk2Q0ZRcjhVeXpCcENFMHNLeFR6RzVDWXMtTm96b2laZEhhMHhSX2JiWHFROU5CWGNSWThpM0NQaGFGRHdEeDRqcjJmSjUzV0pQQUItdlg0MmVkSFUteG50OVBJZjlDaEFWSmxqQ3Z2OEphZ3d0NmtuNXViZmkxX2NNYjN4d3VGd3VtLXR6ZHNtWjNkQnlkZ0JQZUkwNkRkOG85ZWxVeFh3MTJfRnM5eE0yMjRrRUtUdnp0N1JDOHNJV2Fmc2d5aEFEY2RJ?oc=5" target="_blank" rel="noopener">Fuente original ↗</a></div>
+</article>
+</section>
+
+<section class="bloque b2" id="investigacion">
+<h2><span class="num">2</span>Avances, investigaciones, ensayos y estudios</h2>
+<p class="desc">Síndrome de Phelan-McDermid · SHANK3 · 22q13. Fuentes de cualquier idioma, traducidas automáticamente al castellano. Comprueba siempre la fuente original.</p>
+<h3>Comunicados de las asociaciones · fuente fiable</h3>
+<article class="fiable">
+<h4><a href="https://22q13.org.es/participamos-en-el-xi-congreso-internacional-de-medicamentos-huerfanos-y-enfermedades-raras/" target="_blank" rel="noopener">Participamos en el XI Congreso Internacional de Medicamentos Huérfanos y Enfermedades Raras</a></h4>
+<div class="meta"><span class="tag">Fuente fiable · asociación</span> <span>Asociación Síndrome Phelan-McDermid (ASPM) · España · 2026-09-18</span></div>
+<p class="resumen">Nuestra entidad no solo estuvo presente en este importante encuentro científico organizado por FEDER, celebrado en la ciudad de Sevilla, dentro de la Fundación Cajasol, los días 17 y 18 de septiembre, sino que participó de forma activa presentando un póster científico sobre el síndrome y contando con la representación de nuestra delegada en Andalucía […]</p>
+<div class="fuente"><a href="https://22q13.org.es/participamos-en-el-xi-congreso-internacional-de-medicamentos-huerfanos-y-enfermedades-raras/" target="_blank" rel="noopener">Fuente original ↗</a></div>
+</article>
+<article class="fiable">
+<h4><a href="https://cureshank.org/news/finish-line-newsletter-september-2026" target="_blank" rel="noopener">Newsletter: Finish Line Edition</a></h4>
+<div class="meta"><span class="tag">Fuente fiable · asociación</span> <span>CureSHANK · Estados Unidos (investigación) · 2026-09-14</span></div>
+<p class="resumen">A medida que nos acercamos al Maratón de Los Ángeles 2027, nos complace compartir información clave sobre la campaña de este año, incluido uno de nuestros corredores destacados de Team CureSHANK. Pista: ¡es una cara familiar! El año pasado, nuestra comunidad de corredores recaudó más de $ 60,000 para la investigación del SPM. Este año, nos proponemos recaudar $ 100.000 para ayudar a acelerar el progreso hacia los tratamientos.</p>
+<div class="fuente"><a href="https://cureshank.org/news/finish-line-newsletter-september-2026" target="_blank" rel="noopener">Fuente original ↗</a></div>
+</article>
+<article class="fiable">
+<h4><a href="https://cureshank.org/news/cureshank-community-news-september-2026" target="_blank" rel="noopener">Noticias de la comunidad de Cureshank: septiembre de 2026</a></h4>
+<div class="meta"><span class="tag">Fuente fiable · asociación</span> <span>CureSHANK · Estados Unidos (investigación) · 2026-09-03</span></div>
+<p class="resumen">Cada mes, nos enorgullece compartir los últimos recursos, oportunidades de participación y avances en ciencias. La edición de este mes está repleta de actualizaciones que reflejan el impulso que se está generando en nuestra comunidad, como: LA Marathon 2027, Caregiver Milestone Study, criterios de elegibilidad actualizados, cómo los biomarcadores pueden informar el desarrollo de la terapia para el síndrome de Phelan-McDermid y más.</p><p class="orig">Título original (inglés): Cureshank Community News: September 2026</p>
+<div class="fuente"><a href="https://cureshank.org/news/cureshank-community-news-september-2026" target="_blank" rel="noopener">Fuente original ↗</a></div>
+</article>
+<article class="fiable">
+<h4><a href="https://cureshank.org/news/biomarkers-for-pms-therapy-development" target="_blank" rel="noopener">Cómo los biomarcadores pueden informar el desarrollo de la terapia PMS</a></h4>
+<div class="meta"><span class="tag">Fuente fiable · asociación</span> <span>CureSHANK · Estados Unidos (investigación) · 2026-09-03</span></div>
+<p class="resumen">Las herramientas actuales de evaluación de biomarcadores para enfermedades del neurodesarrollo como el síndrome premenstrual pueden ser imprecisas y estar sujetas a sesgos, lo que dificulta la medición objetiva del impacto de un tratamiento. CureSHANK está trabajando activamente con espera evaluar enfoques prometedores de biomarcadores que proporcionarán mediciones más precisas y objetivas para la investigación del SPM.</p><p class="orig">Título original (inglés): How Biomarkers Can Inform PMS Therapy Development</p>
+<div class="fuente"><a href="https://cureshank.org/news/biomarkers-for-pms-therapy-development" target="_blank" rel="noopener">Fuente original ↗</a></div>
+</article>
+<h3>Noticias sobre avances</h3>
+<article>
+<h4><a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxQZ3d6V2VXZEpiMHlmMU9JUnhkeHFNZEhmSTd4VVphQ3pPTm5sQjFiQXZ1LWNfNGxwSkdwaU8zU0dsdzRtemZKa05Pbm4yRGpMTkcwcWtQeC12MmpDZ1lwVndwNGw0bld4NWlldnh0cnlFVnRYcnhSbjVGUTk5WmUzZmVfaU83Vm11ZDBCXzRSUzdkNWxzdUtHWU82VC02cldnUzMzaEJoV3JRZTZi?oc=5" target="_blank" rel="noopener">Un estudio encuentra que el síndrome de Phelan-McDermid puede ser más común de lo que se pensaba</a></h4>
+<div class="meta"><span>Autism Speaks · 2026-08-24</span></div>
+<p class="orig">Título original (inglés): Study finds Phelan-McDermid syndrome may be more common than previously thought</p>
+<div class="fuente"><a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxQZ3d6V2VXZEpiMHlmMU9JUnhkeHFNZEhmSTd4VVphQ3pPTm5sQjFiQXZ1LWNfNGxwSkdwaU8zU0dsdzRtemZKa05Pbm4yRGpMTkcwcWtQeC12MmpDZ1lwVndwNGw0bld4NWlldnh0cnlFVnRYcnhSbjVGUTk5WmUzZmVfaU83Vm11ZDBCXzRSUzdkNWxzdUtHWU82VC02cldnUzMzaEJoV3JRZTZi?oc=5" target="_blank" rel="noopener">Fuente original ↗</a></div>
+</article>
+<h3>Publicaciones científicas (PubMed y preprints)</h3>
+<article>
+<h4><a href="https://pubmed.ncbi.nlm.nih.gov/42740952/" target="_blank" rel="noopener">Glaucoma unilateral de inicio infantil asociado al síndrome de Phelan-McDermid.</a></h4>
+<div class="meta"><span class="tag">Caso clínico</span> <span>American journal of ophthalmology case reports · 2026-09-23</span></div>
+<p class="resumen">Este caso destaca los desafíos de evaluar y controlar la hipertensión ocular con preocupación glaucomatosa en un niño médicamente complejo, ya que el reconocimiento temprano y la intervención individualizada pueden controlar eficazmente el glaucoma en el contexto de comorbilidades sistémicas complejas.</p><p class="orig">Título original (inglés): Unilateral childhood-onset glaucoma associated with Phelan-McDermid syndrome.</p>
+<div class="fuente"><a href="https://pubmed.ncbi.nlm.nih.gov/42740952/" target="_blank" rel="noopener">Fuente original ↗</a> &nbsp;·&nbsp; <a href="https://doi.org/10.3390/jpm13030416" target="_blank" rel="noopener">DOI / artículo en la revista ↗</a></div>
+</article>
+<article>
+<h4><a href="https://pubmed.ncbi.nlm.nih.gov/42737971/" target="_blank" rel="noopener">Desregulación neuroinmune y poda sináptica en el trastorno del espectro autista.</a></h4>
+<div class="meta"><span class="tag">Revisión</span> <span>Biology · 2026-09-23</span></div>
+<p class="resumen">El trastorno del espectro autista (Tea) es una afección del desarrollo neurológico caracterizada por déficits de comunicación social y comportamientos repetitivos, que ahora afecta a aproximadamente 1 de cada 31 niños. Si bien tradicionalmente se define conductualmente, el Tea se entiende cada vez más como un trastorno de la conectividad cerebral que surge de la formación y el refinamiento sinápticos alterados.... Por lo tanto, el eje complemento-microglía representa un objetivo mecanicista potencial para futuras investigaciones terapéuticas.</p><p class="orig">Título original (inglés): Neuroimmune Dysregulation and Synaptic Pruning in Autism Spectrum Disorder.</p>
+<div class="fuente"><a href="https://pubmed.ncbi.nlm.nih.gov/42737971/" target="_blank" rel="noopener">Fuente original ↗</a> &nbsp;·&nbsp; <a href="https://doi.org/10.1016/s0140-6736(21)01541-5" target="_blank" rel="noopener">DOI / artículo en la revista ↗</a></div>
+</article>
+<article>
+<h4><a href="https://pubmed.ncbi.nlm.nih.gov/42763459/" target="_blank" rel="noopener">La mutación Shank3 interrumpe la firma molecular de la somnolencia en todo el desarrollo.</a></h4>
+<div class="meta"><span class="tag">Artículo</span> <span>bioRxiv : the preprint server for biology · 2026-09-23</span></div>
+<p class="resumen">La mutación Shank3 ΔC perjudica la acumulación molecular y la respuesta a la somnolencia, tanto al elevar las respuestas al estrés oxidativo como al bloquear la regulación positiva típica de la edad de las vías que difieren entre jóvenes y adultos.</p><p class="orig">Título original (inglés): Shank3 mutation disrupts the molecular signature of sleepiness across development.</p>
+<div class="fuente"><a href="https://pubmed.ncbi.nlm.nih.gov/42763459/" target="_blank" rel="noopener">Fuente original ↗</a> &nbsp;·&nbsp; <a href="https://doi.org/10.1016/j.nbscr.2025.100132" target="_blank" rel="noopener">DOI / artículo en la revista ↗</a></div>
+</article>
+<article>
+<h4><a href="https://pubmed.ncbi.nlm.nih.gov/42650116/" target="_blank" rel="noopener">The Neurobehavioral Profile of Phelan-McDermid Syndrome: Suggestions for Assessment Tools in Light of the 2023 Consensus Guidelines.</a></h4>
+<div class="meta"><span class="tag">Revisión</span> <span>Genes · 2026-09-23</span></div>
+<p class="resumen">Las personas con síndrome de Phelan-McDermid (SPM) presentan una variedad de síntomas, que incluyen una variedad de problemas de comportamiento. La evaluación clínica del comportamiento en el SPM sigue siendo un desafío debido a la sobreabundancia de evaluaciones del comportamiento y la falta de herramientas validadas explícitamente para su uso en personas con discapacidad intelectual (DI) y trastornos del desarrollo neurológico.</p>
+<div class="fuente"><a href="https://pubmed.ncbi.nlm.nih.gov/42650116/" target="_blank" rel="noopener">Fuente original ↗</a> &nbsp;·&nbsp; <a href="https://doi.org/10.1111/1469-7610.00023" target="_blank" rel="noopener">DOI / artículo en la revista ↗</a></div>
+</article>
+<article>
+<h4><a href="https://doi.org/10.64898/2026.09.11.750830" target="_blank" rel="noopener">zAcademy: un campo de condicionamiento programable de código abierto revela el aprendizaje de evitación dependiente del sexo y el genotipo en el pez cebra adulto</a></h4>
+<div class="meta"><span class="tag">Preprint (sin revisión por pares)</span> <span>bioRxiv · 2026-09-16</span></div>
+<p class="resumen">El pez cebra se utiliza ampliamente para estudiar el aprendizaje y la memoria. Aquí, describimos zAcademy, un campo de acondicionamiento programable lanzado en su totalidad como hardware abierto y software abierto.... zAcademy proporciona una plataforma económica, completamente documentada y fácilmente modificada para comparar el cambio de comportamiento dependiente de la experiencia entre genotipos y sexos.</p><p class="orig">Título original (inglés): zAcademy: an open-source programmable conditioning arena reveals sex- and genotype-dependent avoidance learning in adult zebrafish</p>
+<div class="fuente"><a href="https://doi.org/10.64898/2026.09.11.750830" target="_blank" rel="noopener">Fuente original ↗</a></div>
+</article>
+<article>
+<h4><a href="https://doi.org/10.64898/2026.09.03.745468" target="_blank" rel="noopener">&quot;Las respuestas divergentes por sexo al agotamiento microglial sugieren dependencias reguladoras distintas en el cerebro envejecido&quot;</a></h4>
+<div class="meta"><span class="tag">Preprint (sin revisión por pares)</span> <span>bioRxiv · 2026-09-08</span></div>
+<p class="resumen">La microglía es esencial para la homeostasis cerebral, pero sus funciones en el cerebro envejecido siguen estando poco definidas. Mediante el uso de perfiles de microARN (miARN), transcriptómica espacial de resolución celular y proteómica a granel en ratones de 21 meses de edad, caracterizamos las respuestas dimórficas sexuales al agotamiento microglial mediante la inhibición de CSF1R (tratamiento con PLX5622).... Estos datos describen las consecuencias moleculares dimórficas sexuales de la pérdida microglial en el cerebro envejecido e identifican el mecanismo postranscripcional candidato</p><p class="orig">Título original (inglés): “Sex-divergent responses to microglial depletion suggest distinct regulatory dependencies in the aged brain”</p>
+<div class="fuente"><a href="https://doi.org/10.64898/2026.09.03.745468" target="_blank" rel="noopener">Fuente original ↗</a></div>
+</article>
+<article>
+<h4><a href="https://doi.org/10.21203/rs.3.rs-10821151/v1" target="_blank" rel="noopener">Desarrollo social conservado pero función ejecutiva deteriorada en un modelo de rata deficiente en Shank3 del síndrome de Phelan-McDermid</a></h4>
+<div class="meta"><span class="tag">Preprint (sin revisión por pares)</span> <span>Research Square · 2026-09-07</span></div>
+<p class="resumen">El síndrome de Phelan-McDermid (SPM) es un trastorno genético del neurodesarrollo causado por una microdeleción dentro del cromosoma 22q13.3 1-6, y representa ~1-3% de los casos de trastornos del espectro autista (Tea). Las personas con SPM suelen presentar hipotonía neonatal, retraso grave del habla, discapacidad intelectual, discapacidades motoras y características relacionadas con el autismo, aunque son comunes las manifestaciones adicionales como la epilepsia, los trastornos del sueño y la regresión del desarrollo.</p><p class="orig">Título original (inglés): Preserved social development but impaired executive function in a Shank3-deficient rat model of Phelan-McDermid syndrome</p>
+<div class="fuente"><a href="https://doi.org/10.21203/rs.3.rs-10821151/v1" target="_blank" rel="noopener">Fuente original ↗</a></div>
+</article>
+<article>
+<h4><a href="https://doi.org/10.64898/2026.09.01.748311" target="_blank" rel="noopener">La mutación Shank3 altera la codificación del tacto afectivo en la corteza prefrontal medial dorsal de los perros Beagle</a></h4>
+<div class="meta"><span class="tag">Preprint (sin revisión por pares)</span> <span>bioRxiv · 2026-09-05</span></div>
+<p class="resumen">Las personas con trastorno del espectro autista (Tea) a menudo muestran aversión al tacto afectivo (TA). Sin embargo, el mecanismo neural de esta anomalía en las cortezas sigue siendo poco conocido, probablemente debido a la falta de modelos animales eficaces.... En conjunto, estos hallazgos proporcionan mecanismos neuronales para el procesamiento anormal de AT en Tea y sugieren posibles biomarcadores para estrategias terapéuticas.</p><p class="orig">Título original (inglés): Shank3 mutation disrupts affective touch encoding in the dorsal medial prefrontal cortex of Beagle dogs</p>
+<div class="fuente"><a href="https://doi.org/10.64898/2026.09.01.748311" target="_blank" rel="noopener">Fuente original ↗</a></div>
+</article>
+<article>
+<h4><a href="https://doi.org/10.20944/preprints202608.2043.v1" target="_blank" rel="noopener">Síndrome de Phelan-McDermid. Expansión del paisaje genotipo-fenotipo</a></h4>
+<div class="meta"><span class="tag">Preprint (sin revisión por pares)</span> <span>Preprints.org · 2026-08-28</span></div>
+<p class="resumen">El síndrome de Phelan-McDermid (SPM) es un trastorno del neurodesarrollo resultante de la haploinsuficiencia de SHANK3, causado por deleciones de 22q13 que abarcan SHANK3 o variantes de secuencia de SHANK3 patógenas. Si bien las características clínicas principales están bien descritas, las correlaciones genotipo-fenotipo no se comprenden lo suficiente.... Estos hallazgos subrayan la importancia de la estratificación genética en el manejo clínico.</p><p class="orig">Título original (inglés): Phelan-McDermid Syndrome. Expanding the Genotype-Phenotype Landscape</p>
+<div class="fuente"><a href="https://doi.org/10.20944/preprints202608.2043.v1" target="_blank" rel="noopener">Fuente original ↗</a></div>
+</article>
+<article>
+<h4><a href="https://doi.org/10.64898/2026.08.24.746654" target="_blank" rel="noopener">El análisis multitejido integrativo identifica redes genéticas sinápticas específicas para el trastorno depresivo mayor en las mujeres</a></h4>
+<div class="meta"><span class="tag">Preprint (sin revisión por pares)</span> <span>bioRxiv · 2026-08-27</span></div>
+<p class="resumen">El trastorno depresivo mayor (TDM) muestra marcadas diferencias de género en la prevalencia y las firmas moleculares. Los estudios transcriptómicos del tejido cerebral humano post mortem han informado de alteraciones en la expresión de genes relacionados con la sinapsis en el TDM, incluidos los patrones específicos de género.... Sin embargo, se requieren estudios más amplios para confirmar y validar estos resultados.</p><p class="orig">Título original (inglés): Integrative Multi-Tissue Analysis Identifies Synaptic Gene Networks Specific to Major Depressive Disorder in Women</p>
+<div class="fuente"><a href="https://doi.org/10.64898/2026.08.24.746654" target="_blank" rel="noopener">Fuente original ↗</a></div>
+</article>
+<article>
+<h4><a href="https://doi.org/10.21203/rs.3.rs-10661517/v1" target="_blank" rel="noopener">La insuficiencia de Shank3 se asocia con disfunción mitocondrial dependiente de la edad en los compartimentos dendrítico y sináptico</a></h4>
+<div class="meta"><span class="tag">Preprint (sin revisión por pares)</span> <span>Research Square · 2026-08-26</span></div>
+<p class="resumen">SHANK3 es una importante proteína de andamiaje en la post-sinapsis de las neuronas excitadoras y su haploinsuficiencia se asocia con una forma sindrómica de trastorno del espectro autista (Tea) llamada Síndrome de Phelan-McDermid (SPM). Los resultados anteriores han relacionado los niveles insuficientes de Shank3 en la sinapsis con la alteración de la traducción de proteínas que podría deberse, al menos en parte, al suministro limitado de energía por parte de las mitocondrias neuronales defectuosas.</p><p class="orig">Título original (inglés): Shank3 insufficiency is associated with age-dependent mitochondrial dysfunction in dendritic and synaptic compartments</p>
+<div class="fuente"><a href="https://doi.org/10.21203/rs.3.rs-10661517/v1" target="_blank" rel="noopener">Fuente original ↗</a></div>
+</article>
+<article>
+<h4><a href="https://doi.org/10.64898/2026.08.21.746326" target="_blank" rel="noopener">La mutación Shank3 altera la firma molecular de la somnolencia en todo el desarrollo</a></h4>
+<div class="meta"><span class="tag">Preprint (sin revisión por pares)</span> <span>bioRxiv · 2026-08-25</span></div>
+<p class="resumen">Los problemas del sueño son comunes en el autismo, surgen temprano en la vida y reducen la calidad de vida, sin embargo, el vínculo mecanicista entre el autismo y la falta de sueño sigue sin estar claro. Los datos de humanos y roedores indican que la dificultad para conciliar el sueño es una característica central del insomnio autista, y apuntan a las respuestas alteradas a la somnolencia como la causa subyacente.</p><p class="orig">Título original (inglés): Shank3 mutation disrupts the molecular signature of sleepiness across development</p>
+<div class="fuente"><a href="https://doi.org/10.64898/2026.08.21.746326" target="_blank" rel="noopener">Fuente original ↗</a></div>
+</article>
+<h3>Ensayos clínicos (ClinicalTrials.gov)</h3>
+<article>
+<h4><a href="https://clinicaltrials.gov/study/NCT07593391" target="_blank" rel="noopener">Un estudio abierto de NNZ-2591 en participantes pediátricos con síndrome de Phelan-McDermid</a></h4>
+<div class="meta"><span class="tag">Ensayo actualizado · Fase 3</span> <span>Neuren Pharmaceuticals Limited · 2026-09-21 · Estado: Recruiting · Última actualización: 2026-09-21</span></div>
+<p class="resumen">Este estudio multicéntrico de fase 3, de extensión abierta, evaluará la seguridad, tolerabilidad y eficacia a largo plazo de NNZ-2591 en participantes pediátricos con síndrome de Phelan-McDermid.</p><p class="orig">Título original (inglés): An Open-label Study of NNZ-2591 in Pediatric Participants With Phelan-McDermid Syndrome</p>
+<div class="fuente"><a href="https://clinicaltrials.gov/study/NCT07593391" target="_blank" rel="noopener">Fuente original ↗</a></div>
+</article>
+<article>
+<h4><a href="https://clinicaltrials.gov/study/NCT07281079" target="_blank" rel="noopener">Un estudio de NNZ-2591 en participantes pediátricos con síndrome de Phelan-McDermid</a></h4>
+<div class="meta"><span class="tag">Ensayo actualizado · Fase 3</span> <span>Neuren Pharmaceuticals Limited · 2026-09-21 · Estado: Recruiting · Última actualización: 2026-09-21</span></div>
+<p class="resumen">This Phase 3, randomized, double-blind, parallel-group (2-arm), placebo-controlled, multicenter study will evaluate the efficacy and safety of NNZ-2591 compared to placebo in pediatric participants with Phelan- McDermid Syndrome.</p><p class="orig">Título original (inglés): A Study of NNZ-2591 in Pediatric Participants With Phelan-McDermid Syndrome</p>
+<div class="fuente"><a href="https://clinicaltrials.gov/study/NCT07281079" target="_blank" rel="noopener">Fuente original ↗</a></div>
+</article>
+<article>
+<h4><a href="https://clinicaltrials.gov/study/NCT06139172" target="_blank" rel="noopener">Web Intervention for Parents of Youth With Genetic Syndromes (WINGS)</a></h4>
+<div class="meta"><span class="tag">Ensayo actualizado · N/A</span> <span>Rush University Medical Center · 2026-09-18 · Estado: Active not recruiting · Última actualización: 2026-09-18</span></div>
+<p class="resumen">The purpose of this study is to evaluate the effectiveness of an adapted, telehealth functional behavioral therapy (FBTsIDD) specifically focused on promoting appropriate communication and behavioral strategies in individuals with syndromic intellectual and developmental disorders. Participants will be asked to complete virtual study assessments at intake and then on a monthly basis for the duration of 3-6 months.</p>
+<div class="fuente"><a href="https://clinicaltrials.gov/study/NCT06139172" target="_blank" rel="noopener">Fuente original ↗</a></div>
+</article>
+<article>
+<h4><a href="https://clinicaltrials.gov/study/NCT06662188" target="_blank" rel="noopener">JAG201 Gene Therapy Study in Children &amp; Adults With SHANK3 Haploinsufficiency</a></h4>
+<div class="meta"><span class="tag">Ensayo actualizado · Fase 1, Fase 2</span> <span>Jaguar Gene Therapy, LLC · 2026-09-03 · Estado: Recruiting · Última actualización: 2026-09-03</span></div>
+<p class="resumen">This is a Phase 1/2, first in human, open-label, dose-escalation study to evaluate the safety, tolerability, and clinical activity of a single dose of JAG201 administered via intracerebroventricular (ICV) injection in pediatric and adult participants with SHANK3 haploinsufficiency resulting from SHANK3 loss of function mutations and chromosomal deletions encompassing the SHANK3 gene.</p>
+<div class="fuente"><a href="https://clinicaltrials.gov/study/NCT06662188" target="_blank" rel="noopener">Fuente original ↗</a></div>
+</article>
+</section>
+
+<section class="bloque b3" id="organizaciones">
+<h2><span class="num">3</span>Nuevas organizaciones y cuentas Phelan-McDermid</h2>
+<p class="desc">Posibles asociaciones, fundaciones o grupos nuevos en el mundo, detectados en prensa, en las webs de las asociaciones y en redes sociales (Bluesky y Mastodon con fecha de alta; Facebook, Instagram, TikTok, X, YouTube y LinkedIn cuando aparecen enlazadas en webs de asociaciones). Son <strong>avisos para verificar</strong>.</p>
+<p class="aviso">Edición inicial: se han registrado 51 organizaciones, webs y cuentas ya existentes (ver listas de abajo). A partir de la próxima edición, aquí aparecerán solo las <strong>nuevas</strong>.</p>
+<article class="fiable">
+<h4><a href="https://www.22q13.info/pmsgo/" target="_blank" rel="noopener">PMSGO</a></h4>
+<div class="meta"><span class="tag">Posible nueva organización · fuente fiable</span> <span>Phelan-McDermid-Gesellschaft e.V. (PMDG) · Alemania / Austria / Suiza · 2026-08-26</span></div>
+<p class="resumen">Nos complace presentaros la recién fundada PMSGO. La organización Phelan-McDermid Syndrome Global Organisation (PMSGO) es desde hace poco una organización oficial sin ánimo de lucro. Ha sido registrada en Madrid como organización internacional. La organización Phelan-McDermid Syndrome Global Organisation (PMSGO) se remonta a una iniciativa de Sue Lomas, ex presidenta de la Fundación PMS, y los otros miembros fundadores.</p>
+<div class="fuente"><a href="https://www.22q13.info/pmsgo/" target="_blank" rel="noopener">Fuente original ↗</a></div>
+</article>
+<details><summary>Asociaciones vigiladas (24)</summary><div class="tabla"><table><tr><th>País</th><th>Organización</th><th>Novedades</th><th>Redes</th></tr><tr><td>Alemania / Austria / Suiza</td><td><a href="https://www.22q13.info/" target="_blank" rel="noopener">Phelan-McDermid-Gesellschaft e.V. (PMDG)</a></td><td><a href="https://www.22q13.info/category/verein/" target="_blank" rel="noopener">Noticias</a></td><td></td></tr><tr><td>Argentina</td><td><a href="https://www.instagram.com/phelanmcdermidargentina/" target="_blank" rel="noopener">Phelan-McDermid Argentina</a></td><td></td><td><a href="https://www.instagram.com/phelanmcdermidargentina/" target="_blank" rel="noopener">Instagram</a></td></tr><tr><td>Argentina</td><td><a href="https://www.instagram.com/sindromephelan/" target="_blank" rel="noopener">Síndrome Phelan Argentina</a></td><td></td><td><a href="https://www.instagram.com/sindromephelan/" target="_blank" rel="noopener">Instagram</a></td></tr><tr><td>Australia y Nueva Zelanda</td><td><a href="https://pmsfaustralia.org.au/" target="_blank" rel="noopener">Phelan-McDermid Syndrome Foundation Australia (PMSF Australia)</a></td><td><a href="https://pmsfaustralia.org.au/" target="_blank" rel="noopener">Noticias</a></td><td><a href="https://www.facebook.com/PMSFAustralia/" target="_blank" rel="noopener">Facebook</a> <a href="https://www.instagram.com/pmsfaustralia/" target="_blank" rel="noopener">Instagram</a> <a href="https://www.youtube.com/@PMSF22q13" target="_blank" rel="noopener">Youtube</a></td></tr><tr><td>Brasil</td><td><a href="https://pmsbrasil.org.br/" target="_blank" rel="noopener">Phelan-McDermid Brasil (AFSPM - Amigos e Familiares da Síndrome de Phelan-McDermid)</a></td><td><a href="https://pmsbrasil.org.br/blog/" target="_blank" rel="noopener">Noticias</a></td><td><a href="https://www.facebook.com/phelanmcdermidbrasil" target="_blank" rel="noopener">Facebook</a> <a href="https://www.instagram.com/sindromephelanmcdermidbrasil/" target="_blank" rel="noopener">Instagram</a> <a href="https://www.youtube.com/channel/UChHOtOieTkqb175zhbfSPFA" target="_blank" rel="noopener">Youtube</a> <a href="https://www.linkedin.com/in/pmsbrasil/" target="_blank" rel="noopener">Linkedin</a></td></tr><tr><td>Canadá</td><td><a href="https://pmsfcanada.org/en/" target="_blank" rel="noopener">Phelan McDermid Syndrome Foundation Canada / Fondation du syndrome Phelan-McDermid</a></td><td><a href="https://pmsfcanada.org/en/news/" target="_blank" rel="noopener">Noticias</a></td><td></td></tr><tr><td>Chile</td><td><a href="https://www.instagram.com/phelanmcdermid.chile/" target="_blank" rel="noopener">Phelan-McDermid Chile</a></td><td></td><td><a href="https://www.instagram.com/phelanmcdermid.chile/" target="_blank" rel="noopener">Instagram</a></td></tr><tr><td>España</td><td><a href="https://22q13.org.es/" target="_blank" rel="noopener">Asociación Síndrome Phelan-McDermid (ASPM)</a></td><td><a href="https://22q13.org.es/noticias/" target="_blank" rel="noopener">Noticias</a></td><td><a href="https://www.facebook.com/AsociacionPhelanMcDermid" target="_blank" rel="noopener">Facebook</a> <a href="https://www.instagram.com/sindromephelan/" target="_blank" rel="noopener">Instagram</a> <a href="https://twitter.com/phelanmcdermid" target="_blank" rel="noopener">X</a> <a href="https://www.youtube.com/channel/UCVw-rXJGAnMAyQfBx3s9j9Q" target="_blank" rel="noopener">Youtube</a> <a href="https://www.linkedin.com/company/asociaci%C3%B3n-s%C3%ADndrome-phelan-mcdermid-espa%C3%B1a/" target="_blank" rel="noopener">Linkedin</a></td></tr><tr><td>Estados Unidos (internacional)</td><td><a href="https://pmsf.org/" target="_blank" rel="noopener">Phelan-McDermid Syndrome Foundation (PMSF)</a></td><td><a href="https://pmsf.org/pmsf-blog/" target="_blank" rel="noopener">Noticias</a></td><td><a href="https://www.facebook.com/PMSF22q13" target="_blank" rel="noopener">Facebook</a> <a href="https://www.instagram.com/pmsf_official/" target="_blank" rel="noopener">Instagram</a> <a href="https://twitter.com/Phelan_McDermid" target="_blank" rel="noopener">X</a> <a href="https://www.youtube.com/c/phelanmcdermidsyndromefoundation" target="_blank" rel="noopener">Youtube</a> <a href="https://www.linkedin.com/company/phelan-mcdermidsyndromefoundation/" target="_blank" rel="noopener">Linkedin</a></td></tr><tr><td>Estados Unidos (investigación)</td><td><a href="https://cureshank.org/" target="_blank" rel="noopener">CureSHANK</a></td><td><a href="https://cureshank.org/news" target="_blank" rel="noopener">Noticias</a></td><td><a href="https://www.facebook.com/CureSHANK" target="_blank" rel="noopener">Facebook</a> <a href="https://www.instagram.com/cureshank/" target="_blank" rel="noopener">Instagram</a> <a href="https://twitter.com/CureSHANK" target="_blank" rel="noopener">X</a> <a href="https://www.youtube.com/@cureshank" target="_blank" rel="noopener">Youtube</a> <a href="https://www.linkedin.com/company/cureshank/" target="_blank" rel="noopener">Linkedin</a></td></tr><tr><td>Estados Unidos (investigación)</td><td><a href="https://icahn.mssm.edu/research/seaver" target="_blank" rel="noopener">Seaver Autism Center for Research and Treatment (Icahn School of Medicine at Mount Sinai)</a></td><td><a href="https://icahn.mssm.edu/research/seaver" target="_blank" rel="noopener">Noticias</a></td><td></td></tr><tr><td>Estados Unidos (investigación)</td><td><a href="https://www.simonssearchlight.org/" target="_blank" rel="noopener">Simons Searchlight</a></td><td><a href="https://www.simonssearchlight.org/" target="_blank" rel="noopener">Noticias</a></td><td><a href="https://www.facebook.com/SimonsSearchlight/" target="_blank" rel="noopener">Facebook</a> <a href="https://x.com/s_searchlight" target="_blank" rel="noopener">X</a> <a href="https://www.youtube.com/@SimonsSearchlight" target="_blank" rel="noopener">Youtube</a> <a href="https://www.linkedin.com/company/simons-searchlight/" target="_blank" rel="noopener">Linkedin</a></td></tr><tr><td>Francia</td><td><a href="https://22q13.fr/" target="_blank" rel="noopener">Association Française du Syndrome Phelan-McDermid (AFSPM)</a></td><td><a href="https://22q13.fr/rassemblements" target="_blank" rel="noopener">Noticias</a></td><td><a href="https://x.com/22q13_france" target="_blank" rel="noopener">X</a> <a href="https://www.youtube.com/channel/UCWNL_uSMrM--j3ZG1vH4hGA" target="_blank" rel="noopener">Youtube</a></td></tr><tr><td>Francia</td><td><a href="https://www.vie-de-tehani.org/" target="_blank" rel="noopener">Tehani et les enfants Phelan-McDermid</a></td><td><a href="https://www.vie-de-tehani.org/actualit%C3%A9" target="_blank" rel="noopener">Noticias</a></td><td><a href="https://www.facebook.com/AssoTehaniPMS/" target="_blank" rel="noopener">Facebook</a> <a href="https://www.instagram.com/tehanipms/" target="_blank" rel="noopener">Instagram</a> <a href="https://www.youtube.com/channel/UC9l4ndh4YnerjckC60egP4Q" target="_blank" rel="noopener">Youtube</a></td></tr><tr><td>Grecia</td><td><a href="https://www.22q13.gr/" target="_blank" rel="noopener">Phelan-McDermid Greek Association</a></td><td><a href="https://www.22q13.gr/" target="_blank" rel="noopener">Noticias</a></td><td><a href="https://www.facebook.com/profile.php?id=100087680808038" target="_blank" rel="noopener">Facebook</a> <a href="https://www.linkedin.com/company/phelan-mcdermid-greek-association/" target="_blank" rel="noopener">Linkedin</a></td></tr><tr><td>Internacional (EE.UU./Canadá)</td><td><a href="https://c22c.org/" target="_blank" rel="noopener">Chromosome 22 Central (C22C)</a></td><td><a href="https://c22c.org/blog/" target="_blank" rel="noopener">Noticias</a></td><td><a href="https://www.facebook.com/chromosome22central" target="_blank" rel="noopener">Facebook</a> <a href="https://www.instagram.com/chromosome22central" target="_blank" rel="noopener">Instagram</a> <a href="https://x.com/c22central" target="_blank" rel="noopener">X</a> <a href="https://www.youtube.com/@chromosome22central80" target="_blank" rel="noopener">Youtube</a></td></tr><tr><td>Italia</td><td><a href="https://www.aisphem.it/" target="_blank" rel="noopener">Associazione Italiana per la Sindrome di Phelan-McDermid (AISPHEM ODV)</a></td><td><a href="https://www.aisphem.it/index.php/archivio-news" target="_blank" rel="noopener">Noticias</a></td><td><a href="https://www.facebook.com/Associazione-Italiana-Sindrome-di-Phelan-McDermid-481171518584067/" target="_blank" rel="noopener">Facebook</a></td></tr><tr><td>Países Bajos</td><td><a href="https://www.phelanmcdermid.nl/" target="_blank" rel="noopener">Phelan-McDermid Wijzer</a></td><td><a href="https://www.phelanmcdermid.nl/nieuws" target="_blank" rel="noopener">Noticias</a></td><td></td></tr><tr><td>Polonia</td><td><a href="https://sedeka.pl/opp/felaniatka" target="_blank" rel="noopener">Felaniątka (grupo dentro de Fundacja Sedeka)</a></td><td><a href="https://sedeka.pl/blog" target="_blank" rel="noopener">Noticias</a></td><td><a href="https://www.facebook.com/fundacjasedeka" target="_blank" rel="noopener">Facebook</a> <a href="https://www.instagram.com/fundacja_sedeka" target="_blank" rel="noopener">Instagram</a> <a href="https://www.youtube.com/channel/UCio8gGirjI1sibQimrsLMxQ" target="_blank" rel="noopener">Youtube</a></td></tr><tr><td>Portugal</td><td><a href="https://phelan-mcdermid.pt/" target="_blank" rel="noopener">Associação Phelan-McDermid Portugal (APMP)</a></td><td><a href="https://phelan-mcdermid.pt/investigacao/artigos-recentes/" target="_blank" rel="noopener">Noticias</a></td><td><a href="https://www.instagram.com/phelanmcdermid_portugal/" target="_blank" rel="noopener">Instagram</a> <a href="https://x.com/PMS_Portugal" target="_blank" rel="noopener">X</a> <a href="https://www.youtube.com/channel/UC1dVnR3hk7gYTpRyTmsqQow" target="_blank" rel="noopener">Youtube</a> <a href="https://www.tiktok.com/@phelanmcdermidportugal" target="_blank" rel="noopener">Tiktok</a> <a href="https://www.linkedin.com/company/associa%C3%A7%C3%A3o-phelan-mcdermid-portugal" target="_blank" rel="noopener">Linkedin</a></td></tr><tr><td>Reino Unido (internacional)</td><td><a href="https://rarechromo.org/" target="_blank" rel="noopener">Unique - Rare Chromosome Disorder Support Group</a></td><td><a href="https://rarechromo.org/" target="_blank" rel="noopener">Noticias</a></td><td><a href="https://www.facebook.com/Uniquerarechromosomedisordersupportgroup/" target="_blank" rel="noopener">Facebook</a> <a href="https://www.instagram.com/unique_charity/" target="_blank" rel="noopener">Instagram</a> <a href="https://twitter.com/Unique_charity" target="_blank" rel="noopener">X</a> <a href="https://www.youtube.com/@unique-rarechromosomedisor2970" target="_blank" rel="noopener">Youtube</a></td></tr><tr><td>Reino Unido e Irlanda</td><td><a href="https://www.pmsf.org.uk/" target="_blank" rel="noopener">Phelan-McDermid Syndrome Foundation UK (PMSF UK)</a></td><td><a href="https://www.pmsf.org.uk/upcoming-events" target="_blank" rel="noopener">Noticias</a></td><td><a href="http://www.facebook.com/pmsfuk" target="_blank" rel="noopener">Facebook</a> <a href="http://www.instagram.com/pmsfuk" target="_blank" rel="noopener">Instagram</a> <a href="http://twitter.com/pmsfuk" target="_blank" rel="noopener">X</a></td></tr><tr><td>Suecia</td><td><a href="https://pmss.se/" target="_blank" rel="noopener">Föreningen Phelan-McDermids Syndrom Sverige (PMSS)</a></td><td><a href="https://pmss.se/" target="_blank" rel="noopener">Noticias</a></td><td><a href="https://www.instagram.com/pms_sverige/" target="_blank" rel="noopener">Instagram</a></td></tr><tr><td>Unión Europea (red de investigación/clínica)</td><td><a href="https://ern-ithaca.eu/" target="_blank" rel="noopener">ERN ITHACA (European Reference Network on rare congenital malformations and intellectual disability)</a></td><td><a href="https://ern-ithaca.eu/events-news/news/" target="_blank" rel="noopener">Noticias</a></td><td><a href="https://twitter.com/ERNIthaca" target="_blank" rel="noopener">X</a> <a href="https://www.linkedin.com/company/ithaca-european-reference-network-on-congenital-malformations-ans-rare-intellectual-disability/" target="_blank" rel="noopener">Linkedin</a></td></tr></table></div></details>
+<details><summary>Cuentas y webs registradas (51)</summary><div class="tabla"><table><tr><th>Red</th><th>Cuenta / web</th><th>Creada</th></tr><tr><td>Bluesky</td><td><a href="https://bsky.app/profile/jramonfernandez.bsky.social" target="_blank" rel="noopener">Joserra</a></td><td>2024-01-02</td></tr><tr><td>Bluesky</td><td><a href="https://bsky.app/profile/drlauren-cso.bsky.social" target="_blank" rel="noopener">Lauren M. Schmitt, PhD</a></td><td>2024-12-07</td></tr><tr><td>Facebook</td><td><a href="https://facebook.com/AsociacionPhelanMcDermid" target="_blank" rel="noopener">AsociacionPhelanMcDermid</a></td><td></td></tr><tr><td>Facebook</td><td><a href="https://facebook.com/Associazione-Italiana-Sindrome-di-Phelan-McDermid-481171518584067" target="_blank" rel="noopener">Associazione-Italiana-Sindrome-di-Phelan-McDermid-481171518584067</a></td><td></td></tr><tr><td>Facebook</td><td><a href="https://facebook.com/AssoTehaniPMS" target="_blank" rel="noopener">AssoTehaniPMS</a></td><td></td></tr><tr><td>Facebook</td><td><a href="https://facebook.com/CureSHANK" target="_blank" rel="noopener">CureSHANK</a></td><td></td></tr><tr><td>Facebook</td><td><a href="https://facebook.com/fundacjasedeka" target="_blank" rel="noopener">fundacjasedeka</a></td><td></td></tr><tr><td>Facebook</td><td><a href="https://facebook.com/phelanmcdermidbrasil" target="_blank" rel="noopener">phelanmcdermidbrasil</a></td><td></td></tr><tr><td>Facebook</td><td><a href="https://facebook.com/PMSF22q13" target="_blank" rel="noopener">PMSF22q13</a></td><td></td></tr><tr><td>Facebook</td><td><a href="https://facebook.com/PMSFAustralia" target="_blank" rel="noopener">PMSFAustralia</a></td><td></td></tr><tr><td>Facebook</td><td><a href="https://facebook.com/pmsfuk" target="_blank" rel="noopener">pmsfuk</a></td><td></td></tr><tr><td>Facebook</td><td><a href="https://facebook.com/SimonsSearchlight" target="_blank" rel="noopener">SimonsSearchlight</a></td><td></td></tr><tr><td>Facebook</td><td><a href="https://facebook.com/Uniquerarechromosomedisordersupportgroup" target="_blank" rel="noopener">Uniquerarechromosomedisordersupportgroup</a></td><td></td></tr><tr><td>Instagram</td><td><a href="https://instagram.com/cureshank" target="_blank" rel="noopener">cureshank</a></td><td></td></tr><tr><td>Instagram</td><td><a href="https://instagram.com/fundacja_sedeka" target="_blank" rel="noopener">fundacja_sedeka</a></td><td></td></tr><tr><td>Instagram</td><td><a href="https://instagram.com/pms_sverige" target="_blank" rel="noopener">pms_sverige</a></td><td></td></tr><tr><td>Instagram</td><td><a href="https://instagram.com/pmsf_official" target="_blank" rel="noopener">pmsf_official</a></td><td></td></tr><tr><td>Instagram</td><td><a href="https://instagram.com/pmsfaustralia" target="_blank" rel="noopener">pmsfaustralia</a></td><td></td></tr><tr><td>Instagram</td><td><a href="https://instagram.com/pmsfuk" target="_blank" rel="noopener">pmsfuk</a></td><td></td></tr><tr><td>Instagram</td><td><a href="https://instagram.com/sindromephelan" target="_blank" rel="noopener">sindromephelan</a></td><td></td></tr><tr><td>Instagram</td><td><a href="https://instagram.com/sindromephelanmcdermidbrasil" target="_blank" rel="noopener">sindromephelanmcdermidbrasil</a></td><td></td></tr><tr><td>Instagram</td><td><a href="https://instagram.com/tehanipms" target="_blank" rel="noopener">tehanipms</a></td><td></td></tr><tr><td>Instagram</td><td><a href="https://instagram.com/unique_charity" target="_blank" rel="noopener">unique_charity</a></td><td></td></tr><tr><td>LinkedIn</td><td><a href="https://linkedin.com/company/45663169" target="_blank" rel="noopener">company/45663169</a></td><td></td></tr><tr><td>LinkedIn</td><td><a href="https://linkedin.com/company/asociación-síndrome-phelan-mcdermid-españa" target="_blank" rel="noopener">company/asociación-síndrome-phelan-mcdermid-españa</a></td><td></td></tr><tr><td>LinkedIn</td><td><a href="https://linkedin.com/company/cureshank" target="_blank" rel="noopener">company/cureshank</a></td><td></td></tr><tr><td>LinkedIn</td><td><a href="https://linkedin.com/company/ithaca-european-reference-network-on-congenital-malformations-ans-rare-intellectual-disability" target="_blank" rel="noopener">company/ithaca-european-reference-network-on-congenital-malformations-ans-rare-intellectual-disability</a></td><td></td></tr><tr><td>LinkedIn</td><td><a href="https://linkedin.com/company/phelan-mcdermid-greek-association" target="_blank" rel="noopener">company/phelan-mcdermid-greek-association</a></td><td></td></tr><tr><td>LinkedIn</td><td><a href="https://linkedin.com/company/phelan-mcdermidsyndromefoundation" target="_blank" rel="noopener">company/phelan-mcdermidsyndromefoundation</a></td><td></td></tr><tr><td>LinkedIn</td><td><a href="https://linkedin.com/company/simons-searchlight" target="_blank" rel="noopener">company/simons-searchlight</a></td><td></td></tr><tr><td>LinkedIn</td><td><a href="https://linkedin.com/in/pmsbrasil" target="_blank" rel="noopener">in/pmsbrasil</a></td><td></td></tr><tr><td>Mastodon</td><td><a href="https://nicuverse.org/@jramonfernandez" target="_blank" rel="noopener">José Ramón Fernández Fructuoso</a></td><td>2022-11-11</td></tr><tr><td>X</td><td><a href="https://x.com/22q13_france" target="_blank" rel="noopener">22q13_france</a></td><td></td></tr><tr><td>X</td><td><a href="https://twitter.com/cureshank" target="_blank" rel="noopener">cureshank</a></td><td></td></tr><tr><td>X</td><td><a href="https://twitter.com/ERNIthaca" target="_blank" rel="noopener">ERNIthaca</a></td><td></td></tr><tr><td>X</td><td><a href="https://twitter.com/Phelan_McDermid" target="_blank" rel="noopener">Phelan_McDermid</a></td><td></td></tr><tr><td>X</td><td><a href="https://twitter.com/phelanmcdermid" target="_blank" rel="noopener">phelanmcdermid</a></td><td></td></tr><tr><td>X</td><td><a href="https://twitter.com/pmsfuk" target="_blank" rel="noopener">pmsfuk</a></td><td></td></tr><tr><td>X</td><td><a href="https://x.com/s_searchlight" target="_blank" rel="noopener">s_searchlight</a></td><td></td></tr><tr><td>X</td><td><a href="https://twitter.com/unique_charity" target="_blank" rel="noopener">unique_charity</a></td><td></td></tr><tr><td>YouTube</td><td><a href="https://youtube.com/@cureshank" target="_blank" rel="noopener">@cureshank</a></td><td></td></tr><tr><td>YouTube</td><td><a href="https://youtube.com/@PMSF22q13" target="_blank" rel="noopener">@PMSF22q13</a></td><td></td></tr><tr><td>YouTube</td><td><a href="https://youtube.com/@SimonsSearchlight" target="_blank" rel="noopener">@SimonsSearchlight</a></td><td></td></tr><tr><td>YouTube</td><td><a href="https://youtube.com/@unique-rarechromosomedisor2970" target="_blank" rel="noopener">@unique-rarechromosomedisor2970</a></td><td></td></tr><tr><td>YouTube</td><td><a href="https://youtube.com/c/phelanmcdermidsyndromefoundation" target="_blank" rel="noopener">c/phelanmcdermidsyndromefoundation</a></td><td></td></tr><tr><td>YouTube</td><td><a href="https://youtube.com/channel/UC-MRnjagSEpBvvwP9jbosfA" target="_blank" rel="noopener">channel/UC-MRnjagSEpBvvwP9jbosfA</a></td><td></td></tr><tr><td>YouTube</td><td><a href="https://youtube.com/channel/UC9l4ndh4YnerjckC60egP4Q" target="_blank" rel="noopener">channel/UC9l4ndh4YnerjckC60egP4Q</a></td><td></td></tr><tr><td>YouTube</td><td><a href="https://youtube.com/channel/UChHOtOieTkqb175zhbfSPFA" target="_blank" rel="noopener">channel/UChHOtOieTkqb175zhbfSPFA</a></td><td></td></tr><tr><td>YouTube</td><td><a href="https://youtube.com/channel/UCio8gGirjI1sibQimrsLMxQ" target="_blank" rel="noopener">channel/UCio8gGirjI1sibQimrsLMxQ</a></td><td></td></tr><tr><td>YouTube</td><td><a href="https://youtube.com/channel/UCVw-rXJGAnMAyQfBx3s9j9Q" target="_blank" rel="noopener">channel/UCVw-rXJGAnMAyQfBx3s9j9Q</a></td><td></td></tr><tr><td>YouTube</td><td><a href="https://youtube.com/channel/UCWNL_uSMrM--j3ZG1vH4hGA" target="_blank" rel="noopener">channel/UCWNL_uSMrM--j3ZG1vH4hGA</a></td><td></td></tr></table></div></details>
+</section>
+
+<section class="bloque archivo" id="archivo">
+<h2>Ediciones anteriores</h2>
+<p class="vacio">Esta es la primera edición.</p>
+</section>
+
+<footer>
+<p>Generado automáticamente el 23/09/2026 11:10 a partir de las webs de las asociaciones Phelan-McDermid, Google News, Bing News, PubMed, Europe PMC, ClinicalTrials.gov, Bluesky y Mastodon.
+Traducción automática: puede contener errores; el enlace «Fuente original» lleva siempre al texto de origen.
+Este boletín es informativo y no sustituye el consejo médico.</p>
+<p><a href="https://22q13.org.es" target="_blank" rel="noopener">22q13.org.es</a> · <a href="../index.html">Última edición</a> · <a href="../feed.xml">RSS</a></p>
+</footer>
+</div></body></html>
