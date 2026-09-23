@@ -47,15 +47,17 @@
     "pais": "España",
     "web": "https://22q13.org.es/",
     "noticias": "https://22q13.org.es/noticias/",
-    "feed": "https://22q13.org.es/feed/",
-    "tipo_feed": "rss",
+    "feed": null,
+    "tipo_feed": "none",
     "redes": {
       "facebook": "https://www.facebook.com/AsociacionPhelanMcDermid",
       "instagram": "https://www.instagram.com/sindromephelan/",
       "x": "https://twitter.com/phelanmcdermid",
       "youtube": "https://www.youtube.com/channel/UCVw-rXJGAnMAyQfBx3s9j9Q",
       "linkedin": "https://www.linkedin.com/company/asociaci%C3%B3n-s%C3%ADndrome-phelan-mcdermid-espa%C3%B1a/"
-    }
+    },
+    "propia": true,
+    "notas": "Asociación propia: no se usa como fuente de noticias (sí se vigilan sus menciones en prensa)."
   },
   {
     "nombre": "Phelan-McDermid-Gesellschaft e.V. (PMDG)",

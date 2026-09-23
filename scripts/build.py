@@ -436,9 +436,6 @@ CSS = """
 :root{--bg:#f4f7f2;--card:#ffffff;--ink:#1f2a22;--muted:#56645a;--line:#dde6d8;
 --verde-osc:#004b23;--verde:#1a692d;--verde-vivo:#38b000;--lima:#a8d144;--lima-suave:#eef7dc;
 --head-bg:#004b23;--head-ink:#ffffff;--link:#1a692d;--tag-bg:#e3f1cf;--tag-ink:#1a692d;--fiable:#38b000}
-@media (prefers-color-scheme:dark){:root{--bg:#0f1611;--card:#172019;--ink:#e6eee6;--muted:#9fb0a3;--line:#29362c;
---verde-osc:#8fd46a;--verde:#7cc95a;--verde-vivo:#a8d144;--lima-suave:#1d2b1c;--head-bg:#0a2e17;--head-ink:#f1f7ee;
---link:#a8d144;--tag-bg:#243620;--tag-ink:#bfe38a;--fiable:#a8d144}}
 *{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 Manrope,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
 h1,h2,h3,h4{font-family:Montserrat,Manrope,Arial,sans-serif}
@@ -534,7 +531,7 @@ def lista(items, vacio, destacado=False):
 
 def tabla_asociaciones(asociaciones):
     filas = []
-    for a in sorted(asociaciones, key=lambda x: (x.get("pais", ""), x["nombre"])):
+    for a in sorted((x for x in asociaciones if not x.get("propia")), key=lambda x: (x.get("pais", ""), x["nombre"])):
         redes = " ".join('<a href="%s" target="_blank" rel="noopener">%s</a>' % (e(u), e(r.capitalize()))
                          for r, u in (a.get("redes") or {}).items() if u)
         noticias = ('<a href="%s" target="_blank" rel="noopener">Noticias</a>' % e(a["noticias"])) if a.get("noticias") else ""
@@ -569,6 +566,7 @@ def pagina(ed, cfg, fechas, asociaciones, cuentas, ruta_raiz=""):
                   % ed["registro_inicial"])
     return """<!doctype html>
 <html lang="es"><head><meta charset="utf-8">
+<meta name="color-scheme" content="light">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>%(titulo)s</title>
 <meta name="description" content="%(sub)s">
@@ -645,7 +643,7 @@ Este boletín es informativo y no sustituye el consejo médico.</p>
         "asocc": lista(b["asoc_ciencia"], sin), "avan": lista(b["avances"], sin),
         "publ": lista(b["publicaciones"], sin), "ensa": lista(b["ensayos"], sin),
         "orgs": lista(b["organizaciones"], "No se han detectado organizaciones ni cuentas nuevas desde la edición anterior."),
-        "aviso3": aviso3, "nasoc": len(asociaciones), "tasoc": tabla_asociaciones(asociaciones),
+        "aviso3": aviso3, "nasoc": sum(not a.get("propia") for a in asociaciones), "tasoc": tabla_asociaciones(asociaciones),
         "ncuentas": len(cuentas), "tcuentas": tabla_cuentas(cuentas),
         "archivo": "<ul>%s</ul>" % archivo if archivo else '<p class="vacio">Esta es la primera edición.</p>',
         "gen": e(ed.get("generado", "")),
@@ -729,6 +727,13 @@ def main():
     # Evita repetir en prensa lo que ya viene de la web de la asociación
     claves_asoc = {clave_titulo(a["titulo"]) for a in art_asoc}
     asociacion = [n for n in asociacion if clave_titulo(n["titulo"]) not in claves_asoc]
+
+    # Fuera lo publicado en webs propias (dominios_excluidos)
+    excluidos = tuple(cfg.get("dominios_excluidos", []))
+    def ajeno(it):
+        return not any(d in urllib.parse.urlparse(it["link"]).netloc for d in excluidos)
+    asociacion, menciones, avances = [x for x in asociacion if ajeno(x)], [x for x in menciones if ajeno(x)], [x for x in avances if ajeno(x)]
+    asoc_noticias, asoc_ciencia = [x for x in asoc_noticias if ajeno(x)], [x for x in asoc_ciencia if ajeno(x)]
 
     # --- Ciencia
     log("Publicaciones y ensayos")

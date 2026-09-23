@@ -118,5 +118,8 @@
   ],
   "bloque3_directorios": [
     "https://phelan-mcdermid.eu/phelan-mcdermid-syndrome-in-europe/"
+  ],
+  "dominios_excluidos": [
+    "22q13.org.es"
   ]
 }

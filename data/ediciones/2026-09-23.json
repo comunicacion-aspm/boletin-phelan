@@ -2,20 +2,6 @@
  "bloques": {
   "asoc_ciencia": [
    {
-    "fecha": "2026-09-18",
-    "fuente_fiable": true,
-    "id": "asoc:https://22q13.org.es/participamos-en-el-xi-congreso-internacional-de-medicamentos-huerfanos-y-enfermedades-raras",
-    "idioma": "es",
-    "link": "https://22q13.org.es/participamos-en-el-xi-congreso-internacional-de-medicamentos-huerfanos-y-enfermedades-raras/",
-    "medio": "Asociación Síndrome Phelan-McDermid (ASPM) · España",
-    "resumen": "Nuestra entidad no solo estuvo presente en este importante encuentro científico organizado por FEDER, celebrado en la ciudad de Sevilla, dentro de la Fundación Cajasol, los días 17 y 18 de septiembre, sino que participó de forma activa presentando un póster científico sobre el síndrome y contando con la representación de nuestra delegada en Andalucía […]",
-    "resumen_es": "Nuestra entidad no solo estuvo presente en este importante encuentro científico organizado por FEDER, celebrado en la ciudad de Sevilla, dentro de la Fundación Cajasol, los días 17 y 18 de septiembre, sino que participó de forma activa presentando un póster científico sobre el síndrome y contando con la representación de nuestra delegada en Andalucía […]",
-    "sin_traducir": false,
-    "tipo": "Fuente fiable · asociación",
-    "titulo": "Participamos en el XI Congreso Internacional de Medicamentos Huérfanos y Enfermedades Raras",
-    "titulo_es": "Participamos en el XI Congreso Internacional de Medicamentos Huérfanos y Enfermedades Raras"
-   },
-   {
     "fecha": "2026-09-14",
     "fuente_fiable": true,
     "id": "asoc:https://cureshank.org/news/finish-line-newsletter-september-2026",
@@ -60,62 +46,6 @@
   ],
   "asoc_noticias": [
    {
-    "fecha": "2026-09-21",
-    "fuente_fiable": true,
-    "id": "asoc:https://22q13.org.es/reunion-del-movimiento-asociativo-de-feder-en-canarias",
-    "idioma": "es",
-    "link": "https://22q13.org.es/reunion-del-movimiento-asociativo-de-feder-en-canarias/",
-    "medio": "Asociación Síndrome Phelan-McDermid (ASPM) · España",
-    "resumen": "Hoy, lunes 21 de septiembre, ha tenido lugar lugar la reunión del Movimiento Asociativo (MMAA) de Canarias de la Federación Española de Enfermedades Raras (FEDER), un espacio clave de coordinación interasociativa para el análisis y defensa de los derechos de las personas con patologías poco frecuentes en la comunidad autónoma. La Asociación Síndrome Phelan-McDermid estuvo […]",
-    "resumen_es": "Hoy, lunes 21 de septiembre, ha tenido lugar lugar la reunión del Movimiento Asociativo (MMAA) de Canarias de la Federación Española de Enfermedades Raras (FEDER), un espacio clave de coordinación interasociativa para el análisis y defensa de los derechos de las personas con patologías poco frecuentes en la comunidad autónoma. La Asociación Síndrome Phelan-McDermid estuvo […]",
-    "sin_traducir": false,
-    "tipo": "Fuente fiable · asociación",
-    "titulo": "Reunión del Movimiento Asociativo de FEDER en Canarias",
-    "titulo_es": "Reunión del Movimiento Asociativo de FEDER en Canarias"
-   },
-   {
-    "fecha": "2026-09-21",
-    "fuente_fiable": true,
-    "id": "asoc:https://22q13.org.es/maraton-solidario-de-zumba-en-boadilla",
-    "idioma": "es",
-    "link": "https://22q13.org.es/maraton-solidario-de-zumba-en-boadilla/",
-    "medio": "Asociación Síndrome Phelan-McDermid (ASPM) · España",
-    "resumen": "Ayer, domingo 20 de septiembre, la explanada del emblemático Palacio del Infante D. Luis en Boadilla del Monte se convirtió en un escenario repleto de energía, música y esperanza con la celebración del Maratón Solidario de Zumba a beneficio de nuestra entidad. La jornada reunió a familias, vecinos y amantes del deporte de todas las […]",
-    "resumen_es": "Ayer, domingo 20 de septiembre, la explanada del emblemático Palacio del Infante D. Luis en Boadilla del Monte se convirtió en un escenario repleto de energía, música y esperanza con la celebración del Maratón Solidario de Zumba a beneficio de nuestra entidad. La jornada reunió a familias, vecinos y amantes del deporte de todas las […]",
-    "sin_traducir": false,
-    "tipo": "Fuente fiable · asociación",
-    "titulo": "Maratón solidario de Zumba en Boadilla",
-    "titulo_es": "Maratón solidario de Zumba en Boadilla"
-   },
-   {
-    "fecha": "2026-09-15",
-    "fuente_fiable": true,
-    "id": "asoc:https://22q13.org.es/la-xv-proano-trail-suma-km-solidarios-por-la-aspm",
-    "idioma": "es",
-    "link": "https://22q13.org.es/la-xv-proano-trail-suma-km-solidarios-por-la-aspm/",
-    "medio": "Asociación Síndrome Phelan-McDermid (ASPM) · España",
-    "resumen": "El pasado domingo 13 de septiembre se celebró una emocionante jornada deportiva en la que el deporte y la solidaridad volvieron a correr de la mano gracias a ACD Proaño y la Proaño Trail. La Proaño Trail es una emblemática carrera de montaña organizada por la ACD Proaño en Cantabria que discurre íntegramente por senderos […]",
-    "resumen_es": "El pasado domingo 13 de septiembre se celebró una emocionante jornada deportiva en la que el deporte y la solidaridad volvieron a correr de la mano gracias a ACD Proaño y la Proaño Trail. La Proaño Trail es una emblemática carrera de montaña organizada por la ACD Proaño en Cantabria que discurre íntegramente por senderos […]",
-    "sin_traducir": false,
-    "tipo": "Fuente fiable · asociación",
-    "titulo": "La XV Proaño Trail colabora de nuevo con la Asociación Síndrome Phelan-McDermid",
-    "titulo_es": "La XV Proaño Trail colabora de nuevo con la Asociación Síndrome Phelan-McDermid"
-   },
-   {
-    "fecha": "2026-09-03",
-    "fuente_fiable": true,
-    "id": "asoc:https://22q13.org.es/run-like-a-hero-2026-dorsales-ya-disponibles",
-    "idioma": "pt",
-    "link": "https://22q13.org.es/run-like-a-hero-2026-dorsales-ya-disponibles/",
-    "medio": "Asociación Síndrome Phelan-McDermid (ASPM) · España",
-    "resumen": "La ASPM (Asociación Síndrome Phelan-McDermid) da el pistoletazo a la nueva temporada de Run Like a Hero el 1 de septiembre, momento en el que se podrán adquirir los dorsales para todos los eventos en la web oficial www.runlikeahero.com. Este proyecto, con 7 ediciones, se creó en 2020 para recaudar fondos y sensibilizar a la […]",
-    "resumen_es": "La ASPM (Asociación Síndrome Phelan-McDermid) da el pistoletazo a la nueva temporada de Run Like a Hero el 1 de septiembre, momento en el que se podrán adquirir los dorsales para todos los eventos en la web oficial www.runlikeahero.com. Este proyecto, con 7 ediciones, se creó en 2020 para recaudar fondos y sensibilizar a la […]",
-    "sin_traducir": true,
-    "tipo": "Fuente fiable · asociación",
-    "titulo": "Run Like a Hero 2026: dorsales ya disponibles",
-    "titulo_es": "Run Like a Hero 2026: dorsales ya disponibles"
-   },
-   {
     "fecha": "2026-09-03",
     "fuente_fiable": true,
     "id": "asoc:https://www.22q13.info/ist-das-autismus-das-phelan-mcdermid-syndrom",
@@ -144,20 +74,6 @@
     "titulo_es": "Descubrimiento de nuevas relaciones genotipo-fenotipo en el síndrome de Phelan-McDermid"
    },
    {
-    "fecha": "2026-08-28",
-    "fuente_fiable": true,
-    "id": "asoc:https://22q13.org.es/paella-solidaria-en-alcala-de-henares",
-    "idioma": "es",
-    "link": "https://22q13.org.es/paella-solidaria-en-alcala-de-henares/",
-    "medio": "Asociación Síndrome Phelan-McDermid (ASPM) · España",
-    "resumen": "La Peña Los Pichis, de la localidad madrileña de Alcalá de Henares, ha organizado, hoy viernes 28 de agosto, un evento gourmet solidario en favor de nuestra entidad. A partir de las 13:30, en la Plaza de Cervantes, y con un precio de 3€, todas las personas asistentes pudieron degustar una excelente ración de paella. […]",
-    "resumen_es": "La Peña Los Pichis, de la localidad madrileña de Alcalá de Henares, ha organizado, hoy viernes 28 de agosto, un evento gourmet solidario en favor de nuestra entidad. A partir de las 13:30, en la Plaza de Cervantes, y con un precio de 3€, todas las personas asistentes pudieron degustar una excelente ración de paella. […]",
-    "sin_traducir": false,
-    "tipo": "Fuente fiable · asociación",
-    "titulo": "Paella solidaria en Alcalá de Henares",
-    "titulo_es": "Paella solidaria en Alcalá de Henares"
-   },
-   {
     "fecha": "2026-08-26",
     "fuente_fiable": true,
     "id": "asoc:https://www.22q13.info/pmsgo",
@@ -170,20 +86,6 @@
     "tipo": "Fuente fiable · asociación",
     "titulo": "PMSGO",
     "titulo_es": "PMSGO"
-   },
-   {
-    "fecha": "2026-08-24",
-    "fuente_fiable": true,
-    "id": "asoc:https://22q13.org.es/jamonada-en-mas-de-las-matas",
-    "idioma": "es",
-    "link": "https://22q13.org.es/jamonada-en-mas-de-las-matas/",
-    "medio": "Asociación Síndrome Phelan-McDermid (ASPM) · España",
-    "resumen": "El municipio turolense de Más de las Matas celebró ayer, domingo 23 de agosto, una actividad festiva marcada por el compromiso social y la gastronomía. A las 13:00 horas, justo tras la conclusión de la Santa Misa, la calle La Iglesia se convirtió en el escenario de una concurrida jamonada solidaria. Los asistentes pudieron disfrutar […]",
-    "resumen_es": "El municipio turolense de Más de las Matas celebró ayer, domingo 23 de agosto, una actividad festiva marcada por el compromiso social y la gastronomía. A las 13:00 horas, justo tras la conclusión de la Santa Misa, la calle La Iglesia se convirtió en el escenario de una concurrida jamonada solidaria. Los asistentes pudieron disfrutar […]",
-    "sin_traducir": false,
-    "tipo": "Fuente fiable · asociación",
-    "titulo": "Jamonada en Mas de las Matas",
-    "titulo_es": "Jamonada en Mas de las Matas"
    }
   ],
   "asociacion": [
