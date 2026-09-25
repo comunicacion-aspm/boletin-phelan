@@ -1,0 +1,29 @@
+{
+ "bloques": {
+  "asoc_ciencia": [],
+  "asoc_noticias": [],
+  "asociacion": [],
+  "avances": [],
+  "ensayos": [],
+  "menciones": [],
+  "organizaciones": [],
+  "publicaciones": [
+   {
+    "doi": "https://doi.org/10.64898/2026.09.11.750830",
+    "fecha": "2026-09-25",
+    "id": "pmid:42779830",
+    "idioma": "en",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42779830/",
+    "medio": "bioRxiv : the preprint server for biology",
+    "resumen": "Zebrafish are widely used to study learning and memory. Here, we describe zAcademy, a programmable conditioning arena released in full as open hardware and open software. … zAcademy provides an inexpensive, fully documented, and readily modified platform for comparing experience-dependent behavioral change across genotypes and sexes.",
+    "resumen_es": "El pez cebra se utiliza mucho para estudiar el aprendizaje y la memoria. Aquí describimos zAcademy, un campo de acondicionamiento programable lanzado en su totalidad como hardware y software abiertos. … zAcademy proporciona una plataforma económica, totalmente documentada y fácilmente modificada para comparar cambios de comportamiento dependientes de la experiencia entre genotipos y sexos.",
+    "sin_traducir": false,
+    "tipo": "Artículo",
+    "titulo": "zAcademy: an open-source programmable conditioning arena reveals sex- and genotype-dependent avoidance learning in adult zebrafish.",
+    "titulo_es": "zAcademy: un campo de acondicionamiento programable de código abierto revela el aprendizaje de evitación dependiente del sexo y el genotipo en peces cebra adultos."
+   }
+  ]
+ },
+ "fecha": "2026-09-25",
+ "generado": "25/09/2026 07:41"
+}
