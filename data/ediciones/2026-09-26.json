@@ -1,0 +1,88 @@
+{
+ "bloques": {
+  "asoc_ciencia": [],
+  "asoc_noticias": [],
+  "asociacion": [],
+  "avances": [
+   {
+    "fecha": "2026-09-25",
+    "hl": "es",
+    "id": "n:un trastorno genético vinculado al autismo podría ser más común de lo ",
+    "idioma": "es",
+    "link": "https://www.cadena3.com/amp/noticia/ciencia/un-trastorno-genetico-vinculado-al-autismo-podria-ser-mas-comun-de-lo-que-se-pensaba_597785",
+    "medio": "Cadena 3 Argentina",
+    "origen": "google",
+    "resumen": "Investigadores estimaron que el síndrome de Phelan-McDermid podría afectar a 1 de cada 7.300 personas, lo que representa más de 45.000 estadounidenses. Muchos casos permanecen sin diagnóstico por la falta de pruebas genéticas.",
+    "resumen_es": "Investigadores estimaron que el síndrome de Phelan-McDermid podría afectar a 1 de cada 7.300 personas, lo que representa más de 45.000 estadounidenses. Muchos casos permanecen sin diagnóstico por la falta de pruebas genéticas.",
+    "sin_traducir": false,
+    "titulo": "Un trastorno genético vinculado al autismo podría ser más común de lo que se pensaba",
+    "titulo_es": "Un trastorno genético vinculado al autismo podría ser más común de lo que se pensaba",
+    "web_medio": "https://www.cadena3.com"
+   },
+   {
+    "fecha": "2026-09-25",
+    "id": "n:autisme une étude réévalue fortement la fréquence du syndrome de phela",
+    "idioma": "fr",
+    "link": "https://www.lavoixdefrance.fr/autisme-une-etude-reevalue-fortement-la-frequence-du-syndrome-de-phelan-mcdermid-que-sait-on-en-france-16307/",
+    "medio": "lavoixdefrance.fr",
+    "origen": "bing",
+    "resumen": "Une étude publiée en 2026 estime que le syndrome de Phelan-McDermid pourrait concerner environ une personne sur 7 300, bien davantage que ne le suggéraient les estimations antérieures. Ce résultat amé ...",
+    "resumen_es": "Un estudio publicado en 2026 estima que el síndrome de Phelan-McDermid podría afectar aproximadamente a una de cada 7.300 personas, mucho más de lo que sugerían estimaciones anteriores. Este agradable resultado...",
+    "sin_traducir": false,
+    "titulo": "Autisme : une étude réévalue fortement la fréquence du syndrome de Phelan-McDermid, que sait-on en France ?",
+    "titulo_es": "Autismo: un estudio reevalúa fuertemente la frecuencia del síndrome de Phelan-McDermid, ¿qué sabemos en Francia?"
+   },
+   {
+    "fecha": "2026-09-24",
+    "id": "n:this rare autism linked genetic disorder may be far more common than s",
+    "idioma": "en",
+    "link": "https://www.sciencedaily.com/releases/2026/09/260924020405.htm",
+    "medio": "Science Daily",
+    "origen": "bing",
+    "resumen": "A major analysis suggests Phelan-McDermid syndrome, a genetic disorder closely linked to autism, may affect about 1 in 7,300 people and more than 45,000 Americans. Researchers warn that thousands of ...",
+    "resumen_es": "Un análisis importante sugiere que el síndrome de Phelan-McDermid, un trastorno genético estrechamente relacionado con el autismo, puede afectar aproximadamente a 1 de cada 7.300 personas y a más de 45.000 estadounidenses. Los investigadores advierten que miles de ...",
+    "sin_traducir": false,
+    "titulo": "This “rare” autism-linked genetic disorder may be far more common than scientists thought",
+    "titulo_es": "Este trastorno genético \"raro\" relacionado con el autismo puede ser mucho más común de lo que pensaban los científicos"
+   }
+  ],
+  "ensayos": [
+   {
+    "doi": "",
+    "extra": "Estado: Not yet recruiting · Última actualización: 2026-09-25",
+    "fecha": "2026-09-25",
+    "id": "nct:NCT07311213:2026-09-25",
+    "idioma": "en",
+    "link": "https://clinicaltrials.gov/study/NCT07311213",
+    "medio": "Institut National de la Santé Et de la Recherche Médicale, France",
+    "resumen": "Autism spectrum disorder (ASD) is a neurodevelopmental disorder characterized by deficits in social interaction and verbal and non-verbal communication (DSM-5, 2013), affecting approximately 2% of the general population. In 5 to 40% of cases, genetic factors are identified as the cause of these disorders, with prevalence depending on the technique used (exomes and/or SNP arrays) and the associated intellectual deficit.",
+    "resumen_es": "El trastorno del espectro autista (TEA) es un trastorno del desarrollo neurológico caracterizado por déficits en la interacción social y la comunicación verbal y no verbal (DSM-5, 2013), que afecta aproximadamente al 2% de la población general. Entre el 5 y el 40% de los casos se identifican factores genéticos como causantes de estos trastornos, con prevalencia dependiendo de la técnica utilizada (exomas y/o matrices de SNP) y del déficit intelectual asociado.",
+    "sin_traducir": false,
+    "tipo": "Ensayo actualizado · N/A",
+    "titulo": "GENES AND AUTISM - Induced Pluripotent Stem Cells",
+    "titulo_es": "GENES Y AUTISMO - Células Madre Pluripotentes Inducidas"
+   }
+  ],
+  "menciones": [
+   {
+    "fecha": "2026-09-25",
+    "hl": "it",
+    "id": "n:la sindrome di phelan mcdermid potrebbe essere molto più comune di qua",
+    "idioma": "it",
+    "link": "https://www.sanitainformazione.it/la-sindrome-di-phelan-mcdermid-potrebbe-essere-molto-piu-comune-di-quanto-stimato/",
+    "medio": "sanitainformazione.it",
+    "origen": "google",
+    "resumen": "Una nuova analisi stima una prevalenza di 1 caso ogni 7.300 persone. Negli Stati Uniti potrebbero esserci oltre 45.000 persone affette, molte delle quali non ancora diagnosticate.",
+    "resumen_es": "Un nuevo análisis estima una prevalencia de 1 caso por cada 7.300 personas. Es posible que haya más de 45.000 personas afectadas en Estados Unidos, muchas de las cuales aún no han sido diagnosticadas.",
+    "sin_traducir": false,
+    "titulo": "La sindrome di Phelan-McDermid potrebbe essere molto più comune di quanto stimato",
+    "titulo_es": "El síndrome de Phelan-McDermid puede ser mucho más común de lo estimado",
+    "web_medio": "https://www.sanitainformazione.it"
+   }
+  ],
+  "organizaciones": [],
+  "publicaciones": []
+ },
+ "fecha": "2026-09-26",
+ "generado": "26/09/2026 07:39"
+}
