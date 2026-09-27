@@ -1,0 +1,61 @@
+{
+ "bloques": {
+  "asoc_ciencia": [],
+  "asoc_noticias": [],
+  "asociacion": [],
+  "avances": [
+   {
+    "fecha": "2026-09-26",
+    "hl": "it",
+    "id": "n:un disturbo legato all autismo sembra meno raro quanti casi sfuggono",
+    "idioma": "es",
+    "link": "https://www.tomshw.it/scienze/un-disturbo-legato-allautismo-sembra-meno-raro-quanti-casi-sfuggono",
+    "medio": "tomshw.it",
+    "origen": "google",
+    "resumen": "Uno studio su quasi 180.000 persone autistiche stima la sindrome di Phelan-McDermid in un caso su 7.300; molti potrebbero non avere una diagnosi genetica.",
+    "resumen_es": "Uno studio su quasi 180.000 persone autistiche stima la sindrome di Phelan-McDermid in un caso su 7.300; molti potrebbero non avere una diagnosi genetica.",
+    "sin_traducir": false,
+    "titulo": "Un disturbo legato all'autismo sembra meno raro: quanti casi sfuggono?",
+    "titulo_es": "Un disturbo legato all'autismo sembra meno raro: quanti casi sfuggono?",
+    "web_medio": "https://www.tomshw.it"
+   },
+   {
+    "fecha": "2026-09-26",
+    "hl": "pt",
+    "id": "n:milhares de pessoas podem ter uma alteração genética sem saber e um no",
+    "idioma": "pt",
+    "link": "https://www.gizmodo.com.br/milhares-de-pessoas-podem-ter-uma-alteracao-genetica-sem-saber-e-um-novo-estudo-acaba-de-revelar-sua-verdadeira-dimensao-69009",
+    "medio": "gizmodo.com.br",
+    "origen": "google",
+    "resumen": "",
+    "resumen_es": "",
+    "sin_traducir": false,
+    "titulo": "Milhares de pessoas podem ter uma alteração genética sem saber e um novo estudo acaba de revelar sua verdadeira dimensão",
+    "titulo_es": "Miles de personas pueden tener un cambio genético sin saberlo y un nuevo estudio acaba de revelar su verdadero alcance",
+    "web_medio": "https://www.gizmodo.com.br"
+   }
+  ],
+  "ensayos": [],
+  "menciones": [
+   {
+    "fecha": "2026-09-27",
+    "hl": "de",
+    "id": "n:phelan mcdermid syndrom neue daten sehen einen fall unter 7 300 mensch",
+    "idioma": "de",
+    "link": "https://www.ad-hoc-news.de/wissenschaft/phelan-mcdermid-syndrom-neue-daten-sehen-einen-fall-unter-7-300-menschen/70187436",
+    "medio": "AD HOC NEWS",
+    "origen": "google",
+    "resumen": "Eine Analyse von 179.837 Menschen mit Autismus schätzt PMS auf etwa einen Fall je 7.300 Personen und",
+    "resumen_es": "Un análisis de 179.837 personas con autismo estimó que el síndrome premenstrual era aproximadamente un caso por cada 7.300 personas y",
+    "sin_traducir": false,
+    "titulo": "Phelan-McDermid-Syndrom: Neue Daten sehen einen Fall unter 7.300 Menschen",
+    "titulo_es": "Síndrome de Phelan-McDermid: nuevos datos indican un caso por cada 7.300 personas",
+    "web_medio": "https://www.ad-hoc-news.de"
+   }
+  ],
+  "organizaciones": [],
+  "publicaciones": []
+ },
+ "fecha": "2026-09-27",
+ "generado": "27/09/2026 07:40"
+}
