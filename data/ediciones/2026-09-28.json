@@ -1,0 +1,57 @@
+{
+ "bloques": {
+  "asoc_ciencia": [],
+  "asoc_noticias": [],
+  "asociacion": [],
+  "avances": [],
+  "ensayos": [],
+  "menciones": [],
+  "organizaciones": [],
+  "publicaciones": [
+   {
+    "doi": "https://doi.org/10.1093/hmg/ddr212",
+    "fecha": "2026-09-28",
+    "id": "pmid:42798835",
+    "idioma": "en",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42798835/",
+    "medio": "Oxford open neuroscience",
+    "resumen": "Atypical body representations are often observed in individuals with autism spectrum disorder (ASD). The rubber tail task, which involved stroking both a real tail and a rubber tail, was designed to investigate the body ownership illusion in mice. … These results suggested that the rubber tail illusion was not obvious in Shank3-KO mice, although the influence of hyporeactivity cannot be completely ruled out.",
+    "resumen_es": "A menudo se observan representaciones corporales atípicas en personas con trastorno del espectro autista (TEA). La tarea de la cola de goma, que implicaba acariciar tanto una cola real como una cola de goma, fue diseñada para investigar la ilusión de propiedad del cuerpo en ratones. … Estos resultados sugirieron que la ilusión de la cola de goma no era obvia en los ratones Shank3-KO, aunque no se puede descartar por completo la influencia de la hiporeactividad.",
+    "sin_traducir": false,
+    "tipo": "Artículo",
+    "titulo": "Rubber tail illusion is not obvious in SH3 and multiple ankyrin repeat domains 3 (Shank3)-knockout mice.",
+    "titulo_es": "La ilusión de la cola de goma no es obvia en SH3 y en ratones knockout con múltiples dominios de repetición de anquirina 3 (Shank3)."
+   },
+   {
+    "doi": "https://doi.org/10.3390/jcm15187130",
+    "fecha": "2026-09-28",
+    "id": "pmid:42795903",
+    "idioma": "en",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42795903/",
+    "medio": "Journal of clinical medicine",
+    "resumen": "Objectives: To characterize the clinical and genetic features of Phelan-McDermid syndrome (PMS) in a Chinese prenatal and postnatal cohort, explore genotype-phenotype correlations, and provide evidence to support prenatal genetic counseling. Methods: G-banded karyotyping, single-nucleotide polymorphism arrays (SNP arrays), copy number variation sequencing, and trio whole-exome sequencing were used for genetic diagnosis.",
+    "resumen_es": "Objetivos: caracterizar las características clínicas y genéticas del síndrome de Phelan-McDermid (PMS) en una cohorte prenatal y posnatal china, explorar las correlaciones genotipo-fenotipo y proporcionar evidencia para respaldar el asesoramiento genético prenatal. Métodos: Para el diagnóstico genético se utilizaron cariotipos de banda G, matrices de polimorfismos de un solo nucleótido (matrices de SNP), secuenciación de variación del número de copias y secuenciación del exoma completo en trío.",
+    "sin_traducir": false,
+    "tipo": "Artículo",
+    "titulo": "Prenatal and Postnatal Identification of Phelan-McDermid Syndrome in a Tertiary Referral Center: A 15-Case Series and Literature Review.",
+    "titulo_es": "Identificación prenatal y posnatal del síndrome de Phelan-McDermid en un centro de referencia terciario: una serie de 15 casos y una revisión de la literatura."
+   },
+   {
+    "doi": "https://doi.org/10.3390/microorganisms14091925",
+    "fecha": "2026-09-28",
+    "id": "pmid:42795509",
+    "idioma": "en",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42795509/",
+    "medio": "Microorganisms",
+    "resumen": "Autism spectrum disorder (ASD) is a heterogeneous neurodevelopmental condition characterized by impaired social interaction and repetitive stereotyped behaviors, with pathogenic mechanisms that remain incompletely understood. The gut microbiota has emerged as a key regulator of ASD; however, its impact on hippocampal proteomic and phosphoproteomic signatures has not been fully characterized.",
+    "resumen_es": "El trastorno del espectro autista (TEA) es una condición heterogénea del desarrollo neurológico caracterizada por una interacción social deteriorada y conductas estereotipadas repetitivas, con mecanismos patogénicos que aún no se comprenden completamente. La microbiota intestinal se ha convertido en un regulador clave del TEA; sin embargo, su impacto en las firmas proteómicas y fosfoproteómicas del hipocampo no se ha caracterizado completamente.",
+    "sin_traducir": false,
+    "tipo": "Artículo",
+    "titulo": "Gut Microbiota-Elicited Aberrant Phosphorylation Induces Protein Structural Anomalies: A Non-Negligible Pathogenic Driver of Autism Spectrum Disorder.",
+    "titulo_es": "La fosforilación aberrante provocada por la microbiota intestinal induce anomalías estructurales de las proteínas: un factor patógeno no despreciable del trastorno del espectro autista."
+   }
+  ]
+ },
+ "fecha": "2026-09-28",
+ "generado": "28/09/2026 07:42"
+}
