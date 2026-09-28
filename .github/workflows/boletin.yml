@@ -2,7 +2,10 @@ name: Boletín diario
 
 on:
   schedule:
-    - cron: "30 5 * * *"   # todos los días a las 05:30 UTC (07:30 en verano / 06:30 en invierno, hora de Madrid)
+    # De lunes a viernes a las 08:30 hora de Madrid. GitHub solo entiende UTC, así que hay
+    # dos horarios (verano e invierno) y el trabajo "hora" deja pasar solo el que toca.
+    - cron: "30 6 * * 1-5"   # 08:30 en horario de verano (UTC+2)
+    - cron: "30 7 * * 1-5"   # 08:30 en horario de invierno (UTC+1)
   workflow_dispatch:        # botón "Run workflow" para lanzarlo a mano
 
 permissions:
@@ -15,7 +18,24 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  hora:
+    runs-on: ubuntu-latest
+    outputs:
+      toca: ${{ steps.comprobar.outputs.toca }}
+    steps:
+      - id: comprobar
+        env:
+          PROGRAMACION: ${{ github.event.schedule }}
+        run: |
+          desfase=$(TZ=Europe/Madrid date +%z)
+          toca=true
+          if [ "$PROGRAMACION" = "30 6 * * 1-5" ] && [ "$desfase" != "+0200" ]; then toca=false; fi
+          if [ "$PROGRAMACION" = "30 7 * * 1-5" ] && [ "$desfase" != "+0100" ]; then toca=false; fi
+          echo "toca=$toca" >> "$GITHUB_OUTPUT"
+
   generar:
+    needs: hora
+    if: needs.hora.outputs.toca == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 45
     environment:
