@@ -162,7 +162,7 @@ _google = {"pausa": 1.5, "bloqueado": False}
 
 def decodificar_google(link, reintento=True):
     """Convierte un enlace news.google.com/rss/articles/... en la URL original del medio."""
-    if _google["bloqueado"]:
+    if _google["bloqueado"] or _gnews["desactivado"] or sin_tiempo():
         return None
     time.sleep(_google["pausa"])
     try:
@@ -205,14 +205,31 @@ def descripcion_pagina(url):
     return ""
 
 
+INICIO = time.time()
+TIEMPO_MAXIMO = 20 * 60  # segundos; después se omiten las búsquedas de prensa restantes
+_gnews = {"fallos": 0, "desactivado": False}
+
+
+def sin_tiempo():
+    return time.time() - INICIO > TIEMPO_MAXIMO
+
+
 def google_news(consulta, idiomas, desde):
     items = []
     for hl, gl, ceid in idiomas:
+        if _gnews["desactivado"] or sin_tiempo():
+            break
         url = "https://news.google.com/rss/search?" + urllib.parse.urlencode(
             {"q": consulta, "hl": hl, "gl": gl, "ceid": ceid})
-        xml = http(url)
+        xml = http(url, timeout=15, reintentos=0)
         if not xml:
+            # Fusible: si Google News falla varias veces seguidas, se deja de consultar en esta ejecución
+            _gnews["fallos"] += 1
+            if _gnews["fallos"] >= 4:
+                _gnews["desactivado"] = True
+                log("  ! Google News no responde: se omite en esta ejecución (se sigue con Bing y el resto)")
             continue
+        _gnews["fallos"] = 0
         try:
             raiz = ET.fromstring(xml)
         except ET.ParseError:
@@ -261,6 +278,9 @@ def bing_news(consulta, desde):
 def buscar_noticias(consultas, cfg, desde):
     todos = []
     for c in consultas:
+        if sin_tiempo():
+            log("  ! tiempo máximo alcanzado: se omiten las búsquedas de prensa restantes")
+            break
         log("  noticias:", c)
         todos += bing_news(c, desde)
         todos += google_news(c, cfg["idiomas_google_news"], desde)
