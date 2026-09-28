@@ -3,11 +3,80 @@
   "asoc_ciencia": [],
   "asoc_noticias": [],
   "asociacion": [],
-  "avances": [],
+  "avances": [
+   {
+    "fecha": "2026-09-28",
+    "hl": "es",
+    "id": "n:la ema autoriza a oryzon seguir con el estudio sobre vafidemstat contr",
+    "idioma": "es",
+    "link": "https://www.bolsamania.com/noticias/empresas/ema-autoriza-oryzon-estudio-vafidemstat-sindrome-phelan-mcdermid--23687098.html",
+    "medio": "Bolsamania",
+    "origen": "google",
+    "resumen": "Oryzon Genomics ha anunciado este lunes que la Agencia Europea de Medicamentos (EMA, por sus siglas en inglés) ha autorizado su solicitud de ensayo clínico (CTA) para iniciar un estudio de Fase II destinado a evaluar el uso de vafidemstat para el tratamiento del síndrome de Phelan-McDermid (PMS).",
+    "resumen_es": "Oryzon Genomics ha anunciado este lunes que la Agencia Europea de Medicamentos (EMA, por sus siglas en inglés) ha autorizado su solicitud de ensayo clínico (CTA) para iniciar un estudio de Fase II destinado a evaluar el uso de vafidemstat para el tratamiento del síndrome de Phelan-McDermid (PMS).",
+    "sin_traducir": false,
+    "titulo": "La EMA autoriza a Oryzon seguir con el estudio sobre vafidemstat contra el síndrome de Phelan-McDermid",
+    "titulo_es": "La EMA autoriza a Oryzon seguir con el estudio sobre vafidemstat contra el síndrome de Phelan-McDermid",
+    "web_medio": "https://www.bolsamania.com"
+   },
+   {
+    "fecha": "2026-09-28",
+    "id": "n:oryzon recibe luz verde para probar vafidemstat en un trastorno asocia",
+    "idioma": "es",
+    "link": "https://www.estrategiasdeinversion.com/actualidad/noticias/empresas/oryzon-recibe-luz-verde-para-probar-vafidemstat-n-954555",
+    "medio": "Estrategias de Inversión",
+    "origen": "bing",
+    "resumen": "El nuevo ensayo se realizará en España con 12 pacientes adultos y evaluará la seguridad del fármaco y su efecto sobre la agresividad.",
+    "resumen_es": "El nuevo ensayo se realizará en España con 12 pacientes adultos y evaluará la seguridad del fármaco y su efecto sobre la agresividad.",
+    "sin_traducir": false,
+    "titulo": "Oryzon recibe luz verde para probar vafidemstat en un trastorno asociado al autismo",
+    "titulo_es": "Oryzon recibe luz verde para probar vafidemstat en un trastorno asociado al autismo"
+   },
+   {
+    "fecha": "2026-09-28",
+    "id": "n:oryzon receives european medicines agency approval to initiate the hop",
+    "idioma": "en",
+    "link": "https://finance.yahoo.com/healthcare/articles/oryzon-receives-european-medicines-agency-120000163.html",
+    "medio": "Yahoo Finance",
+    "origen": "bing",
+    "resumen": "PMS is a severely disabling genetic disorder related to autismU.S. prevalence is estimated at approximately 1 in 7,300 people HOPE-2 is partially funded through Oryzon’s VANDAM project under Med4Cure, ...",
+    "resumen_es": "El síndrome premenstrual es un trastorno genético gravemente incapacitante relacionado con el autismo. La prevalencia se estima en aproximadamente 1 de cada 7.300 personas. HOPE-2 está parcialmente financiado a través del proyecto VANDAM de Oryzon bajo Med4Cure,...",
+    "sin_traducir": false,
+    "titulo": "ORYZON Receives European Medicines Agency Approval to Initiate the HOPE-2 Phase II Study of Vafidemstat for the Treatment of Phelan-McDermid Syndrome (PMS)",
+    "titulo_es": "ORYZON recibe la aprobación de la Agencia Europea del Medicamento para iniciar el estudio HOPE-2 Fase II de Vafidemstat para el tratamiento del síndrome de Phelan-McDermid (SPM)"
+   },
+   {
+    "fecha": "2026-09-28",
+    "id": "n:oryzon recibe luz verde para probar vafidemstat en un trastorno vincul",
+    "idioma": "es",
+    "link": "https://www.msn.com/es-es/salud/enfermedades-y-condiciones-m%C3%A9dicas/oryzon-recibe-luz-verde-para-probar-vafidemstat-en-un-trastorno-vinculado-al-autismo/ar-AA2d6sfw",
+    "medio": "elEconomista.es on MSN",
+    "origen": "bing",
+    "resumen": "Oryzon Genomics ha recibido autorización para iniciar en España el estudio de fase II HOPE-2, que evaluará vafidemstat en pacientes con síndrome de Phelan-McDermid (PMS), un trastorno genético raro y ...",
+    "resumen_es": "Oryzon Genomics ha recibido autorización para iniciar en España el estudio de fase II HOPE-2, que evaluará vafidemstat en pacientes con síndrome de Phelan-McDermid (PMS), un trastorno genético raro y ...",
+    "sin_traducir": false,
+    "titulo": "Oryzon recibe luz verde para probar vafidemstat en un trastorno vinculado al autismo",
+    "titulo_es": "Oryzon recibe luz verde para probar vafidemstat en un trastorno vinculado al autismo"
+   }
+  ],
   "ensayos": [],
   "menciones": [],
   "organizaciones": [],
   "publicaciones": [
+   {
+    "doi": "",
+    "fecha": "2026-09-25",
+    "id": "ppr:PPR1328139",
+    "idioma": "en",
+    "link": "https://doi.org/10.64898/2026.09.23.753714",
+    "medio": "bioRxiv",
+    "resumen": "Autism spectrum disorder (ASD) is a common neurodevelopmental disease with no currently effective treatments. In this study, Xenon (Xe), a noble gas used clinically as an anesthetic and a neuroprotectant, has been investigated for its potential therapeutic effects in ASD. … These findings demonstrate that Xe ameliorates ASD-like phenotypes in mouse models by modulating the PVT Glu-CeA circuit, supporting Xe as a novel potential therapy for ASD.",
+    "resumen_es": "El trastorno del espectro autista (TEA) es una enfermedad común del desarrollo neurológico que actualmente no tiene tratamientos eficaces. En este estudio, se ha investigado el xenón (Xe), un gas noble utilizado clínicamente como anestésico y neuroprotector, por sus posibles efectos terapéuticos en el TEA. … Estos hallazgos demuestran que Xe mejora los fenotipos similares al TEA en modelos de ratón mediante la modulación del circuito PVT Glu-CeA, lo que respalda a Xe como una nueva terapia potencial para el TEA.",
+    "sin_traducir": false,
+    "tipo": "Preprint (sin revisión por pares)",
+    "titulo": "Xenon improves autism-like behaviors in mice through potentiation of PVT-CeA glutamatergic neurotransmission",
+    "titulo_es": "El xenón mejora comportamientos similares al autismo en ratones mediante la potenciación de la neurotransmisión glutamatérgica PVT-CeA"
+   },
    {
     "doi": "https://doi.org/10.1093/hmg/ddr212",
     "fecha": "2026-09-28",
@@ -53,5 +122,5 @@
   ]
  },
  "fecha": "2026-09-28",
- "generado": "28/09/2026 07:42"
+ "generado": "28/09/2026 14:53"
 }
