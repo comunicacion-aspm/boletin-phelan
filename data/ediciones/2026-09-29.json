@@ -1,0 +1,57 @@
+{
+ "bloques": {
+  "asoc_ciencia": [],
+  "asoc_noticias": [],
+  "asociacion": [],
+  "avances": [
+   {
+    "fecha": "2026-09-28",
+    "id": "n:oryzon recibe aprobación para probar vafidemstat en un trastorno asoci",
+    "idioma": "es",
+    "link": "https://www.msn.com/es-es/noticias/otras/oryzon-recibe-aprobaci%C3%B3n-para-probar-vafidemstat-en-un-trastorno-asociado-al-autismo/ar-AA2d7ZGA",
+    "medio": "Estrategias de Inversión on MSN",
+    "origen": "bing",
+    "resumen": "El nuevo ensayo se realizará en España con 12 pacientes adultos y evaluará la seguridad del fármaco y su efecto sobre la agresividad.",
+    "resumen_es": "El nuevo ensayo se realizará en España con 12 pacientes adultos y evaluará la seguridad del fármaco y su efecto sobre la agresividad.",
+    "sin_traducir": false,
+    "titulo": "Oryzon recibe aprobación para probar vafidemstat en un trastorno asociado al autismo",
+    "titulo_es": "Oryzon recibe aprobación para probar vafidemstat en un trastorno asociado al autismo"
+   },
+   {
+    "fecha": "2026-09-28",
+    "id": "n:oryzon genomics s a receives european medicines agency approval to ini",
+    "idioma": "en",
+    "link": "https://www.marketscreener.com/news/oryzon-genomics-s-a-receives-european-medicines-agency-approval-to-initiate-hope-2-phase-ii-study-ce785adcd08ffe25",
+    "medio": "MarketScreener",
+    "origen": "bing",
+    "resumen": "Oryzon Genomics, S.A. announced that the European Medicines Agency (EMA) has authorized its Clinical Trial Application (CTA) to initiate a Phase II study to evaluate vafidemstat for the treatment of ...",
+    "resumen_es": "Oryzon Genomics, S.A. anunció que la Agencia Europea del Medicamento (EMA) ha autorizado su Solicitud de Ensayo Clínico (CTA) para iniciar un estudio de Fase II para evaluar vafidemstat para el tratamiento de...",
+    "sin_traducir": false,
+    "titulo": "Oryzon Genomics, S.A. Receives European Medicines Agency Approval to Initiate Hope-2 Phase Ii Study of Vafidemstat for the Treatment of Phelan-Mcdermid Syndrome",
+    "titulo_es": "Oryzon Genomics, S.A. recibe la aprobación de la Agencia Europea del Medicamento para iniciar el estudio Hope-2 de fase II de vafidemstat para el tratamiento del síndrome de Phelan-Mcdermid"
+   }
+  ],
+  "ensayos": [
+   {
+    "doi": "",
+    "extra": "Estado: Recruiting · Última actualización: 2026-09-28",
+    "fecha": "2026-09-28",
+    "id": "nct:NCT07281079:2026-09-28",
+    "idioma": "en",
+    "link": "https://clinicaltrials.gov/study/NCT07281079",
+    "medio": "Neuren Pharmaceuticals Limited",
+    "resumen": "This Phase 3, randomized, double-blind, parallel-group (2-arm), placebo-controlled, multicenter study will evaluate the efficacy and safety of NNZ-2591 compared to placebo in pediatric participants with Phelan- McDermid Syndrome.",
+    "resumen_es": "Este estudio multicéntrico de fase 3, aleatorizado, doble ciego, de grupos paralelos (2 brazos), controlado con placebo evaluará la eficacia y seguridad de NNZ-2591 en comparación con placebo en participantes pediátricos con síndrome de Phelan-McDermid.",
+    "sin_traducir": false,
+    "tipo": "Ensayo actualizado · Fase 3",
+    "titulo": "A Study of NNZ-2591 in Pediatric Participants With Phelan-McDermid Syndrome",
+    "titulo_es": "Un estudio de NNZ-2591 en participantes pediátricos con síndrome de Phelan-McDermid"
+   }
+  ],
+  "menciones": [],
+  "organizaciones": [],
+  "publicaciones": []
+ },
+ "fecha": "2026-09-29",
+ "generado": "29/09/2026 08:48"
+}
