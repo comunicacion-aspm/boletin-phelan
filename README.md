@@ -36,6 +36,7 @@ A partir de ahí se regenera todos los días a las 05:30 UTC (07:30 hora peninsu
 ## Límites a tener en cuenta
 
 - **Redes sociales**: Facebook, Instagram, TikTok, X, YouTube y LinkedIn no permiten buscar cuentas nuevas gratis ni sin iniciar sesión. El bloque 3 detecta cuentas nuevas en **Bluesky y Mastodon** (con fecha de alta) y en el resto **cuando aparecen enlazadas** en webs de asociaciones o en directorios, además de noticias sobre creación de asociaciones.
+- **Instagram**: se leen cada día las últimas publicaciones de las cuentas de Instagram de las asociaciones (campo `redes.instagram` de `asociaciones.json`) a través de la vista pública del perfil, sin iniciar sesión. Salen como fuente fiable; se omiten felicitaciones de cumpleaños y las cuentas de `instagram_excluidos` en `config.json` (la propia). Si Instagram cambia esa vista, el registro mostrará «instagram sin datos» y el resto del boletín sigue funcionando.
 - La traducción es automática (servicio web gratuito de Google); ante cualquier duda, abre la fuente original.
 - Si Google News limita las peticiones, algunas noticias llevan su enlace de redirección de Google News en lugar del enlace directo al medio; al abrirlo te lleva igualmente a la noticia original.
 - Algunas webs (Portugal, C22C, Mount Sinai, phelan-mcdermid.eu) bloquean las lecturas automáticas; sus redes siguen en la lista de vigilancia.

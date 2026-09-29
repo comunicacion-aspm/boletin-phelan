@@ -4,6 +4,7 @@ import datetime as dt
 import hashlib
 import json
 import re
+import time
 import urllib.parse
 import xml.etree.ElementTree as ET
 
@@ -137,6 +138,71 @@ def noticias_asociaciones(asociaciones, desde, primera_vez, vistos):
                 it["fecha"] = HOY.isoformat()
                 nuevos.append(it)
     return nuevos, silenciosos
+
+
+# --------------------------------------------------------------- publicaciones de Instagram
+
+# La vista "embed" pública del perfil trae las últimas publicaciones sin iniciar sesión.
+# Con un User-Agent de navegador completo Instagram devuelve su app en JavaScript, así que va uno corto.
+UA_INSTAGRAM = "Mozilla/5.0 (Macintosh)"
+# Felicitaciones de cumpleaños de las familias: no son noticia
+RE_CUMPLE = re.compile(r"happy birthday|birthday ?club|feliz cumplea|joyeux anniversaire|buon compleanno|feliz anivers|alles gute zum geburtstag|wszystkiego najlepszego", re.I)
+
+
+def usuario_instagram(url):
+    m = re.search(r"instagram\.com/([A-Za-z0-9_.]+)", url or "", re.I)
+    return m.group(1).lower() if m else ""
+
+
+def leer_instagram(usuario):
+    pagina = http("https://www.instagram.com/%s/embed/" % usuario, headers={"User-Agent": UA_INSTAGRAM},
+                  timeout=20, reintentos=1)
+    m = re.search(r'"contextJSON":("(?:[^"\\]|\\.)*")', pagina or "")
+    if not m:
+        log("  ! instagram sin datos:", usuario)
+        return []
+    try:
+        medios = json.loads(json.loads(m.group(1)))["context"].get("graphql_media") or []
+    except (ValueError, KeyError, TypeError):
+        log("  ! instagram con formato inesperado:", usuario)
+        return []
+    items = []
+    for x in medios:
+        x = x.get("shortcode_media") or {}
+        texto = "".join(e["node"].get("text", "") for e in (x.get("edge_media_to_caption") or {}).get("edges", []))
+        if not x.get("shortcode") or not texto.strip():
+            continue
+        lineas = [l.strip() for l in texto.splitlines() if limpiar(l)]
+        titulo = recortar(limpiar(lineas[0]), 160)
+        cuerpo = " ".join(lineas[1:]) or texto
+        fecha = dt.datetime.fromtimestamp(x.get("taken_at_timestamp") or 0, dt.timezone.utc).date()
+        items.append({"titulo": titulo, "link": "https://www.instagram.com/p/%s/" % x["shortcode"],
+                      "fecha": fecha.isoformat(), "resumen": recortar(limpiar(cuerpo), 450)})
+    return items
+
+
+def publicaciones_instagram(asociaciones, desde, vistos, excluidos=()):
+    """Publicaciones recientes en Instagram de las asociaciones (fuente fiable)."""
+    nuevos, hechos = [], set(u.lower() for u in excluidos)
+    for a in asociaciones:
+        usuario = usuario_instagram((a.get("redes") or {}).get("instagram"))
+        if not usuario or usuario in hechos:
+            continue
+        hechos.add(usuario)
+        log("  instagram:", usuario)
+        for it in leer_instagram(usuario):
+            it["id"] = "ig:" + it["link"]
+            if it["id"] in vistos or it["fecha"] < desde.isoformat():
+                continue
+            if a.get("solo_si_menciona") and not RE_SINDROME.search(it["titulo"] + " " + it["resumen"]):
+                continue
+            if RE_CUMPLE.search(it["titulo"] + " " + it["resumen"]):
+                continue
+            it.update({"medio": "%s · Instagram" % a["nombre"], "fuente_fiable": True,
+                       "tipo": "Fuente fiable · Instagram de la asociación"})
+            nuevos.append(it)
+        time.sleep(1)
+    return nuevos
 
 
 # --------------------------------------------------------------- bloque 3: organizaciones nuevas

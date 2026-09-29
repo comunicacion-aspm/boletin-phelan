@@ -3,7 +3,7 @@
 
 Solo usa la biblioteca estándar de Python y fuentes gratuitas sin clave:
 webs de las asociaciones, Google News, Bing News, PubMed, Europe PMC,
-ClinicalTrials.gov, Bluesky y Mastodon.
+ClinicalTrials.gov, Bluesky, Mastodon e Instagram (publicaciones de las asociaciones).
 Todo el texto se traduce al castellano; cada elemento conserva el enlace original.
 """
 import datetime as dt
@@ -739,6 +739,8 @@ def main():
     # --- Webs de las asociaciones (fuente fiable)
     log("Webs de asociaciones")
     art_asoc, silenciosos = fx.noticias_asociaciones(asociaciones, desde, primera, vistos)
+    log("Instagram de asociaciones")
+    art_asoc += fx.publicaciones_instagram(asociaciones, desde, vistos, cfg.get("instagram_excluidos", []))
     asoc_noticias, asoc_ciencia = [], []
     for a in art_asoc:
         if not a["resumen"]:
