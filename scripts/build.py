@@ -112,6 +112,13 @@ def detectar_idioma(texto):
 
 _bloqueo_trad = {"google": False}
 
+# El traductor confunde las siglas PMS/SPM (Phelan-McDermid) con el síndrome premenstrual.
+_RE_PREMENSTRUAL = re.compile(r"\b(s)[ií]ndrome\s+(?:pre-?\s?menstrual|de\s+tensi[oó]n\s+premenstrual)\b", re.I)
+
+
+def corregir_traduccion(texto):
+    return _RE_PREMENSTRUAL.sub(lambda m: m.group(1) + "índrome de Phelan-McDermid", texto or "")
+
 
 def traducir(texto, pista=""):
     """Traduce al castellano (traductor web gratuito de Google; respaldo MyMemory).
@@ -143,6 +150,7 @@ def traducir(texto, pista=""):
             salida = (html.unescape(trad), idioma or "en")
     if salida is None:
         return texto, idioma  # sin caché: se reintentará en la próxima ejecución
+    salida = (corregir_traduccion(salida[0]), salida[1])
     _cache_trad[texto] = salida
     time.sleep(0.3)
     return salida
@@ -815,6 +823,10 @@ def renderizar(cfg, asociaciones, cuentas):
     os.makedirs(os.path.join(DOCS, "archivo"), exist_ok=True)
     for fch in fechas:
         x = cargar(os.path.join(EDICIONES, fch + ".json"), None)
+        for it in (i for v in x["bloques"].values() for i in v):  # corrige también ediciones antiguas
+            for k in ("titulo_es", "resumen_es"):
+                if it.get(k):
+                    it[k] = corregir_traduccion(it[k])
         ediciones.append(x)
         with open(os.path.join(DOCS, "archivo", fch + ".html"), "w", encoding="utf-8") as f:
             f.write(pagina(x, cfg, fechas, asociaciones, cuentas, "../"))
