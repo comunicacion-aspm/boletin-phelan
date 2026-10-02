@@ -1,0 +1,73 @@
+{
+ "bloques": {
+  "asoc_ciencia": [
+   {
+    "fecha": "2026-10-01",
+    "fuente_fiable": true,
+    "id": "ig:https://www.instagram.com/p/Dd9NPjsDumk/",
+    "idioma": "en",
+    "link": "https://www.instagram.com/p/Dd9NPjsDumk/",
+    "medio": "Phelan-McDermid Syndrome Foundation (PMSF) · Instagram",
+    "resumen": "🧬 This session provides an overview of the genetics of Phelan-McDermid syndrome as well as emerging gene therapy strategies in Phelan-McDermid syndrome. Families shared this was one of their favorite sessions from the conference, so don’t miss out! Link in bio",
+    "resumen_es": "🧬 Esta sesión proporciona una descripción general de la genética del síndrome de Phelan-McDermid, así como de las estrategias de terapia génica emergentes en el síndrome de Phelan-McDermid. Las familias compartieron que esta fue una de sus sesiones favoritas de la conferencia, ¡así que no se la pierda! Enlace en biografía",
+    "sin_traducir": false,
+    "tipo": "Fuente fiable · Instagram de la asociación",
+    "titulo": "⛰️ Our first session spotlight from the 2026 PMSF Family Conference features Drs. Ame Shillington and Guoping Feng on “Genetics and Gene Therapy”!",
+    "titulo_es": "⛰️ Nuestra primera sesión destacada de la Conferencia Familiar PMSF 2026 presenta a los Dres. ¡Ame Shillington y Guoping Feng sobre “Genética y terapia génica”!"
+   }
+  ],
+  "asoc_noticias": [
+   {
+    "fecha": "2026-10-01",
+    "fuente_fiable": true,
+    "id": "ig:https://www.instagram.com/p/Dd9rtxyl5_L/",
+    "idioma": "en",
+    "link": "https://www.instagram.com/p/Dd9rtxyl5_L/",
+    "medio": "CureSHANK · Instagram",
+    "resumen": "Join us in raising awareness for PMS Awareness Day later this month. Start today by downloading this year's photo frame from our website! Visit cureshank.org/pmsad to learn more and download the frame. Thank you for being part of our community and helping to increase global awareness of Phelan-McDermid syndrome. #PhelanMcDermidSyndrome #PMSAwarenessDay #PMSAD #RareDisease",
+    "resumen_es": "Únase a nosotros para crear conciencia sobre el Día de Concientización sobre el síndrome premenstrual a finales de este mes. ¡Empiece hoy descargando el marco de fotos de este año desde nuestro sitio web! Visite cureshank.org/pmsad para obtener más información y descargar el marco. Gracias por ser parte de nuestra comunidad y ayudar a aumentar la conciencia global sobre el síndrome de Phelan-McDermid. #PhelanMcDermidSyndrome #PMSAwarenessDay #PMSAD #RareEnfermedades",
+    "sin_traducir": false,
+    "tipo": "Fuente fiable · Instagram de la asociación",
+    "titulo": "Phelan-McDermid Syndrome Awareness Day is October 22nd!",
+    "titulo_es": "¡El Día de Concientización sobre el Síndrome de Phelan-McDermid es el 22 de octubre!"
+   }
+  ],
+  "asociacion": [],
+  "avances": [],
+  "ensayos": [],
+  "menciones": [],
+  "organizaciones": [],
+  "publicaciones": [
+   {
+    "doi": "https://doi.org/10.64898/2026.09.03.745468",
+    "fecha": "2026-10-02",
+    "id": "pmid:42818275",
+    "idioma": "en",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42818275/",
+    "medio": "bioRxiv : the preprint server for biology",
+    "resumen": "Microglia are essential for brain homeostasis, yet their roles in the aged brain remain poorly defined. Using microRNA (miRNA) profiling, cellular-resolution spatial transcriptomics, and bulk proteomics in 21-month-old mice, we characterize sex-dimorphic responses to microglial depletion via CSF1R inhibition (PLX5622 treatment). … These data describe sex-dimorphic molecular consequences of microglial loss in the aged brain and identify candidate post-transcriptional mechanisms warranting further investigation.",
+    "resumen_es": "La microglía es esencial para la homeostasis del cerebro, pero sus funciones en el cerebro envejecido siguen estando mal definidas. Utilizando perfiles de microARN (miARN), transcriptómica espacial de resolución celular y proteómica masiva en ratones de 21 meses, caracterizamos las respuestas sexualmente dimórficas al agotamiento microglial mediante la inhibición de CSF1R (tratamiento con PLX5622). … Estos datos describen las consecuencias moleculares del sexo dimórfico de la pérdida microglial en el cerebro envejecido e identifican mecanismos postranscripcionales candidatos que justifican una mayor investigación.",
+    "sin_traducir": false,
+    "tipo": "Artículo",
+    "titulo": "\"Sex-divergent responses to microglial depletion suggest distinct regulatory dependencies in the aged brain\".",
+    "titulo_es": "\"Las respuestas divergentes entre sexos al agotamiento microglial sugieren distintas dependencias regulatorias en el cerebro envejecido\"."
+   },
+   {
+    "doi": "https://doi.org/10.21203/rs.3.rs-10821151/v1",
+    "fecha": "2026-10-02",
+    "id": "pmid:42818945",
+    "idioma": "en",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42818945/",
+    "medio": "Research square",
+    "resumen": "Phelan-McDermid syndrome (PMS) is a genetic neurodevelopmental disorder caused by a microdeletion within chromosome 22q13.3 1-6, and accounts for ~1-3% of cases of autism spectrum disorders (ASD). Individuals with PMS typically present with neonatal hypotonia, severe speech delay, intellectual disability, motor impairments, and autism-related features, although additional manifestations such as epilepsy, sleep disturbances, and developmental regression are common.",
+    "resumen_es": "El síndrome de Phelan-McDermid (SPM) es un trastorno genético del neurodesarrollo causado por una microdeleción en el cromosoma 22q13.3 1-6 y representa aproximadamente entre el 1 y el 3 % de los casos de trastornos del espectro autista (TEA). Las personas con síndrome premenstrual suelen presentar hipotonía neonatal, retraso grave en el habla, discapacidad intelectual, deficiencias motoras y características relacionadas con el autismo, aunque son comunes manifestaciones adicionales como epilepsia, alteraciones del sueño y regresión del desarrollo.",
+    "sin_traducir": false,
+    "tipo": "Artículo",
+    "titulo": "Preserved social development but impaired executive function in a Shank3-deficient rat model of Phelan-McDermid syndrome.",
+    "titulo_es": "Desarrollo social preservado pero función ejecutiva deteriorada en un modelo de síndrome de Phelan-McDermid en ratas con deficiencia de Shank3."
+   }
+  ]
+ },
+ "fecha": "2026-10-02",
+ "generado": "02/10/2026 08:49"
+}
