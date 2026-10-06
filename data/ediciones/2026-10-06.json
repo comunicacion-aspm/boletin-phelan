@@ -1,0 +1,45 @@
+{
+ "bloques": {
+  "asoc_ciencia": [],
+  "asoc_noticias": [
+   {
+    "fecha": "2026-10-05",
+    "fuente_fiable": true,
+    "id": "ig:https://www.instagram.com/p/DeG83L7Ib61/",
+    "idioma": "pl",
+    "link": "https://www.instagram.com/p/DeG83L7Ib61/",
+    "medio": "Felaniątka (grupo dentro de Fundacja Sedeka) · Instagram",
+    "resumen": "Zobaczcie jak nam poszło! 🪴 @hortorus Dziękujemy za zaproszenie i świetnie spędzony czas! 🌿",
+    "resumen_es": "¡Mira cómo lo hicimos! 🪴 @hortorus ¡Gracias por invitarnos y pasarlo genial! 🌿",
+    "sin_traducir": false,
+    "tipo": "Fuente fiable · Instagram de la asociación",
+    "titulo": "Na zaproszenie Centrum Ogrodniczego Hortorus wzięliśmy udział w warsztatach tworzenia kokedamy - japońskiej dekoracji, w której roślinę sadzi się w kuli…",
+    "titulo_es": "Por invitación del Hortorus Garden Center, participamos en un taller sobre la creación de un kokedama, una decoración japonesa en la que se planta una planta en forma de bola..."
+   }
+  ],
+  "asociacion": [],
+  "avances": [
+   {
+    "fecha": "2026-10-05",
+    "hl": "es",
+    "id": "n:el espanyol contra el síndrome de phelan mcdermid",
+    "idioma": "es",
+    "link": "https://www.rcdespanyol.com/es/noticia/el-espanyol,-contra-el-sindrome-de-phelanmcdermid/20841",
+    "medio": "RCD Espanyol",
+    "origen": "google",
+    "resumen": "La carrera solidaria se celebrará el 18 de octubre con el objetivo de recaudar fondos para la investigación y apoyo a las familias",
+    "resumen_es": "La carrera solidaria se celebrará el 18 de octubre con el objetivo de recaudar fondos para la investigación y apoyo a las familias",
+    "sin_traducir": false,
+    "titulo": "El Espanyol, contra el síndrome de Phelan-McDermid",
+    "titulo_es": "El Espanyol, contra el síndrome de Phelan-McDermid",
+    "web_medio": "https://www.rcdespanyol.com"
+   }
+  ],
+  "ensayos": [],
+  "menciones": [],
+  "organizaciones": [],
+  "publicaciones": []
+ },
+ "fecha": "2026-10-06",
+ "generado": "06/10/2026 08:51"
+}
