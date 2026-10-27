@@ -1,0 +1,76 @@
+{
+ "bloques": {
+  "asoc_ciencia": [
+   {
+    "fecha": "2026-10-27",
+    "fuente_fiable": true,
+    "id": "ig:https://www.instagram.com/p/De_zuQdG8Sj/",
+    "idioma": "es",
+    "link": "https://www.instagram.com/p/De_zuQdG8Sj/",
+    "medio": "Phelan-McDermid Argentina · Instagram",
+    "resumen": "Diarios y portales de todo el país nos ayudaron a visibilizar el Síndrome de Phelan-McDermid, una condición genética poco frecuente que necesita más conocimiento, investigación y acompañamiento. Cada publicación es una oportunidad para que más personas conozcan el síndrome, para que nuevas familias encuentren respuestas y para que nuestra comunidad siga creciendo.",
+    "resumen_es": "Diarios y portales de todo el país nos ayudaron a visibilizar el Síndrome de Phelan-McDermid, una condición genética poco frecuente que necesita más conocimiento, investigación y acompañamiento. Cada publicación es una oportunidad para que más personas conozcan el síndrome, para que nuevas familias encuentren respuestas y para que nuestra comunidad siga creciendo.",
+    "sin_traducir": false,
+    "tipo": "Fuente fiable · Instagram de la asociación",
+    "titulo": "El 22 de octubre, Phelan-McDermid llegó a los medios.",
+    "titulo_es": "El 22 de octubre, Phelan-McDermid llegó a los medios."
+   }
+  ],
+  "asoc_noticias": [],
+  "asociacion": [],
+  "avances": [
+   {
+    "fecha": "2026-10-26",
+    "hl": "pt",
+    "id": "n:rc3 promove formação em terapias assistidas por cavalos",
+    "idioma": "pt",
+    "link": "https://radioelvas.com/2026/10/26/rc3-promove-formacao-em-terapias-assistidas-por-cavalos/",
+    "medio": "Rádio Elvas",
+    "origen": "google",
+    "resumen": "Entre os dias 19 e 23 de outubro de 2026, decorreu no picadeiro coberto do Regimento de Cavalaria n.º 3 (RC3), no âmbito do projecto «Eu Consigo», o Curso d",
+    "resumen_es": "Entre los días 19 y 23 de octubre de 2026 tuvo lugar en el ruedo cubierto del Regimiento de Caballería nº 3 (RC3), dentro del proyecto «Eu Consigo», el Curso",
+    "sin_traducir": false,
+    "titulo": "RC3 promove formação em Terapias Assistidas por Cavalos",
+    "titulo_es": "RC3 impulsa la formación en Terapias Asistidas con Equinos",
+    "web_medio": "https://radioelvas.com"
+   }
+  ],
+  "ensayos": [],
+  "menciones": [
+   {
+    "fecha": "2026-10-26",
+    "hl": "pt",
+    "id": "n:portalegre ilumina paços do concelho de verde para dar visibilidade à ",
+    "idioma": "es",
+    "link": "https://radioelvas.com/2026/10/26/portalegre-ilumina-pacos-do-concelho-de-verde-para-dar-visibilidade-a-sindrome-phelan-mcdermid/",
+    "medio": "Rádio Elvas",
+    "origen": "google",
+    "resumen": "O edifício da Câmara Municipal de Portalegre este iluminado de verde, na passada quinta-feira, 22 de outubro, para marcar o Dia de Consciencialização da Sí",
+    "resumen_es": "El edificio del Ayuntamiento de Portalegre se iluminó de verde el pasado jueves 22 de octubre con motivo del Día de Concientización sobre el Sida",
+    "sin_traducir": false,
+    "titulo": "Portalegre ilumina Paços do Concelho de verde para dar visibilidade à Síndrome Phelan-McDermid",
+    "titulo_es": "Portalegre ilumina Paços do Concelho de verde para dar visibilidade à Síndrome Phelan-McDermid",
+    "web_medio": "https://radioelvas.com"
+   },
+   {
+    "fecha": "2026-10-24",
+    "hl": "es",
+    "id": "n:episodio 1 síndrome phelan mcdermid",
+    "idioma": "es",
+    "link": "https://youtu.be/E_zQpyR_k-0?si=m5L3Pzd596UsC0w1",
+    "medio": "YouTube",
+    "origen": "google",
+    "resumen": "Disfruta de los vídeos y la música que te gustan, sube material original y comparte el contenido con tus amigos, tu familia y el resto del mundo en YouTube.",
+    "resumen_es": "Disfruta de los vídeos y la música que te gustan, sube material original y comparte el contenido con tus amigos, tu familia y el resto del mundo en YouTube.",
+    "sin_traducir": false,
+    "titulo": "Episodio 1: Síndrome Phelan-MCDermid",
+    "titulo_es": "Episodio 1: Síndrome Phelan-MCDermid",
+    "web_medio": "https://youtu.be"
+   }
+  ],
+  "organizaciones": [],
+  "publicaciones": []
+ },
+ "fecha": "2026-10-27",
+ "generado": "27/10/2026 14:55"
+}
