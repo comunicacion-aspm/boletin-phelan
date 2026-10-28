@@ -1,0 +1,87 @@
+{
+ "bloques": {
+  "asoc_ciencia": [
+   {
+    "fecha": "2026-10-27",
+    "fuente_fiable": true,
+    "id": "asoc:https://pmsf.org/rare-disease-drug-development",
+    "idioma": "en",
+    "link": "https://pmsf.org/rare-disease-drug-development/",
+    "medio": "Phelan-McDermid Syndrome Foundation (PMSF) · Estados Unidos (internacional)",
+    "resumen": "Explore recent advances and setbacks in rare disease treatments, what they mean for Phelan-McDermid syndrome, and how PMSF is advancing research, clinical trials, and future therapies.",
+    "resumen_es": "Explore los avances y retrocesos recientes en los tratamientos de enfermedades raras, lo que significan para el síndrome de Phelan-McDermid y cómo PMSF está avanzando en la investigación, los ensayos clínicos y las terapias futuras.",
+    "sin_traducir": false,
+    "tipo": "Fuente fiable · asociación",
+    "titulo": "Rare disease drug development in the news: What does this mean for the Phelan-McDermid syndrome community?",
+    "titulo_es": "El desarrollo de fármacos para enfermedades raras en las noticias: ¿Qué significa esto para la comunidad con síndrome de Phelan-McDermid?"
+   },
+   {
+    "fecha": "2026-10-27",
+    "fuente_fiable": true,
+    "id": "ig:https://www.instagram.com/p/DfAvGIWlyvE/",
+    "idioma": "en",
+    "link": "https://www.instagram.com/p/DfAvGIWlyvE/",
+    "medio": "CureSHANK · Instagram",
+    "resumen": "Today, we invite you to be part of that progress. CureSHANK is at the forefront of Phelan-McDermid syndrome research and treatment development. We are dedicated to accelerating the development of treatments and, ultimately, a cure for Phelan-McDermid syndrome. Donate today to help advance meaningful PMS treatments. Because together, we can build a better future for PMS families.",
+    "resumen_es": "Hoy te invitamos a ser parte de ese progreso. CureSHANK está a la vanguardia de la investigación y el desarrollo de tratamientos para el síndrome de Phelan-McDermid. Estamos dedicados a acelerar el desarrollo de tratamientos y, en última instancia, una cura para el síndrome de Phelan-McDermid. Done hoy para ayudar a avanzar en tratamientos significativos para el síndrome de Phelan-McDermid. Porque juntos podemos construir un futuro mejor para las familias con síndrome de Phelan-McDermid.",
+    "sin_traducir": false,
+    "tipo": "Fuente fiable · Instagram de la asociación",
+    "titulo": "2026 was an incredible year of scientific advancements for the Phelan-McDermid syndrome community.",
+    "titulo_es": "2026 fue un año increíble de avances científicos para la comunidad del síndrome de Phelan-McDermid."
+   }
+  ],
+  "asoc_noticias": [
+   {
+    "fecha": "2026-10-27",
+    "fuente_fiable": true,
+    "id": "ig:https://www.instagram.com/p/DfA5ReSicLU/",
+    "idioma": "es",
+    "link": "https://www.instagram.com/p/DfA5ReSicLU/",
+    "medio": "CureSHANK · Instagram",
+    "resumen": "As part of our ongoing efforts to center the patient and caregiver voice, CureSHANK will feature stories directly from our community. We are so honored to share Paige and Walker’s story today. After noticing developmental delays, Paige and her husband sought genetic testing for Walker, who was eventually diagnosed with Phelan-McDermid Syndrome. Thank you, Paige, for sharing your family’s story.",
+    "resumen_es": "Como parte de nuestros esfuerzos continuos para centrar la voz del paciente y el cuidador, CureSHANK presentará historias directamente de nuestra comunidad. Nos sentimos muy honrados de compartir hoy la historia de Paige y Walker. Después de notar retrasos en el desarrollo, Paige y su esposo buscaron pruebas genéticas para Walker, a quien finalmente le diagnosticaron el síndrome de Phelan-McDermid. Gracias, Paige, por compartir la historia de tu familia.",
+    "sin_traducir": false,
+    "tipo": "Fuente fiable · Instagram de la asociación",
+    "titulo": "Meet Paige and her son, Walker 💙",
+    "titulo_es": "Meet Paige and her son, Walker 💙"
+   }
+  ],
+  "asociacion": [],
+  "avances": [],
+  "ensayos": [],
+  "menciones": [],
+  "organizaciones": [],
+  "publicaciones": [
+   {
+    "doi": "https://doi.org/10.1080/14737175.2026.2735961",
+    "fecha": "2026-10-28",
+    "id": "pmid:42941401",
+    "idioma": "en",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42941401/",
+    "medio": "Journal of clinical medicine",
+    "resumen": "Developmental and epileptic encephalopathies (DEEs) and neurodevelopmental disorders with epilepsy (NDD-E) are etiologically heterogeneous conditions historically treated with syndrome-based, symptomatic approaches. Advances in genomic sequencing have identified monogenic causes across more than 900 genes, creating opportunities for mechanism-informed and disease-modifying precision therapies.",
+    "resumen_es": "Las encefalopatías epilépticas y del desarrollo (EED) y los trastornos del desarrollo neurológico con epilepsia (NDD-E) son afecciones etiológicamente heterogéneas que históricamente se tratan con enfoques sintomáticos basados ​​en síndromes. Los avances en la secuenciación genómica han identificado causas monogénicas en más de 900 genes, creando oportunidades para terapias de precisión que modifican la enfermedad y se basan en mecanismos.",
+    "sin_traducir": false,
+    "tipo": "Revisión",
+    "titulo": "Precision Therapeutics for Monogenic Epilepsies: From Molecular Mechanisms to Disease Modification in Developmental and Epileptic Encephalopathies and Neurodevelopmental Disorders with Epilepsy.",
+    "titulo_es": "Terapéutica de precisión para las epilepsias monogénicas: de los mecanismos moleculares a la modificación de la enfermedad en las encefalopatías epilépticas y del desarrollo y los trastornos del neurodesarrollo con epilepsia."
+   },
+   {
+    "doi": "https://doi.org/10.1016/j.euroneuro.2008.08.010",
+    "fecha": "2026-10-28",
+    "id": "pmid:42940617",
+    "idioma": "en",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42940617/",
+    "medio": "Children (Basel, Switzerland)",
+    "resumen": "As shown in this case report, even very young children with complex neuropsychiatric problems and SHANK3 variants might not be treated sufficiently by therapeutic interventions alone, but might require a combination of therapeutic and psychopharmacological interventions to achieve a substantial symptom reduction.",
+    "resumen_es": "Como se muestra en este informe de caso, incluso los niños muy pequeños con problemas neuropsiquiátricos complejos y variantes de SHANK3 podrían no ser tratados suficientemente solo con intervenciones terapéuticas, sino que podrían requerir una combinación de intervenciones terapéuticas y psicofarmacológicas para lograr una reducción sustancial de los síntomas.",
+    "sin_traducir": false,
+    "tipo": "Caso clínico",
+    "titulo": "Psychotropic Polypharmacy in a 5-Year-Old Boy with a SHANK3 Variant and Complex Mental Health Problems.",
+    "titulo_es": "Polifarmacia psicotrópica en un niño de 5 años con una variante SHANK3 y problemas complejos de salud mental."
+   }
+  ]
+ },
+ "fecha": "2026-10-28",
+ "generado": "28/10/2026 15:21"
+}
