@@ -1,0 +1,75 @@
+{
+ "bloques": {
+  "asoc_ciencia": [
+   {
+    "fecha": "2026-10-29",
+    "fuente_fiable": true,
+    "id": "ig:https://www.instagram.com/p/DfGKYX6lzWh/",
+    "idioma": "en",
+    "link": "https://www.instagram.com/p/DfGKYX6lzWh/",
+    "medio": "CureSHANK · Instagram",
+    "resumen": "JAG201 Gene Therapy Study in Children & Adults with SHANK3 Haploinsufficiency Study Type: Interventional trial Age Range: 2-9 years old Location: Chicago, New York, Boston This is a Phase 1/2 study to evaluate the safety, tolerability, and clinical activity of a single dose of JAG201. Now enrolling pediatric cohorts. Adult cohorts may be initiated at a later time.",
+    "resumen_es": "Estudio de terapia génica JAG201 en niños y adultos con haploinsuficiencia SHANK3 Tipo de estudio: ensayo intervencionista Rango de edad: 2 a 9 años Ubicación: Chicago, Nueva York, Boston Este es un estudio de fase 1/2 para evaluar la seguridad, tolerabilidad y actividad clínica de una dosis única de JAG201. Ahora inscribiendo cohortes pediátricas. Las cohortes de adultos pueden iniciarse más adelante.",
+    "sin_traducir": false,
+    "tipo": "Fuente fiable · Instagram de la asociación",
+    "titulo": "📝 Participate in Active Clinical Research Trial",
+    "titulo_es": "📝 Participe en un ensayo de investigación clínica activa"
+   }
+  ],
+  "asoc_noticias": [
+   {
+    "fecha": "2026-10-29",
+    "fuente_fiable": true,
+    "id": "ig:https://www.instagram.com/p/DfFj91DCnkK/",
+    "idioma": "pl",
+    "link": "https://www.instagram.com/p/DfFj91DCnkK/",
+    "medio": "Felaniątka (grupo dentro de Fundacja Sedeka) · Instagram",
+    "resumen": "W Polsce działa wiele instytucji wspierających osoby z niepełnosprawnościami, ale nie zawsze wiadomo, do której z nich się zwrócić i jaką pomoc można uzyskać. W naszym artykule przybliżamy najważniejsze instytucje oraz zakres oferowanego przez nie wsparcia. 📝 Sprawdź, jakie masz możliwości i gdzie szukać pomocy! 👇Zachęcamy do przeczytania artykułu na naszym blogu: https://sedeka.pl/baza-wiedzy-instytucje-wspierajace-osoby-z-niepelnosprawnosciami",
+    "resumen_es": "En Polonia hay muchas instituciones que apoyan a las personas con discapacidad, pero no siempre está claro a cuál acudir ni qué ayuda puede obtener. En nuestro artículo presentamos las instituciones más importantes y el alcance del apoyo que ofrecen. 📝 ¡Consulta qué opciones tienes y dónde buscar ayuda! 👇 Os animamos a leer el artículo en nuestro blog: https://sedeka.pl/baza-wiedzy-instytucje-wspierajace-osoby-z-niepelnosprawnosciami",
+    "sin_traducir": false,
+    "tipo": "Fuente fiable · Instagram de la asociación",
+    "titulo": "Wiesz, gdzie szukać pomocy i z jakich form wsparcia możesz skorzystać? 💡",
+    "titulo_es": "¿Sabe dónde buscar ayuda y qué formas de apoyo puede utilizar? 💡"
+   }
+  ],
+  "asociacion": [],
+  "avances": [],
+  "ensayos": [],
+  "menciones": [
+   {
+    "fecha": "2026-10-27",
+    "hl": "de",
+    "id": "n:tri team krems lief like a hero am lauffeiertag",
+    "idioma": "de",
+    "link": "https://www.meinbezirk.at/krems/c-regionauten-community/like-a-hero-am-lauffeiertag_a8977713",
+    "medio": "MeinBezirk.at",
+    "origen": "google",
+    "resumen": "„Run like a hero“ ist ein weltweiter, virtueller Charity-Lauf (Global Running Week) zur Unterstützung von Menschen mit dem Phelan-McDermid-Syndrom, organisiert von der Phelan-McDermid-Gesellschaft e.V.",
+    "resumen_es": "“Run like a hero” es una carrera benéfica virtual a nivel mundial (Global Running Week) para apoyar a las personas con síndrome de Phelan-McDermid, organizada por Phelan-McDermid-Gesellschaft e.V.",
+    "sin_traducir": false,
+    "titulo": "Tri Team Krems lief: Like a Hero am Lauffeiertag",
+    "titulo_es": "El Tri Team Krems corrió: como un héroe en las vacaciones",
+    "web_medio": "https://www.meinbezirk.at"
+   }
+  ],
+  "organizaciones": [],
+  "publicaciones": [
+   {
+    "doi": "https://doi.org/10.4103/NRR.NRRONLINE-D-26-00895",
+    "fecha": "2026-10-30",
+    "id": "pmid:42955870",
+    "idioma": "en",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42955870/",
+    "medio": "Neural regeneration research",
+    "resumen": "Autism spectrum disorder is a prevalent neurodevelopmental disorder lacking effective pharmacological agents targeting core socialbehavioral symptoms. Oxytocin receptor represents a promising therapeutic target, yet the clinical benefits of exogenous oxytocin remain limited and inconsistent. … The selective oxytocin receptor agonist Lit001 ameliorates core social deficits in Shank3 knockout mice, potentially through oxytocin receptor-dependent neural regeneration and remodeling of hippocampal neural plasticity.",
+    "resumen_es": "El trastorno del espectro autista es un trastorno prevalente del desarrollo neurológico que carece de agentes farmacológicos eficaces dirigidos a los síntomas sociales y conductuales centrales. El receptor de oxitocina representa un objetivo terapéutico prometedor, pero los beneficios clínicos de la oxitocina exógena siguen siendo limitados e inconsistentes. … El agonista selectivo del receptor de oxitocina Lit001 mejora los déficits sociales centrales en ratones knockout para Shank3, potencialmente a través de la regeneración neuronal dependiente del receptor de oxitocina y la remodelación de la plasticidad neuronal del hipocampo.",
+    "sin_traducir": false,
+    "tipo": "Artículo",
+    "titulo": "Oxytocin receptor agonist improves social deficits by regulating hippocampal neural plasticity in Shank3 knockout mice.",
+    "titulo_es": "El agonista del receptor de oxitocina mejora los déficits sociales al regular la plasticidad neuronal del hipocampo en ratones knockout para Shank3."
+   }
+  ]
+ },
+ "fecha": "2026-10-30",
+ "generado": "30/10/2026 15:29"
+}
