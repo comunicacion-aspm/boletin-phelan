@@ -1,0 +1,74 @@
+{
+ "bloques": {
+  "asoc_ciencia": [
+   {
+    "fecha": "2026-11-02",
+    "fuente_fiable": true,
+    "id": "ig:https://www.instagram.com/p/DfPwcJqGEks/",
+    "idioma": "en",
+    "link": "https://www.instagram.com/p/DfPwcJqGEks/",
+    "medio": "Phelan-McDermid Syndrome Foundation (PMSF) · Instagram",
+    "resumen": "December 1, 2026, is GivingTuesday. This is a great time of year to consider a gift to the Phelan-McDermid Syndrome Foundation so we can strengthen our mission of making today better and the future brighter for everyone living with Phelan-McDermid syndrome — from the moment of diagnosis to the delivery of treatments and cures.",
+    "resumen_es": "El 1 de diciembre de 2026 es GivingTuesday. Esta es una excelente época del año para considerar una donación a la Fundación del Síndrome de Phelan-McDermid para que podamos fortalecer nuestra misión de hacer un hoy mejor y un futuro más brillante para todas las personas que viven con el síndrome de Phelan-McDermid, desde el momento del diagnóstico hasta la entrega de tratamientos y curas.",
+    "sin_traducir": false,
+    "tipo": "Fuente fiable · Instagram de la asociación",
+    "titulo": "Thanks to the tremendous community support of Phelan-McDermid Awareness Day 2026, we’re heading into the season of giving knowing we can make an even bigger…",
+    "titulo_es": "Gracias al tremendo apoyo de la comunidad del Día de Concientización de Phelan-McDermid 2026, nos dirigimos a la temporada de dar sabiendo que podemos hacer algo aún más grande..."
+   },
+   {
+    "fecha": "2026-10-30",
+    "fuente_fiable": true,
+    "id": "ig:https://www.instagram.com/p/DfICniRD_fQ/",
+    "idioma": "en",
+    "link": "https://www.instagram.com/p/DfICniRD_fQ/",
+    "medio": "Phelan-McDermid Syndrome Foundation (PMSF) · Instagram",
+    "resumen": "These support groups are not individual or group therapy and are not intended to replace direct clinical services. Please note that these sessions are in English. All groups are 90-minutes long and are NOT recorded. If you have any questions, please email our Director of Family Support at carla@pmsf.org. The link to register for this month's groups is in our bio.",
+    "resumen_es": "Estos grupos de apoyo no son terapia individual o grupal y no pretenden reemplazar los servicios clínicos directos. Tenga en cuenta que estas sesiones son en inglés. Todos los grupos tienen una duración de 90 minutos y NO están grabados. Si tiene alguna pregunta, envíe un correo electrónico a nuestra Directora de Apoyo Familiar a carla@pmsf.org. El enlace para registrarse en los grupos de este mes está en nuestra biografía.",
+    "sin_traducir": false,
+    "tipo": "Fuente fiable · Instagram de la asociación",
+    "titulo": "We are happy to share the meeting dates and registration links for our November Family Support Groups.",
+    "titulo_es": "Nos complace compartir las fechas de las reuniones y los enlaces de inscripción para nuestros Grupos de apoyo familiar de noviembre."
+   }
+  ],
+  "asoc_noticias": [],
+  "asociacion": [],
+  "avances": [
+   {
+    "fecha": "2026-10-31",
+    "hl": "en",
+    "id": "n:multigenic basis for autism linked to 22q13 chromosomal region",
+    "idioma": "en",
+    "link": "https://www.simonsfoundation.org/funded-work/multigenic-basis-for-autism-linked-to-22q13-chromosomal-region/",
+    "medio": "Simons Foundation",
+    "origen": "google",
+    "resumen": "There are two emerging themes in research on genetic factors contributing to autism. First, autism is sometimes associated with small deletions within chromosomes, leaving the affected individual with…",
+    "resumen_es": "Hay dos temas emergentes en la investigación sobre los factores genéticos que contribuyen al autismo. En primer lugar, el autismo a veces se asocia con pequeñas deleciones dentro de los cromosomas, lo que deja al individuo afectado con...",
+    "sin_traducir": false,
+    "titulo": "Multigenic basis for autism linked to 22q13 chromosomal region",
+    "titulo_es": "Base multigénica del autismo vinculada a la región cromosómica 22q13",
+    "web_medio": "https://www.simonsfoundation.org"
+   }
+  ],
+  "ensayos": [],
+  "menciones": [],
+  "organizaciones": [],
+  "publicaciones": [
+   {
+    "doi": "https://doi.org/10.12688/f1000research.53962.1",
+    "fecha": "2026-11-02",
+    "id": "pmid:42961611",
+    "idioma": "en",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42961611/",
+    "medio": "Breast cancer (Tokyo, Japan)",
+    "resumen": "Our findings indicate that mammographic density phenotypes are influenced by a limited number of recurrent loci: 6q25.1, 8p11.23, and 22q13 in Korean women. All three loci identified in this study were previously associated with breast density and breast cancer, validating our findings and suggesting partial genetic overlap between mammographic density and breast cancer risk.",
+    "resumen_es": "Nuestros hallazgos indican que los fenotipos de densidad mamográfica están influenciados por un número limitado de loci recurrentes: 6q25.1, 8p11.23 y 22q13 en mujeres coreanas. Los tres loci identificados en este estudio se asociaron previamente con la densidad mamaria y el cáncer de mama, lo que valida nuestros hallazgos y sugiere una superposición genética parcial entre la densidad mamográfica y el riesgo de cáncer de mama.",
+    "sin_traducir": false,
+    "tipo": "Artículo",
+    "titulo": "Evaluations of significant loci associated with mammographic breast density in Korean women.",
+    "titulo_es": "Evaluaciones de loci importantes asociados con la densidad mamaria mamográfica en mujeres coreanas."
+   }
+  ]
+ },
+ "fecha": "2026-11-02",
+ "generado": "02/11/2026 18:24"
+}
