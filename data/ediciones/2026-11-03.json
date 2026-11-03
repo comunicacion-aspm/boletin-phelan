@@ -1,0 +1,88 @@
+{
+ "bloques": {
+  "asoc_ciencia": [],
+  "asoc_noticias": [
+   {
+    "fecha": "2026-11-03",
+    "fuente_fiable": true,
+    "id": "ig:https://www.instagram.com/p/DfRkBGhImnI/",
+    "idioma": "pl",
+    "link": "https://www.instagram.com/p/DfRkBGhImnI/",
+    "medio": "Felaniątka (grupo dentro de Fundacja Sedeka) · Instagram",
+    "resumen": "Projekt \"Spotkajmy się przy stole-międzypokoleniowe warsztaty twórcze\" finansowany przez m.st. Warszawę.",
+    "resumen_es": "El proyecto \"Reunámonos en la mesa - Talleres creativos intergeneracionales\" financiado por la ciudad capital de Varsovia Varsovia.",
+    "sin_traducir": false,
+    "tipo": "Fuente fiable · Instagram de la asociación",
+    "titulo": "Różne pokolenia, różne doświadczenia, a tak wiele nas łączy! 🩷 Podczas spotkań tworzymy, integrujemy się i uczymy się od siebie nawzajem 🫶",
+    "titulo_es": "Diferentes generaciones, diferentes experiencias, ¡pero tenemos mucho en común! 🩷 Durante las reuniones, creamos, integramos y aprendemos unos de otros 🫶"
+   },
+   {
+    "fecha": "2026-11-02",
+    "fuente_fiable": true,
+    "id": "ig:https://www.instagram.com/p/DfQbkCZCt88/",
+    "idioma": "es",
+    "link": "https://www.instagram.com/p/DfQbkCZCt88/",
+    "medio": "CureSHANK · Instagram",
+    "resumen": "Joanna is a mother to two children. Her youngest child, Saly, is living with Phelan-McDermid Syndrome. We’re so honored to share a bit more about Saly from the person who knows him best -- his mom, Joanna. Families like Joanna’s are the catalyst behind everything we do at CureSHANK to accelerate life-transforming PMS therapies. We are grateful for our PMS community.",
+    "resumen_es": "Joanna es madre de dos hijos. Su hija menor, Saly, vive con el síndrome de Phelan-McDermid. Nos sentimos muy honrados de compartir un poco más sobre Saly de la persona que mejor lo conoce: su madre, Joanna. Familias como la de Joanna son el catalizador detrás de todo lo que hacemos en CureSHANK para acelerar las terapias para el síndrome de Phelan-McDermid que transforman vidas. Estamos agradecidos por nuestra comunidad PMS.",
+    "sin_traducir": false,
+    "tipo": "Fuente fiable · Instagram de la asociación",
+    "titulo": "Meet Joanna and her son, Saly 💙",
+    "titulo_es": "Meet Joanna and her son, Saly 💙"
+   },
+   {
+    "fecha": "2026-11-02",
+    "fuente_fiable": true,
+    "id": "ig:https://www.instagram.com/p/DfQOxkRl2La/",
+    "idioma": "en",
+    "link": "https://www.instagram.com/p/DfQOxkRl2La/",
+    "medio": "CureSHANK · Instagram",
+    "resumen": "Led by Caregiver Action Network, National Family Caregivers Month advocates for recognizing family caregivers and the important role they play in our healthcare system. As an organization led by PMS parents, we know firsthand the immense dedication of each PMS caregiver. We also understand the challenges each of us faces, the support needed to meet those challenges, and the hope and drive to build a better future for our loved ones.",
+    "resumen_es": "Dirigido por Caregiver Action Network, el Mes Nacional de los Cuidadores Familiares aboga por reconocer a los cuidadores familiares y el importante papel que desempeñan en nuestro sistema de atención médica. Como organización dirigida por padres con síndrome de Phelan-McDermid, conocemos de primera mano la inmensa dedicación de cada cuidador con síndrome de Phelan-McDermid. También entendemos los desafíos que enfrenta cada uno de nosotros, el apoyo necesario para enfrentarlos y la esperanza y el impulso para construir un futuro mejor para nuestros seres queridos.",
+    "sin_traducir": false,
+    "tipo": "Fuente fiable · Instagram de la asociación",
+    "titulo": "November is National Family Caregivers Month 💙",
+    "titulo_es": "Noviembre es el Mes Nacional de los Cuidadores Familiares 💙"
+   }
+  ],
+  "asociacion": [],
+  "avances": [
+   {
+    "fecha": "2026-11-02",
+    "hl": "en",
+    "id": "n:autism gene therapy trial reaches patients as us primate labs cede gro",
+    "idioma": "en",
+    "link": "https://www.techtimes.com/articles/329891/20261102/autism-gene-therapy-trial-reaches-patients-us-primate-labs-cede-ground-china.htm",
+    "medio": "Tech Times",
+    "origen": "google",
+    "resumen": "Autism gene therapy trial JAG201 is enrolling children ages 2-9 with confirmed SHANK3 gene mutations at US medical centers -- the same macaque primate research infrastructure that enabled JAG201’s development is now being dismantled under DOGE pressure, as China commits $743 million to build",
+    "resumen_es": "El ensayo de terapia génica para el autismo JAG201 está inscribiendo a niños de 2 a 9 años con mutaciones confirmadas del gen SHANK3 en centros médicos de EE. UU.; la misma infraestructura de investigación de primates macacos que permitió el desarrollo de JAG201 ahora está siendo desmantelada bajo la presión de DOGE, mientras China compromete 743 millones de dólares para construir",
+    "sin_traducir": false,
+    "titulo": "Autism Gene Therapy Trial Reaches Patients as US Primate Labs Cede Ground to China",
+    "titulo_es": "El ensayo de terapia genética para el autismo llega a los pacientes mientras los laboratorios de primates de EE. UU. cede terreno a China",
+    "web_medio": "https://www.techtimes.com"
+   }
+  ],
+  "ensayos": [],
+  "menciones": [],
+  "organizaciones": [],
+  "publicaciones": [
+   {
+    "doi": "https://doi.org/10.1016/j.neubiorev.2026.107070",
+    "fecha": "2026-11-03",
+    "id": "pmid:42971337",
+    "idioma": "en",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42971337/",
+    "medio": "Neuroscience and biobehavioral reviews",
+    "resumen": "Autism spectrum disorder (ASD), including both idiopathic and syndromic forms, is a heterogeneous neurodevelopmental disorder characterized by impaired social communication, restricted and repetitive behaviors, and diverse molecular etiologies. Increasing evidence implicates dysregulation of insulin-like growth factor (IGF) signaling in ASD and related neurodevelopmental disorders, including Rett syndrome, Angelman syndrome, Fragile X syndrome, Phelan-McDermid syndrome, and schizophrenia.",
+    "resumen_es": "El trastorno del espectro autista (TEA), que incluye formas idiopáticas y sindrómicas, es un trastorno heterogéneo del desarrollo neurológico caracterizado por una comunicación social deteriorada, conductas restringidas y repetitivas y etiologías moleculares diversas. Cada vez hay más evidencia que implica la desregulación de la señalización del factor de crecimiento similar a la insulina (IGF) en el TEA y los trastornos relacionados del desarrollo neurológico, incluidos el síndrome de Rett, el síndrome de Angelman, el síndrome de X frágil, el síndrome de Phelan-McDermid y la esquizofrenia.",
+    "sin_traducir": false,
+    "tipo": "Revisión",
+    "titulo": "IGF Signaling in Autism and Related Neurodevelopmental Disorders: Biomarkers and Therapeutic Targets.",
+    "titulo_es": "Señalización de IGF en el autismo y trastornos relacionados del neurodesarrollo: biomarcadores y objetivos terapéuticos."
+   }
+  ]
+ },
+ "fecha": "2026-11-03",
+ "generado": "03/11/2026 16:27"
+}
