@@ -1,0 +1,73 @@
+{
+ "bloques": {
+  "asoc_ciencia": [
+   {
+    "fecha": "2026-11-04",
+    "fuente_fiable": true,
+    "id": "ig:https://www.instagram.com/p/DfUyIsEm0PF/",
+    "idioma": "en",
+    "link": "https://www.instagram.com/p/DfUyIsEm0PF/",
+    "medio": "Phelan-McDermid Syndrome Foundation (PMSF) · Instagram",
+    "resumen": "📍 The Koala Study continues to grow! There are now 18 active study sites, with additional sites expected to open soon. Check out the latest list to see if there’s a study site near you! What is the Koala Study? The Koala Study is a Phase 3 clinical trial studying NNZ-2591 in children ages 3-12 with Phelan-McDermid syndrome. Learn more about Neuren’s Koala Study and the open-label extension (OLE) study using the link in bio.",
+    "resumen_es": "📍 ¡El Estudio Koala sigue creciendo! Ahora hay 18 sitios de estudio activos y se espera que pronto se abran sitios adicionales. ¡Consulte la lista más reciente para ver si hay un sitio de estudio cerca de usted! ¿Qué es el Estudio Koala? El Estudio Koala es un ensayo clínico de fase 3 que estudia NNZ-2591 en niños de 3 a 12 años con síndrome de Phelan-McDermid. Obtenga más información sobre el estudio Koala de Neuren y el estudio de extensión de etiqueta abierta (OLE) utilizando el enlace en la biografía.",
+    "sin_traducir": false,
+    "tipo": "Fuente fiable · Instagram de la asociación",
+    "titulo": "🐨 Koala Study Update!",
+    "titulo_es": "🐨 ¡Actualización del estudio sobre koalas!"
+   },
+   {
+    "fecha": "2026-11-04",
+    "fuente_fiable": true,
+    "id": "ig:https://www.instagram.com/p/DfTMCknl_-c/",
+    "idioma": "en",
+    "link": "https://www.instagram.com/p/DfTMCknl_-c/",
+    "medio": "CureSHANK · Instagram",
+    "resumen": "Read Diana Kwon’s full article “Autism research involving monkeys contends with uphill battle” at the link below to learn more. 🔗 https://www.thetransmitter.org/what-if-nonhuman-primate-research-goes-away/autism-research-involving-monkeys-contends-with-uphill-battle/ @the_transmitter_news #PMSResearch #PhelanMcDermidSyndrome #AutismResearch",
+    "resumen_es": "Lea el artículo completo de Diana Kwon “La investigación sobre el autismo con monos enfrenta una batalla cuesta arriba” en el siguiente enlace para obtener más información. 🔗 https://www.thetransmitter.org/what-if-nonhuman-primate-research-goes-away/autism-research-involving-monkeys-contends-with-uphill-battle/ @the_transmitter_news #PMSResearch #PhelanMcDermidSyndrome #AutismResearch",
+    "sin_traducir": false,
+    "tipo": "Fuente fiable · Instagram de la asociación",
+    "titulo": "🔬Today, we’re sharing an important PMS research update.",
+    "titulo_es": "🔬Hoy compartimos una importante actualización de la investigación sobre el síndrome de Phelan-McDermid."
+   }
+  ],
+  "asoc_noticias": [
+   {
+    "fecha": "2026-11-03",
+    "fuente_fiable": true,
+    "id": "ig:https://www.instagram.com/p/DfSrkRQjQlW/",
+    "idioma": "es",
+    "link": "https://www.instagram.com/p/DfSrkRQjQlW/",
+    "medio": "CureSHANK · Instagram",
+    "resumen": "Meagen introduces her five-and-a-half-year-old son Gus, who loves Teletubbies, Shaun the Sheep, and The Secret Life of Pets. After a surprise NICU stay at 4 weeks old, Gus was diagnosed with Phelan-McDermid Syndrome. Watch the full clip to learn more about Gus! We’re thankful that Meagen shared her story so openly.",
+    "resumen_es": "Meagen presenta a su hijo Gus, de cinco años y medio, a quien le encantan los Teletubbies, la oveja Shaun y La vida secreta de sus mascotas. Después de una estancia sorpresa en la UCIN cuando tenía 4 semanas, a Gus le diagnosticaron el síndrome de Phelan-McDermid. ¡Mira el clip completo para aprender más sobre Gus! Estamos agradecidos de que Meagen haya compartido su historia tan abiertamente.",
+    "sin_traducir": false,
+    "tipo": "Fuente fiable · Instagram de la asociación",
+    "titulo": "Meet Meagen and her son, Gus 💙",
+    "titulo_es": "Meet Meagen and her son, Gus 💙"
+   }
+  ],
+  "asociacion": [],
+  "avances": [],
+  "ensayos": [],
+  "menciones": [],
+  "organizaciones": [],
+  "publicaciones": [
+   {
+    "doi": "https://doi.org/10.3892/etm.2026.13341",
+    "fecha": "2026-11-04",
+    "id": "pmid:42978902",
+    "idioma": "en",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42978902/",
+    "medio": "Experimental and therapeutic medicine",
+    "resumen": "For decades, gene amplification was described as an attribute of tumor cells and as a physiological mechanism to increase gene copy numbers for the higher protein demand during the development of amphibians and flies. Notably, gene amplification has since been detected in normal mammalian cells during differentiation. … These findings highlight gene amplification as a mechanism during chondrogenesis, potentially critical for early differentiation stages and genome stability in mature cells.",
+    "resumen_es": "Durante décadas, la amplificación de genes se describió como un atributo de las células tumorales y como un mecanismo fisiológico para aumentar el número de copias de genes para satisfacer la mayor demanda de proteínas durante el desarrollo de anfibios y moscas. En particular, desde entonces se ha detectado amplificación genética en células normales de mamíferos durante la diferenciación. … Estos hallazgos resaltan la amplificación genética como un mecanismo durante la condrogénesis, potencialmente crítico para las etapas tempranas de diferenciación y la estabilidad del genoma en células maduras.",
+    "sin_traducir": false,
+    "tipo": "Artículo",
+    "titulo": "Gene amplification during differentiation of mesenchymal stem cells towards chondrocytes.",
+    "titulo_es": "Amplificación genética durante la diferenciación de células madre mesenquimales hacia condrocitos."
+   }
+  ]
+ },
+ "fecha": "2026-11-04",
+ "generado": "04/11/2026 16:43"
+}
