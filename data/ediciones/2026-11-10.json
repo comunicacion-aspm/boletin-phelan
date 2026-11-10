@@ -1,0 +1,103 @@
+{
+ "bloques": {
+  "asoc_ciencia": [
+   {
+    "fecha": "2026-11-10",
+    "fuente_fiable": true,
+    "id": "ig:https://www.instagram.com/p/DfioyTsz2Yl/",
+    "idioma": "en",
+    "link": "https://www.instagram.com/p/DfioyTsz2Yl/",
+    "medio": "CureSHANK · Instagram",
+    "resumen": "Paige’s wish for more advocacy and progress for meaningful PMS treatments resonates deeply with us. That’s why we work every day to advance PMS research and treatments. It’s also why we’re uplifting PMS community voices. Individuals like Paige remind us of the “why” behind the research and treatment development.",
+    "resumen_es": "El deseo de Paige de una mayor promoción y progreso para tratamientos significativos para el síndrome de Phelan-McDermid resuena profundamente en nosotros. Es por eso que trabajamos todos los días para avanzar en la investigación y los tratamientos del síndrome de Phelan-McDermid. Es también por eso que estamos elevando las voces de la comunidad PMS. Personas como Paige nos recuerdan el \"por qué\" detrás de la investigación y el desarrollo del tratamiento.",
+    "sin_traducir": false,
+    "tipo": "Fuente fiable · Instagram de la asociación",
+    "titulo": "What would make the most meaningful difference for Paige and her family? Watch the clip to find out!",
+    "titulo_es": "¿Qué marcaría la diferencia más significativa para Paige y su familia? ¡Mira el clip para descubrirlo!"
+   }
+  ],
+  "asoc_noticias": [
+   {
+    "fecha": "2026-11-10",
+    "fuente_fiable": true,
+    "id": "ig:https://www.instagram.com/p/Dfj4_Jnouc3/",
+    "idioma": "pl",
+    "link": "https://www.instagram.com/p/Dfj4_Jnouc3/",
+    "medio": "Felaniątka (grupo dentro de Fundacja Sedeka) · Instagram",
+    "resumen": "Kasia choruje na EGPA, rzadką, przewlekłą chorobę autoimmunologiczną, której skutki nie zawsze są widoczne na pierwszy rzut oka. Za uśmiechem i pozornie zwyczajnym życiem często kryje się codzienna walka z chorobą. 📸 Niedługo poznacie efekty naszej sesji zdjęciowej i historie osób, które stanęły przed naszym obiektywem.",
+    "resumen_es": "Kasia padece EGPA, una rara enfermedad autoinmune crónica cuyos efectos no siempre son visibles a primera vista. Detrás de una sonrisa y de una vida aparentemente normal, a menudo se esconde una lucha diaria contra la enfermedad. 📸 Pronto conocerás los efectos de nuestra sesión de fotos y las historias de personas que se pararon frente a nuestro lente.",
+    "sin_traducir": false,
+    "tipo": "Fuente fiable · Instagram de la asociación",
+    "titulo": "💨\"Ale przecież nie wyglądasz na chorą\" - takie zdanie często słyszą osoby z niewidoczną na zewnątrz niepełnosprawnością.",
+    "titulo_es": "💨 \"Pero no pareces enfermo\": esta es una frase que suelen escuchar las personas con una discapacidad aparentemente invisible."
+   },
+   {
+    "fecha": "2026-11-09",
+    "fuente_fiable": true,
+    "id": "asoc:https://pmsf.org/mgh-pms-clinic",
+    "idioma": "en",
+    "link": "https://pmsf.org/mgh-pms-clinic/",
+    "medio": "Phelan-McDermid Syndrome Foundation (PMSF) · Estados Unidos (internacional)",
+    "resumen": "PMSF is excited to announce the second multidisciplinary Phelan-McDermid syndrome clinic at the Lurie Center for Autism at Massachusetts General Hospital in Boston! Led by Drs. Ann Neumeyer and Ron Thibert, the clinic brings together specialists in neurology, gastroenterology, psychiatry, and genetics to provide coordinated care for both children and adults with Phelan-McDermid syndrome.",
+    "resumen_es": "¡PMSF se complace en anunciar la segunda clínica multidisciplinaria para el síndrome de Phelan-McDermid en el Centro Lurie para el Autismo del Hospital General de Massachusetts en Boston! Dirigido por los Dres. Ann Neumeyer y Ron Thibert, la clínica reúne a especialistas en neurología, gastroenterología, psiquiatría y genética para brindar atención coordinada a niños y adultos con síndrome de Phelan-McDermid.",
+    "sin_traducir": false,
+    "tipo": "Fuente fiable · asociación",
+    "titulo": "Announcing the Second Phelan-McDermid Syndrome Multidisciplinary Clinic",
+    "titulo_es": "Anuncio de la Segunda Clínica Multidisciplinaria del Síndrome de Phelan-McDermid"
+   }
+  ],
+  "asociacion": [],
+  "avances": [
+   {
+    "fecha": "2026-11-10",
+    "hl": "en",
+    "id": "n:marvel announces final shank3 mb 204 highly effective at reversing aut",
+    "idioma": "en",
+    "link": "https://www.manilatimes.net/2026/11/10/tmt-newswire/globenewswire/marvel-announces-final-shank3-mb-204-highly-effective-at-reversing-autism-behaviours/2466179",
+    "medio": "The Manila Times",
+    "origen": "google",
+    "resumen": "CALGARY, Alberta, Nov. 10, 2026 (GLOBE NEWSWIRE) -- MarvelBiosciencesCorp.(TSXV:MRVL|OTCQB:MBCOF), and its wholly-owned subsidiary, Marvel Biotechnology Inc. (collectively the",
+    "resumen_es": "CALGARY, Alberta, 10 de noviembre de 2026 (GLOBE NEWSWIRE) -- MarvelBiosciencesCorp.(TSXV:MRVL|OTCQB:MBCOF) y su subsidiaria de propiedad absoluta, Marvel Biotechnology Inc. (colectivamente la",
+    "sin_traducir": false,
+    "titulo": "Marvel Announces Final Shank3 MB-204 Highly Effective at Reversing Autism Behaviours",
+    "titulo_es": "Marvel anuncia Final Shank3 MB-204 altamente eficaz para revertir los comportamientos del autismo",
+    "web_medio": "https://www.manilatimes.net"
+   },
+   {
+    "fecha": "2026-11-09",
+    "id": "n:marvel announces final shank3 data mb 204 highly effective at reversin",
+    "idioma": "en",
+    "link": "https://markets.businessinsider.com/news/stocks/marvel-announces-final-shank3-data-mb-204-highly-effective-at-reversing-autism-behaviours-1036741988",
+    "medio": "Markets Insider",
+    "origen": "bing",
+    "resumen": "Marvel Biosciences Corp. (TSXV: MRVL | OTCQB: MBCOF) , and its wholly-owned subsidiary, Marvel Biotechnology Inc. (collectively the “Company” or “Marvel”), a drug discovery company developing novel ...",
+    "resumen_es": "Marvel Biosciences Corp. (TSXV: MRVL | OTCQB: MBCOF), y su subsidiaria de propiedad absoluta, Marvel Biotechnology Inc. (colectivamente la \"Compañía\" o \"Marvel\"), una empresa de descubrimiento de fármacos que desarrolla novedosos...",
+    "sin_traducir": false,
+    "titulo": "Marvel Announces Final Shank3 Data: MB-204 Highly Effective at Reversing Autism Behaviours",
+    "titulo_es": "Marvel anuncia datos finales de Shank3: MB-204 altamente eficaz para revertir los comportamientos del autismo"
+   }
+  ],
+  "ensayos": [],
+  "menciones": [
+   {
+    "fecha": "2026-11-09",
+    "hl": "es",
+    "id": "n:la rara enfermedad genética que afecta el habla y movimiento estos son",
+    "idioma": "es",
+    "link": "https://larepublica.pe/sociedad/2026/11/08/essalud-atiende-a-pacientes-con-rara-enfermedad-genetica-que-afecta-el-habla-y-el-movimiento-742784",
+    "medio": "La República",
+    "origen": "google",
+    "resumen": "",
+    "resumen_es": "",
+    "sin_traducir": false,
+    "titulo": "La rara enfermedad genética que afecta el habla y movimiento: estos son los síntomas que advierte EsSalud",
+    "titulo_es": "La rara enfermedad genética que afecta el habla y movimiento: estos son los síntomas que advierte EsSalud",
+    "web_medio": "https://larepublica.pe"
+   }
+  ],
+  "organizaciones": [],
+  "publicaciones": []
+ },
+ "fecha": "2026-11-10",
+ "generado": "10/11/2026 16:45"
+}
