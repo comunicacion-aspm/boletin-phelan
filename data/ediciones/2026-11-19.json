@@ -1,0 +1,104 @@
+{
+ "bloques": {
+  "asoc_ciencia": [
+   {
+    "fecha": "2026-11-19",
+    "fuente_fiable": true,
+    "id": "ig:https://www.instagram.com/p/Df7SfQSmYJL/",
+    "idioma": "en",
+    "link": "https://www.instagram.com/p/Df7SfQSmYJL/",
+    "medio": "Phelan-McDermid Syndrome Foundation (PMSF) · Instagram",
+    "resumen": "Every Voice Matters: The Next Chapter of ORCA Communication is about so much more than words! 💚 In our latest episode, Dr. Lauren is joined by Drs. Bryce Reeve and Kelly Gordon from Duke University to discuss ORCA, an innovative tool designed to capture meaningful communication skills, including the small but important changes traditional assessments may miss.",
+    "resumen_es": "Cada voz importa: ¡El próximo capítulo de la comunicación ORCA es mucho más que palabras! 💚 En nuestro último episodio, a la Dra. Lauren se unen los Dres. Bryce Reeve y Kelly Gordon de la Universidad de Duke hablarán sobre ORCA, una herramienta innovadora diseñada para capturar habilidades de comunicación significativas, incluidos los cambios pequeños pero importantes que las evaluaciones tradicionales pueden pasar por alto.",
+    "sin_traducir": false,
+    "tipo": "Fuente fiable · Instagram de la asociación",
+    "titulo": "🎙️ NEW PODCAST EPISODE!",
+    "titulo_es": "🎙️ ¡NUEVO EPISODIO PODCAST!"
+   },
+   {
+    "fecha": "2026-11-18",
+    "fuente_fiable": true,
+    "id": "ig:https://www.instagram.com/p/Df5Z-YmNHan/",
+    "idioma": "en",
+    "link": "https://www.instagram.com/p/Df5Z-YmNHan/",
+    "medio": "Phelan-McDermid Syndrome Foundation (PMSF) · Instagram",
+    "resumen": "We have two important U.S. advocacy updates for our community. Now is the time to get informed and take action! 1. National Plan for Epilepsy Act This legislation aims to strengthen coordination of epilepsy programs, increase investment in research, improve prevention, diagnosis and treatment, and ultimately improve quality of life for individuals and families affected by epilepsy.",
+    "resumen_es": "Tenemos dos actualizaciones importantes sobre la defensa de nuestra comunidad en los Estados Unidos. ¡Ahora es el momento de informarse y actuar! 1. Ley del Plan Nacional para la Epilepsia Esta legislación tiene como objetivo fortalecer la coordinación de los programas de epilepsia, aumentar la inversión en investigación, mejorar la prevención, el diagnóstico y el tratamiento y, en última instancia, mejorar la calidad de vida de las personas y familias afectadas por la epilepsia.",
+    "sin_traducir": false,
+    "tipo": "Fuente fiable · Instagram de la asociación",
+    "titulo": "📣 Calls To Action",
+    "titulo_es": "📣 Llamados a la acción"
+   }
+  ],
+  "asoc_noticias": [],
+  "asociacion": [],
+  "avances": [
+   {
+    "fecha": "2026-11-19",
+    "hl": "en",
+    "id": "n:chromosome 22q13 deletion size links to specific clinical traits in ph",
+    "idioma": "en",
+    "link": "https://bioengineer.org/chromosome-22q13-deletion-size-links-to-specific-clinical-traits-in-phelan-mcdermid-syndrome/",
+    "medio": "Bioengineer.org",
+    "origen": "google",
+    "resumen": "A study of 63 Italian patients links chromosome 22q13 terminal deletion size to distinct neurological, developmental, and medical features in Phelan-McDermid syndrome.",
+    "resumen_es": "Un estudio de 63 pacientes italianos vincula el tamaño de la deleción terminal del cromosoma 22q13 con distintas características neurológicas, de desarrollo y médicas en el síndrome de Phelan-McDermid.",
+    "sin_traducir": false,
+    "titulo": "Chromosome 22q13 Deletion Size Links to Specific Clinical Traits in Phelan-McDermid Syndrome",
+    "titulo_es": "El tamaño de la deleción del cromosoma 22q13 se vincula con rasgos clínicos específicos en el síndrome de Phelan-McDermid",
+    "web_medio": "https://bioengineer.org"
+   },
+   {
+    "fecha": "2026-11-19",
+    "hl": "es",
+    "id": "n:neuren pharmaceuticals regalías dividendos y fase iii",
+    "idioma": "es",
+    "link": "https://es.investing.com/news/transcripts/neuren-pharmaceuticals-regalias-dividendos-y-fase-iii-93CH-3935258",
+    "medio": "Investing.com España",
+    "origen": "google",
+    "resumen": "",
+    "resumen_es": "",
+    "sin_traducir": false,
+    "titulo": "Neuren Pharmaceuticals: regalías, dividendos y fase III",
+    "titulo_es": "Neuren Pharmaceuticals: regalías, dividendos y fase III",
+    "web_medio": "https://es.investing.com"
+   },
+   {
+    "fecha": "2026-11-19",
+    "hl": "it",
+    "id": "n:neuren pharmaceuticals royalties dividendi e fase iii",
+    "idioma": "br",
+    "link": "https://it.investing.com/news/transcripts/neuren-pharmaceuticals-royalties-dividendi-e-fase-iii-93CH-3656609",
+    "medio": "Investing.com",
+    "origen": "google",
+    "resumen": "",
+    "resumen_es": "",
+    "sin_traducir": false,
+    "titulo": "Neuren Pharmaceuticals: royalties, dividendi e fase III",
+    "titulo_es": "Neuren Pharmaceuticals: regalías, dividendos y fase III",
+    "web_medio": "https://it.investing.com"
+   },
+   {
+    "fecha": "2026-11-19",
+    "hl": "de",
+    "id": "n:neuren auf der bell potter healthcare conference steigende daybue lize",
+    "idioma": "de",
+    "link": "https://de.investing.com/news/transcripts/neuren-auf-der-bell-potter-healthcare-conference-steigende-daybuelizenzertrage-finanzieren-dividende-und-phaseiiipipeline-93CH-3776339",
+    "medio": "Investing.com Deutsch",
+    "origen": "google",
+    "resumen": "",
+    "resumen_es": "",
+    "sin_traducir": false,
+    "titulo": "Neuren auf der Bell Potter Healthcare Conference: Steigende DAYBUE-Lizenzerträge finanzieren Dividende und Phase-III-Pipeline",
+    "titulo_es": "Neuren en la Conferencia de Atención Médica de Bell Potter: El aumento de los ingresos por licencias de DAYBUE financia el dividendo y la cartera de proyectos de la Fase III",
+    "web_medio": "https://de.investing.com"
+   }
+  ],
+  "ensayos": [],
+  "menciones": [],
+  "organizaciones": [],
+  "publicaciones": []
+ },
+ "fecha": "2026-11-19",
+ "generado": "19/11/2026 17:46"
+}
