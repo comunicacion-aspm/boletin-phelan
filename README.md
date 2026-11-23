@@ -40,3 +40,14 @@ A partir de ahí se regenera todos los días a las 05:30 UTC (07:30 hora peninsu
 - La traducción es automática (servicio web gratuito de Google); ante cualquier duda, abre la fuente original.
 - Si Google News limita las peticiones, algunas noticias llevan su enlace de redirección de Google News en lugar del enlace directo al medio; al abrirlo te lleva igualmente a la noticia original.
 - Algunas webs (Portugal, C22C, Mount Sinai, phelan-mcdermid.eu) bloquean las lecturas automáticas; sus redes siguen en la lista de vigilancia.
+
+## Estudio de redes (en tu Mac)
+
+Convierte las novedades del boletín en publicaciones para redes sociales.
+
+- **Abrir**: doble clic en `Abrir estudio de redes.command` (se abre `http://localhost:8765`). Deja la ventana del Terminal abierta mientras lo usas.
+- **Flujo**: en cada novedad pulsa **OK** o **Descartar**. Con OK eliges redes, formato, paleta de colores y tipografías, marcas ejemplos de estilo de tu biblioteca, subes fotos propias si quieres y escribes notas de tono. Claude Opus 5.5 escribe un copy por red y diseña la creatividad como código HTML, que se convierte en PNG; una segunda pasada revisa el resultado. Puedes pedir cambios, editar el código a mano y comparar versiones.
+- **Vídeo**: a partir de la creatividad generada o de una imagen tuya, Claude escribe una animación (HTML + GSAP) que se graba fotograma a fotograma con Chrome y se monta en MP4 con ffmpeg. Música opcional.
+- **Metricool**: al aprobar, la imagen o el vídeo se sube a `docs/medios/` (el flujo de GitHub publica solo esa carpeta en la web, sin regenerar el boletín) y se programa en Metricool, un post por red con su copy, o se guarda como borrador. Requiere plan Advanced de Metricool.
+- **Botones dentro del boletín**: abre una vez `https://comunicacion-aspm.github.io/boletin-phelan/?estudio=1` en tu navegador y cada noticia mostrará OK / Descartar (solo para ti). `?estudio=0` los quita.
+- **Configuración** (pestaña Ajustes): conexión con Claude (tu cuenta, con `claude auth login`, o una clave de API) y token de Metricool. Se guarda en `estudio/.env`, que no se sube a GitHub. Lo generado queda en `estudio/datos/` (tampoco se sube).

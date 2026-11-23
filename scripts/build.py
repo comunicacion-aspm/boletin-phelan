@@ -541,12 +541,12 @@ def tarjeta(it, destacado=False):
         enlaces.append('<a href="%s" target="_blank" rel="noopener">DOI / artículo en la revista ↗</a>' % e(it["doi"]))
     resumen = it.get("resumen_es") or ""
     clase = "destacado" if destacado else ("fiable" if it.get("fuente_fiable") else "")
-    return """<article%s>
+    return """<article%s data-id="%s">
 <h4><a href="%s" target="_blank" rel="noopener">%s</a></h4>
 <div class="meta">%s</div>
 %s%s
 <div class="fuente">%s</div>
-</article>""" % (' class="%s"' % clase if clase else "", e(it["link"]), e(it.get("titulo_es") or it["titulo"]),
+</article>""" % (' class="%s"' % clase if clase else "", e(it.get("id", "")), e(it["link"]), e(it.get("titulo_es") or it["titulo"]),
                   etiqueta + "<span>%s</span>" % " · ".join(m for m in meta if m),
                   '<p class="resumen">%s</p>' % e(resumen) if resumen else "", original, " &nbsp;·&nbsp; ".join(enlaces))
 
@@ -574,6 +574,17 @@ def tabla_cuentas(cuentas):
         e(c.get("red", "Web")), e(c["link"]), e(c.get("nombre") or c.get("usuario") or c["link"]), e(c.get("creada", "")))
         for c in sorted(cuentas.values(), key=lambda c: (c.get("red", ""), (c.get("nombre") or "").lower())))
     return '<div class="tabla"><table><tr><th>Red</th><th>Cuenta / web</th><th>Creada</th></tr>%s</table></div>' % filas
+
+
+# Botones OK / Descartar del Estudio de redes (estudio/). Solo aparecen en el navegador de quien
+# haya abierto una vez el boletín con ?estudio=1; llevan al estudio local (http://localhost:8765).
+JS_ESTUDIO = """(function(){try{var q=new URLSearchParams(location.search);
+if(q.get('estudio')==='1')localStorage.setItem('estudio','1');if(q.get('estudio')==='0')localStorage.removeItem('estudio');
+if(localStorage.getItem('estudio')!=='1')return;}catch(e){return}
+var s=document.createElement('style');s.textContent='.estudio{display:flex;gap:8px;margin-top:10px}.estudio a{font:700 13px Montserrat,sans-serif;padding:6px 12px;border-radius:8px;text-decoration:none}.estudio .ok{background:#1a692d;color:#fff}.estudio .no{border:1.5px solid #dde6d8;color:#1f2a22}';
+document.head.appendChild(s);
+document.querySelectorAll('article[data-id]').forEach(function(a){if(!a.dataset.id)return;var id=encodeURIComponent(a.dataset.id),d=document.createElement('div');
+d.className='estudio';d.innerHTML='<a class="ok" target="estudio" href="http://localhost:8765/#/ok/'+id+'">\u2713 OK, preparar para redes</a><a class="no" target="estudio" href="http://localhost:8765/#/descartar/'+id+'">\u2715 Descartar</a>';a.appendChild(d);});})();"""
 
 
 def pagina(ed, cfg, fechas, asociaciones, cuentas, ruta_raiz=""):
@@ -663,7 +674,9 @@ Traducción automática: puede contener errores; el enlace «Fuente original» l
 Este boletín es informativo y no sustituye el consejo médico.</p>
 <p><a href="https://22q13.org.es" target="_blank" rel="noopener">22q13.org.es</a> · <a href="%(raiz)sindex.html">Última edición</a> · <a href="%(raiz)sfeed.xml">RSS</a></p>
 </footer>
-</div></body></html>""" % {
+</div>
+<script>%(estudio)s</script>
+</body></html>""" % {
         "titulo": e(cfg["titulo"]), "sub": e(cfg["subtitulo"]), "css": CSS, "raiz": ruta_raiz,
         "fecha": fecha_larga(d), "n1": n1, "n2": n2, "n3": n3,
         "asoc": lista(b["asociacion"], "Sin menciones nuevas de la Asociación en esta edición.", True),
@@ -674,7 +687,7 @@ Este boletín es informativo y no sustituye el consejo médico.</p>
         "aviso3": aviso3, "nasoc": sum(not a.get("propia") for a in asociaciones), "tasoc": tabla_asociaciones(asociaciones),
         "ncuentas": len(cuentas), "tcuentas": tabla_cuentas(cuentas),
         "archivo": "<ul>%s</ul>" % archivo if archivo else '<p class="vacio">Esta es la primera edición.</p>',
-        "gen": e(ed.get("generado", "")),
+        "gen": e(ed.get("generado", "")), "estudio": JS_ESTUDIO,
     }
 
 

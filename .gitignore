@@ -2,3 +2,7 @@ __pycache__/
 *.pyc
 .DS_Store
 .herramientas/
+.venv/
+estudio/datos/
+estudio/.env
+metricool_mcp/.venv/

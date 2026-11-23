@@ -118,4 +118,12 @@ Traducción automática: puede contener errores; el enlace «Fuente original» l
 Este boletín es informativo y no sustituye el consejo médico.</p>
 <p><a href="https://22q13.org.es" target="_blank" rel="noopener">22q13.org.es</a> · <a href="../index.html">Última edición</a> · <a href="../feed.xml">RSS</a></p>
 </footer>
-</div></body></html>
+</div>
+<script>(function(){try{var q=new URLSearchParams(location.search);
+if(q.get('estudio')==='1')localStorage.setItem('estudio','1');if(q.get('estudio')==='0')localStorage.removeItem('estudio');
+if(localStorage.getItem('estudio')!=='1')return;}catch(e){return}
+var s=document.createElement('style');s.textContent='.estudio{display:flex;gap:8px;margin-top:10px}.estudio a{font:700 13px Montserrat,sans-serif;padding:6px 12px;border-radius:8px;text-decoration:none}.estudio .ok{background:#1a692d;color:#fff}.estudio .no{border:1.5px solid #dde6d8;color:#1f2a22}';
+document.head.appendChild(s);
+document.querySelectorAll('article[data-id]').forEach(function(a){if(!a.dataset.id)return;var id=encodeURIComponent(a.dataset.id),d=document.createElement('div');
+d.className='estudio';d.innerHTML='<a class="ok" target="estudio" href="http://localhost:8765/#/ok/'+id+'">✓ OK, preparar para redes</a><a class="no" target="estudio" href="http://localhost:8765/#/descartar/'+id+'">✕ Descartar</a>';a.appendChild(d);});})();</script>
+</body></html>
