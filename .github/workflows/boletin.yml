@@ -8,8 +8,8 @@ on:
     - cron: "30 7 * * 1-5"   # 08:30 en horario de invierno (UTC+1)
   workflow_dispatch:        # botón "Run workflow" para lanzarlo a mano
   push:                     # el Estudio de redes sube imágenes y vídeos aprobados para Metricool
-    branches: [main]
-    paths: ["docs/medios/**"]
+    branches: [main]        # y el Mac lanza el boletín a las 08:30 (disparador/), porque el
+    paths: ["docs/medios/**", "disparador/**"]   # cron de GitHub llega con horas de retraso
 
 permissions:
   contents: write
@@ -25,16 +25,34 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       toca: ${{ steps.comprobar.outputs.toca }}
+      generar: ${{ steps.comprobar.outputs.generar }}
     steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: data/ediciones
       - id: comprobar
         env:
+          EVENTO: ${{ github.event_name }}
           PROGRAMACION: ${{ github.event.schedule }}
+          MENSAJE: ${{ github.event.head_commit.message }}
         run: |
           desfase=$(TZ=Europe/Madrid date +%z)
+          hoy=$(TZ=Europe/Madrid date +%F)
           toca=true
+          generar=true
           if [ "$PROGRAMACION" = "30 6 * * 1-5" ] && [ "$desfase" != "+0200" ]; then toca=false; fi
           if [ "$PROGRAMACION" = "30 7 * * 1-5" ] && [ "$desfase" != "+0100" ]; then toca=false; fi
+          # Si el cron llega tarde y el boletín de hoy ya está hecho (lo lanzó el Mac), no repetir.
+          if [ "$EVENTO" = "schedule" ] && [ -f "data/ediciones/$hoy.json" ]; then toca=false; fi
+          # Un push solo genera boletín si viene del disparador del Mac; si no, solo publica medios.
+          if [ "$EVENTO" = "push" ]; then
+            case "$MENSAJE" in
+              "Disparar boletín"*) [ -f "data/ediciones/$hoy.json" ] && generar=false ;;
+              *) generar=false ;;
+            esac
+          fi
           echo "toca=$toca" >> "$GITHUB_OUTPUT"
+          echo "generar=$generar" >> "$GITHUB_OUTPUT"
 
   generar:
     needs: hora
@@ -43,7 +61,7 @@ jobs:
     timeout-minutes: 45
     environment:
       name: github-pages
-      url: ${{ steps.despliegue.outputs.page_url }}
+      url: ${{ steps.despliegue.outputs.page_url || steps.intento.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -52,23 +70,32 @@ jobs:
           python-version: "3.12"
 
       - name: Generar boletín
-        if: github.event_name != 'push'
+        if: needs.hora.outputs.generar == 'true'
         env:
           SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
         run: python scripts/build.py
 
       - name: Guardar histórico en el repositorio
-        if: github.event_name != 'push'
+        if: needs.hora.outputs.generar == 'true'
         run: |
           git config user.name "boletin-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data docs
-          git diff --cached --quiet || git commit -m "Boletín $(date -u +%F)"
+          git diff --cached --quiet || git commit -m "Boletín $(TZ=Europe/Madrid date +%F)"
+          git pull --rebase -q || true
           git push
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
           path: docs
+      # A veces Pages rechaza el despliegue si hay otro en curso: se reintenta una vez.
+      - id: intento
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+      - name: Esperar antes de reintentar
+        if: steps.intento.outcome == 'failure'
+        run: sleep 60
       - id: despliegue
+        if: steps.intento.outcome == 'failure'
         uses: actions/deploy-pages@v4
