@@ -1,0 +1,58 @@
+{
+ "bloques": {
+  "asoc_ciencia": [],
+  "asoc_noticias": [
+   {
+    "fecha": "2026-11-23",
+    "fuente_fiable": true,
+    "id": "ig:https://www.instagram.com/p/DgGIP5Lz2Re/",
+    "idioma": "en",
+    "link": "https://www.instagram.com/p/DgGIP5Lz2Re/",
+    "medio": "CureSHANK · Instagram",
+    "resumen": "PMS families are the heart of CureSHANK’s work. Brooke’s message will resonate with PMS families who wish sweet dreams for their loved ones. Together, we will continue to do everything we can to build a better future for our PMS loved ones. We’re putting hope in action for Belle and every person living with PMS. #PhelanMcDermidSyndrome #PMSResearch #PMSParents",
+    "resumen_es": "Las familias con síndrome de Phelan-McDermid son el corazón del trabajo de CureSHANK. El mensaje de Brooke resonará en las familias del síndrome de Phelan-McDermid que desean dulces sueños para sus seres queridos. Juntos, continuaremos haciendo todo lo posible para construir un futuro mejor para nuestros seres queridos con síndrome de Phelan-McDermid. Estamos poniendo la esperanza en acción para Belle y para todas las personas que viven con el síndrome de Phelan-McDermid. #PhelanMcDermidSyndrome #PMSResearch #PMSPadres",
+    "sin_traducir": false,
+    "tipo": "Fuente fiable · Instagram de la asociación",
+    "titulo": "Brooke’s message for Belle 💙",
+    "titulo_es": "El mensaje de Brooke para Belle 💙"
+   }
+  ],
+  "asociacion": [],
+  "avances": [],
+  "ensayos": [],
+  "menciones": [],
+  "organizaciones": [],
+  "publicaciones": [
+   {
+    "doi": "https://doi.org/10.1111/gbb.70073",
+    "fecha": "2026-11-24",
+    "id": "pmid:43074168",
+    "idioma": "en",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/43074168/",
+    "medio": "Genes, brain, and behavior",
+    "resumen": "Several variants of the SH3 and multiple ankyrin repeat domains (Shank) 3 gene are associated with autism spectrum disorder (ASD) and related syndromes. Although Shank3-related disorders typically involve haploinsufficiency, mouse model studies have largely focused on homozygous knockout (KO) subjects. … By assessing the role of sex × genotype interactions across different levels of phenotype complexity, this work may strengthen the translational value of results generated with the Shank3B mouse model.",
+    "resumen_es": "Varias variantes del gen SH3 y múltiples dominios repetidos de anquirina (Shank) 3 están asociados con el trastorno del espectro autista (TEA) y síndromes relacionados. Aunque los trastornos relacionados con Shank3 suelen implicar haploinsuficiencia, los estudios en modelos de ratones se han centrado en gran medida en sujetos homocigotos knockout (KO). … Al evaluar el papel de las interacciones sexo × genotipo en diferentes niveles de complejidad fenotípica, este trabajo puede fortalecer el valor traslacional de los resultados generados con el modelo de ratón Shank3B.",
+    "sin_traducir": false,
+    "tipo": "Artículo",
+    "titulo": "Phenotype-Specific Interaction of Sex and Genotype Underlies Behavioral and Electrophysiological Abnormalities in the Shank3B Mouse Model of Autism Spectrum Disorder.",
+    "titulo_es": "La interacción específica del fenotipo entre el sexo y el genotipo subyace a las anomalías electrofisiológicas y del comportamiento en el modelo de ratón Shank3B del trastorno del espectro autista."
+   },
+   {
+    "doi": "",
+    "fecha": "2026-11-23",
+    "id": "ppr:PPR1375537",
+    "idioma": "en",
+    "link": "https://doi.org/10.64898/2026.11.20.768067",
+    "medio": "bioRxiv",
+    "resumen": "We previously developed the Live Mouse Tracker (LMT) to explore the wide repertoire of social interactions in wild-type mice and in models of autism. This tool records the positions and labels the behaviours of groups of mice over hours to days for quantitative behavioral science, but analysing these rich data usually requires custom code. … We also integrate guidelines and pre-prompts to ensure that these analyses remain valid and reproducible.",
+    "resumen_es": "Anteriormente desarrollamos Live Mouse Tracker (LMT) para explorar el amplio repertorio de interacciones sociales en ratones de tipo salvaje y en modelos de autismo. Esta herramienta registra las posiciones y etiqueta los comportamientos de grupos de ratones durante horas o días para la ciencia del comportamiento cuantitativa, pero el análisis de estos datos enriquecidos generalmente requiere un código personalizado. … También integramos pautas e indicaciones previas para garantizar que estos análisis sigan siendo válidos y reproducibles.",
+    "sin_traducir": false,
+    "tipo": "Preprint (sin revisión por pares)",
+    "titulo": "Live Mouse Tracker MCP: Custom behavioral analysis accessible to all",
+    "titulo_es": "Live Mouse Tracker MCP: análisis de comportamiento personalizado accesible para todos"
+   }
+  ]
+ },
+ "fecha": "2026-11-24",
+ "generado": "24/11/2026 12:58"
+}
