@@ -1,0 +1,101 @@
+{
+ "bloques": {
+  "asoc_ciencia": [
+   {
+    "fecha": "2026-11-26",
+    "fuente_fiable": true,
+    "id": "ig:https://www.instagram.com/p/DgNKYYuJkCw/",
+    "idioma": "en",
+    "link": "https://www.instagram.com/p/DgNKYYuJkCw/",
+    "medio": "Phelan-McDermid Syndrome Foundation (PMSF) · Instagram",
+    "resumen": "Today, we give thanks for the people who make our community so extraordinary. For individuals living with Phelan-McDermid syndrome, who are at the heart of everything we do. For families and caregivers who share their experiences, knowledge, and encouragement. For researchers, clinicians, and industry partners dedicated to advancing discovery, improving care, and pursuing treatments.",
+    "resumen_es": "Hoy damos gracias por las personas que hacen que nuestra comunidad sea tan extraordinaria. Para personas que viven con el síndrome de Phelan-McDermid, que están en el centro de todo lo que hacemos. Para familias y cuidadores que comparten sus experiencias, conocimientos y aliento. Para investigadores, médicos y socios de la industria dedicados a promover el descubrimiento, mejorar la atención y buscar tratamientos.",
+    "sin_traducir": false,
+    "tipo": "Fuente fiable · Instagram de la asociación",
+    "titulo": "Grateful for our community. Inspired by our shared hope. 💚",
+    "titulo_es": "Agradecidos por nuestra comunidad. Inspirados por nuestra esperanza compartida. 💚"
+   },
+   {
+    "fecha": "2026-11-25",
+    "fuente_fiable": true,
+    "id": "ig:https://www.instagram.com/p/DgLdHaXlzdN/",
+    "idioma": "en",
+    "link": "https://www.instagram.com/p/DgLdHaXlzdN/",
+    "medio": "CureSHANK · Instagram",
+    "resumen": "We’re so thankful for our community of families, researchers, industry leaders, and advocates who have stood beside us every step of the way. It takes a community to accelerate life-transforming therapies for Phelan-McDermid syndrome. Together, with your support, we can put hope in action and build a better future for every person living with PMS.",
+    "resumen_es": "Estamos muy agradecidos por nuestra comunidad de familias, investigadores, líderes de la industria y defensores que han estado a nuestro lado en cada paso del camino. Se necesita una comunidad para acelerar las terapias que transforman la vida del síndrome de Phelan-McDermid. Juntos, con su apoyo, podemos poner la esperanza en acción y construir un futuro mejor para todas las personas que viven con síndrome de Phelan-McDermid.",
+    "sin_traducir": false,
+    "tipo": "Fuente fiable · Instagram de la asociación",
+    "titulo": "From everyone at CureSHANK, we’d like to wish you a Happy CureSHANKSGIVING!",
+    "titulo_es": "¡De parte de todos en CureSHANK, nos gustaría desearles un feliz CureSHANKSGIVING!"
+   }
+  ],
+  "asoc_noticias": [
+   {
+    "fecha": "2026-11-25",
+    "fuente_fiable": true,
+    "id": "ig:https://www.instagram.com/p/DgLNXlYTTEG/",
+    "idioma": "en",
+    "link": "https://www.instagram.com/p/DgLNXlYTTEG/",
+    "medio": "CureSHANK · Instagram",
+    "resumen": "As we work to bring life-changing therapies within reach, the heart of CureSHANK’s work is the families. Paige’s message captures the depth of love that PMS families have for their loved ones. Together, we will do everything we can possibly do to build a better future for Walker and every person living with PMS. #PhelanMcDermidSyndrome #PMSParents #PMSResearch #SHANK3",
+    "resumen_es": "Mientras trabajamos para poner a nuestro alcance terapias que cambian vidas, el corazón del trabajo de CureSHANK son las familias. El mensaje de Paige captura la profundidad del amor que las familias con síndrome de Phelan-McDermid tienen por sus seres queridos. Juntos, haremos todo lo posible para construir un futuro mejor para Walker y para todas las personas que viven con el síndrome de Phelan-McDermid. #PhelanMcDermidSyndrome #PMSPadres #PMSResearch #SHANK3",
+    "sin_traducir": false,
+    "tipo": "Fuente fiable · Instagram de la asociación",
+    "titulo": "Paige’s message for Walker 💙",
+    "titulo_es": "El mensaje de Paige para Walker 💙"
+   }
+  ],
+  "asociacion": [],
+  "avances": [],
+  "ensayos": [],
+  "menciones": [],
+  "organizaciones": [],
+  "publicaciones": [
+   {
+    "doi": "https://doi.org/10.3390/biology15222050",
+    "fecha": "2026-11-26",
+    "id": "pmid:43088690",
+    "idioma": "en",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/43088690/",
+    "medio": "Biology",
+    "resumen": "Cancer progression depends on unchecked proliferation, genomic instability, and metastatic dissemination. G2 and S phase-expressed protein 1 (GTSE1), a microtubule-associated protein encoded on chromosome 22q13.31, was originally characterized as a cell-cycle-regulated regulator of p53 and has since emerged as a cancer-associated protein elevated in multiple malignancies.",
+    "resumen_es": "La progresión del cáncer depende de una proliferación desenfrenada, inestabilidad genómica y diseminación metastásica. La proteína 1 expresada en fase G2 y S (GTSE1), una proteína asociada a microtúbulos codificada en el cromosoma 22q13.31, se caracterizó originalmente como un regulador de p53 regulado por el ciclo celular y desde entonces ha surgido como una proteína asociada al cáncer elevada en múltiples neoplasias malignas.",
+    "sin_traducir": false,
+    "tipo": "Revisión",
+    "titulo": "GTSE1 in Cancer Progression: From Mitotic Regulator to Therapeutic Target.",
+    "titulo_es": "GTSE1 en la progresión del cáncer: de regulador mitótico a objetivo terapéutico."
+   },
+   {
+    "doi": "https://doi.org/10.3390/brainsci16111194",
+    "fecha": "2026-11-26",
+    "id": "pmid:43088310",
+    "idioma": "en",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/43088310/",
+    "medio": "Brain sciences",
+    "resumen": "Shank3 knockout (KO) mice recapitulate core autism spectrum disorder (ASD)-like behaviors and are widely regarded as a reliable model for autism. Although dysfunction of GABAergic neurons is closely associated with ASD-like phenotypes, it remains unclear how Shank3 deficiency leads to whole-brain structural remodeling of GABAergic neurons. … In Shank3 KO mice, neurite changes reveal a mesoscopic map of GABAergic alterations relevant to ASD research.",
+    "resumen_es": "Los ratones Shank3 knockout (KO) recapitulan conductas centrales similares al trastorno del espectro autista (TEA) y son ampliamente considerados como un modelo confiable para el autismo. Aunque la disfunción de las neuronas GABAérgicas está estrechamente asociada con fenotipos similares a los del TEA, aún no está claro cómo la deficiencia de Shank3 conduce a la remodelación estructural de todo el cerebro de las neuronas GABAérgicas. … En ratones Shank3 KO, los cambios de neuritas revelan un mapa mesoscópico de alteraciones GABAérgicas relevantes para la investigación del TEA.",
+    "sin_traducir": false,
+    "tipo": "Artículo",
+    "titulo": "Viral-fMOST Reveals Region-Specific and Lateralized Remodeling of Whole-Brain GABAergic Neurons in Shank3 KO Mice.",
+    "titulo_es": "Viral-fMOST revela remodelación lateralizada y específica de región de neuronas GABAérgicas de todo el cerebro en ratones Shank3 KO."
+   },
+   {
+    "doi": "",
+    "fecha": "2026-11-25",
+    "id": "ppr:PPR1377634",
+    "idioma": "en",
+    "link": "https://doi.org/10.21203/rs.3.rs-11732875/v1",
+    "medio": "Research Square",
+    "resumen": "SHANK3 is an autism spectrum disorder risk gene that, in the human heart, is expressed mainly in endothelial cells, but its role in the heart outside cardiomyocytes is unknown. In mice, endothelial Shank3 deletion ( Shank3 f/f ;Tek-Cre) produces male-specific neurovascular and behavioral phenotypes; whether the heart is similarly affected has not been examined. … Our findings suggest that endothelial Shank3 may also contribute to the maintenance of cardiac structure and function.",
+    "resumen_es": "SHANK3 es un gen de riesgo de trastorno del espectro autista que, en el corazón humano, se expresa principalmente en células endoteliales, pero se desconoce su papel en el corazón fuera de los cardiomiocitos. En ratones, la eliminación endotelial de Shank3 (Shank3 f/f; Tek-Cre) produce fenotipos neurovasculares y conductuales específicos de los machos; No se ha examinado si el corazón se ve afectado de manera similar. … Nuestros hallazgos sugieren que el Shank3 endotelial también puede contribuir al mantenimiento de la estructura y función cardíaca.",
+    "sin_traducir": false,
+    "tipo": "Preprint (sin revisión por pares)",
+    "titulo": "Endothelial Shank3 deficiency in male mice is associated with non-fibrotic eccentric cardiac remodeling",
+    "titulo_es": "La deficiencia endotelial de Shank3 en ratones macho se asocia con una remodelación cardíaca excéntrica no fibrótica"
+   }
+  ]
+ },
+ "fecha": "2026-11-26",
+ "generado": "26/11/2026 18:53"
+}
